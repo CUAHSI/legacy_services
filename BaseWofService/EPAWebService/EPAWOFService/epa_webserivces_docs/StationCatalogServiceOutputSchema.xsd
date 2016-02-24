@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="STORETStationsCatalog">
+		<xs:annotation>
+			<xs:documentation>Holds station details, of all the stations retrieved during a search for stations</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Organization" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Organization with which one one or more monitoring stations are associated</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrganizationName" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>Name of the organization.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="Station" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Station Information</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="StationName">
+											<xs:annotation>
+												<xs:documentation>Name of the station.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LatitudeMeasure" type="xs:double" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>The measure of the angular distance north or south of the equator.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LongitudeMeasure" type="xs:double" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>The measure of the angular distance on a meridian east or west of the prime meridian.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ActivityStartDate" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>Minimum activity date for the station.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ActivityStopDate" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>Maximum activity date for the station.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="CharacteristicCount" type="xs:long" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Total number of characteristics evaluated by the station.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ResultCount" type="xs:long" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Total number results reported by the station.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="CharTypeResults" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Station result data organazied by characteristic types. </xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="CharType" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>Characteristic type.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CharacteristicCount" type="xs:long" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Number of characteristics of the characteristic type, for which results were reported by the station.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="ResultCount" type="xs:long" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Number of results of the characteristic type reported by the station.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CharacteristicResults" minOccurs="0" maxOccurs="unbounded">
+														<xs:annotation>
+															<xs:documentation>Station characteristic result information.</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Characteristic" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>Name of the characteristic.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="ResultCount" type="xs:long">
+																	<xs:annotation>
+																		<xs:documentation>Number of results of the characteristic reported by the station.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="ActivityStartDate" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>Activity start date of the characteristic.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="ActivityStopDate" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>Activity stop date of the characteristic.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+									<xs:attribute name="stationId" type="xs:string" use="required"/>
+									<xs:attribute name="hydrologicUnitCode" type="xs:string" use="optional"/>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="organizationId" type="xs:string" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

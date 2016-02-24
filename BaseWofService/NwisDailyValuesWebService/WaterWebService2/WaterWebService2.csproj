@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{859E3A12-2B49-45D4-88A8-8F19F48A7437}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaterWebService2</RootNamespace>
+    <AssemblyName>WaterWebService2</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DesktopBuildPackageLocation>../msdeploy\WaterWebService2.zip</DesktopBuildPackageLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DesktopBuildPackageLocation>..\..\..\dev_riverservices\deploy\WaterWebService2.zip</DesktopBuildPackageLocation>
+    <DeployIisAppPath>DefaultWebSite/WaterWebService2_deploy</DeployIisAppPath>
+    <PublishDatabases>false</PublishDatabases>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Elmah">
+      <HintPath>..\packages\elmah.corelibrary.1.2\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="GaDotNet.Common, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\GaDotNet.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WaterWebService\Bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.ServiceModel.Web" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Readme\Elmah.SqlServer.sql" />
+    <Content Include="App_Readme\Elmah.SqlServer.txt" />
+    <Content Include="usgs_v11toV10_varfix_dv.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="cuahsi_1_0.asmx" />
+    <Content Include="DailyValues.asmx" />
+    <Content Include="DailyValues.aspx" />
+    <Content Include="Data.asmx" />
+    <Content Include="DefaultWsdlHelpGenerator.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Groundwater.asmx" />
+    <Content Include="Service1.svc" />
+    <Content Include="Unitvalues.asmx" />
+    <Content Include="usgs_dv_passthrough_values.xslt" />
+    <Content Include="usgs_dv_V10_dec_fix.xslt" />
+    <Content Include="usgs_v11toV10_varfix.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="WaterWebService.sdm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="webapp-log.txt" />
+    <Content Include="WebDeployRiver.txt" />
+    <Content Include="WsdlHelp.xsl" />
+    <Content Include="WsdlHelpGenerator.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DailyValues.aspx.designer.cs">
+      <DependentUpon>DailyValues.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GlobalClass.cs" />
+    <Compile Include="old_App_Code\Service_DV_1_0_orig.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service_DV_1_0_scrape.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="old_App_Code\Service_UnitValues_1_0_oldwebservice.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DailyValues.aspx.cs">
+      <DependentUpon>DailyValues.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Service1.svc.cs">
+      <DependentUpon>Service1.svc</DependentUpon>
+    </Compile>
+    <Compile Include="IService1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service_1_0.cs">
+      <DependentUpon>cuahsi_1_0.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service_Data_1_0.cs">
+      <DependentUpon>Data.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service_DV_1_0.cs">
+      <DependentUpon>DailyValues.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service_GroundWater_1_0.cs">
+      <DependentUpon>Groundwater.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Service_UnitValues_1_0.cs">
+      <DependentUpon>Unitvalues.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="old_App_Code\Copy of Service_1_1.cs.exclude" />
+    <None Include="old_App_Code\IService_1_0.cs.exclude" />
+    <None Include="old_App_Code\IService_1_0_passthrough.cs.exclude" />
+    <Compile Include="old_App_Code\IService_1_1.cs" />
+    <None Include="old_App_Code\Service_1_0_dailyValues.cs.exclude" />
+    <None Include="old_App_Code\Service_1_1.cs.2.exclude" />
+    <None Include="cuahsi_1_1.asmx.exclude" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Local.pubxml" />
+    <None Include="Properties\PublishProfiles\river_nwis.pubxml" />
+    <None Include="Properties\PublishProfiles\Water_nwis.pubxml" />
+    <None Include="Properties\PublishProfiles\Water_nwis2.pubxml" />
+    <None Include="vwd.webinfo" />
+    <None Include="wateroneflow.logging.log4net">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ODM1_1_Datasets\ODM1_1_Datasets.csproj">
+      <Project>{5EEAEAA9-A624-4C68-A6B9-250AF448DE4B}</Project>
+      <Name>ODM1_1_Datasets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\waterOneFlowImpl\waterOneFlowImpl.csproj">
+      <Project>{533D0719-6D5F-4F02-BD8C-B3D829E9DEB2}</Project>
+      <Name>waterOneFlowImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WofCapabilities\WofCapabilities.csproj">
+      <Project>{AC9A8B88-23F1-4972-B757-0CA82B3B00EB}</Project>
+      <Name>WofCapabilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WofSchemas\WofSchemas.csproj">
+      <Project>{2827D644-4DD6-4206-9203-EF48B586CD38}</Project>
+      <Name>WofSchemas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WOFService\WOFService.csproj">
+      <Project>{A1B499C5-1A02-4E66-9DFB-CFBE4A23E7F4}</Project>
+      <Name>WOFService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WOFutilities\WOFutilities.csproj">
+      <Project>{F5784002-25A7-4217-91C3-09EF0BE623C3}</Project>
+      <Name>WOFutilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NwisWOFService\NwisWOFService.csproj">
+      <Project>{31336043-44C9-43BD-B08B-A55E3F877DDA}</Project>
+      <Name>NwisWOFService</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>17865</DevelopmentServerPort>
+          <DevelopmentServerVPath>/WaterWebService</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+          <EnableWcfTestClientForSVCDefaultValue>True</EnableWcfTestClientForSVCDefaultValue>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

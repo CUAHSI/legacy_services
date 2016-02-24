@@ -1,0 +1,125 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Series.SampleMedium</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="../../tns/Enum_SampleMediumEnum.htm">tns.Enumerations.SampleMediumEnum</A> SampleMedium</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">SampleMedium</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../../tns/Enum_SampleMediumEnum.htm">tns.Enumerations.SampleMediumEnum</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_Series.htm">tns.Series</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Element</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read/Write</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			An optional <A HREF="../tns/Enum_SampleMediumEnum.htm">SampleMediumEnum</A> enumeration
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			It is optional, initially it is not populated.<BR>
+			The property IsValidSampleMedium indicates if the property has been populated.<BR>
+			Any attempt to read a property that has not been populated will raise an exception.<BR>
+			To 'un-populate' the property SetValidSampleMedium = false.<BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Also See</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../std/IsValid.HTM">IsValidSampleMedium</A> - Indicates if the property has been populated.</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+<A HREF="Enum_SampleMediumEnum.htm">SampleMediumEnum</A> eItem;
+<A HREF="Cls_Series.htm">tns.Series</A> oParent = ...;
+
+// The property is optional so is not initially set.
+// attempts to read it will result in an exception being raised
+System.Diagnostics.Debug.WriteLine(oParent.SampleMedium); // ERROR
+      
+// Before attempting to read the property you can test to see if ts valid
+if (oParent.IsValidSampleMedium)
+{
+  // its safe to read the value
+  System.Diagnostics.Debug.WriteLine( oParent.SampleMedium);
+}
+
+System.Diagnostics.Debug.Assert( oParent.IsValidSampleMedium == false);
+
+// Setting the value, use any one of the following
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.SurfaceSpaceWater;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.GroundSpaceWater;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Sediment;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Soil;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Air;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Tissue;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Precipitation;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Unknown;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Other;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.Snow;
+oParent.SampleMedium = tns.Enumerations.SampleMediumEnum.NotSpaceRelevant;
+System.Diagnostics.Debug.Assert( oParent.IsValidSampleMedium == true);
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SOAP-ENV:Body>
+<ns1:getStationInfoResponse xmlns:ns1="http://gov.epa.storet.stationservice/StationService.wsdl" SOAP-ENV:encodingStyle="http://xml.apache.org/xml-soap/literalxml">
+<return>
+<WQX><Organization><OrganizationDescription><OrganizationIdentifier>EMAP-CS </OrganizationIdentifier><OrganizationFormalName>Environmental Monitoring and Assessment Program</OrganizationFormalName></OrganizationDescription><MonitoringLocation><MonitoringLocationIdentity><MonitoringLocationIdentifier>VA93-640       </MonitoringLocationIdentifier><MonitoringLocationName>Chesapeake Bay</MonitoringLocationName><MonitoringLocationTypeName>Estuary</MonitoringLocationTypeName><MonitoringLocationDescriptionText>Chesapeake Bay</MonitoringLocationDescriptionText><NRCSWatershedIdentifier>---     </NRCSWatershedIdentifier><FRSKeyIdentifier> </FRSKeyIdentifier><PrimaryEstuaryName>Chesapeake Bay</PrimaryEstuaryName><SecondaryEstuaryName>Wicomico River</SecondaryEstuaryName><OtherEstuaryName> </OtherEstuaryName><TribalLandName>---</TribalLandName></MonitoringLocationIdentity><MonitoringLocationGeospatial><LatitudeMeasure>38.25</LatitudeMeasure><LongitudeMeasure>-75.842</LongitudeMeasure><HorizontalCollectionMethodName>GPS-Unspecified</HorizontalCollectionMethodName><HorizontalCoordinateReferenceSystemDatumCode>NAD83       </HorizontalCoordinateReferenceSystemDatumCode><HorizontalCoordinateReferenceSystemDatumName>North American Datum 1983</HorizontalCoordinateReferenceSystemDatumName><VerticalCoordinateReferenceSystemDatumCode/><CountryCode>US</CountryCode><CountryName>UNITED STATES</CountryName><StateCode>MD</StateCode><StateName>MARYLAND</StateName><CountyName>DORCHESTER</CountyName><PointSequenceNumber>0</PointSequenceNumber><RF1SegmentCode>---</RF1SegmentCode><RF1SegmentName>---</RF1SegmentName><OnReachIndicator>N</OnReachIndicator></MonitoringLocationGeospatial></MonitoringLocation></Organization></WQX>
+</return>
+</ns1:getStationInfoResponse>
+
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

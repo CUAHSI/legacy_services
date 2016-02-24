@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2007 sp2 (http://www.altova.com) by Sree Rayankula (Lockheed Martin IT) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="WQX">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Organization" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Organization information.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrganizationDescription">
+								<xs:annotation>
+									<xs:documentation>The particular word(s) regularly connected with a unique framework of authority within which a person or persons act, or are designated to act, towards some purpose.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="OrganizationIdentifier" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>A designator used to uniquely identify a unique business establishment within a context.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="OrganizationFormalName" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>The legal designator (i.e. formal name) of an organization.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="Project" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>An environmental data collection effort that has a stated purpose and puts a series of samples and results into a meaningful context.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ProjectIdentifier" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>A designator used to uniquely identify a data collection project within a context of an organization.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ProjectName" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>The name assigned by the Organization (project leader or principal investigator) to the project.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="Activity">
+											<xs:annotation>
+												<xs:documentation>Allows for the reporting of monitoring activities conducted at a Monitoring Location.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ActivityDescription">
+														<xs:annotation>
+															<xs:documentation>Basic identification information for an activity conducted within a project.</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="ActivityStartDate" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>The calendar date on which the field activity was started.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="ActivityEndDate" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>The calendar date on which the analysis was finished.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="CharacteristicCount" type="xs:long">
+											<xs:annotation>
+												<xs:documentation>Total number of characteristics reported for the project.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="ResultCount" type="xs:long">
+											<xs:annotation>
+												<xs:documentation>Total number of results reported for the project.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="CharTypeResults" type="CharTypeResultsType" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Project wide result counts for individual characteristic types</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="MonitoringLocation" minOccurs="0" maxOccurs="unbounded">
+											<xs:annotation>
+												<xs:documentation>Will be used when MonitoringLocation information is required in the output. Ex: Queries involving stationId/ huc/ lat- long</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MonitoringLocationIdentity">
+														<xs:annotation>
+															<xs:documentation>Basic identification information for the location/site that is monitored or used for sampling.</xs:documentation>
+														</xs:annotation>
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="MonitoringLocationIdentifier" type="xs:string">
+																	<xs:annotation>
+																		<xs:documentation>A designator used to describe the unique name, number, or code assigned to identify the monitoring location.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="MonitoringLocationName" type="xs:string" minOccurs="0">
+																	<xs:annotation>
+																		<xs:documentation>The designator specified by the sampling organization for the site at which sampling or other activities are conducted.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="HUCEightDigitCode" type="xs:string" minOccurs="0">
+																	<xs:annotation>
+																		<xs:documentation>The 8 digit federal code used to identify the hydrologic unit of the monitoring location to the cataloging unit level of precision.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="HUCTwelveDigitCode" type="xs:string" minOccurs="0">
+																	<xs:annotation>
+																		<xs:documentation>The 12 digit federal code used to identify the hydrologic unit of the monitoring location to the subwatershed level of precision.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="MonitoringLocationGeospatial">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="LatitudeMeasure" type="xs:float">
+																	<xs:annotation>
+																		<xs:documentation>The measure of the angular distance north or south of the equator.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+																<xs:element name="LongitudeMeasure" type="xs:float">
+																	<xs:annotation>
+																		<xs:documentation>The measure of the angular distance on a meridian east or west of the prime meridian.</xs:documentation>
+																	</xs:annotation>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="CharTypeResultsType">
+		<xs:sequence>
+			<xs:element name="CharTypeName" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>Characteristic Type name.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CharacteristicCount" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Number of characteristics of the characteristic type used to report results for the project</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="ResultCount" type="xs:long" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>Number of results of the characteristic type for the project</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="CharacteristicResults" minOccurs="0" maxOccurs="unbounded">
+				<xs:annotation>
+					<xs:documentation>Result counts for individual characteristics of the characteristic type.</xs:documentation>
+				</xs:annotation>
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="CharacteristicName" type="xs:string">
+							<xs:annotation>
+								<xs:documentation>The object, property, or substance which is evaluated or enumerated by either a direct field measurement, a direct field observation, or by laboratory analysis of material collected in the field.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+						<xs:element name="ResultCount" type="xs:long">
+							<xs:annotation>
+								<xs:documentation>Number of results reported for the characteristic that was evaluated.</xs:documentation>
+							</xs:annotation>
+						</xs:element>
+					</xs:sequence>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

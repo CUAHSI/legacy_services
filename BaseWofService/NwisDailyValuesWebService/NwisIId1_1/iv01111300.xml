@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns1:timeSeriesResponse xsi:schemaLocation="http://www.cuahsi.org/waterML/1.1/ http://waterservices.usgs.gov/WaterML-1.1.xsd" xmlns:ns1="http://www.cuahsi.org/waterML/1.1/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns1:queryInfo xmlns:ns2="http://www.cuahsi.org/waterML/1.1/">
+    <ns2:creationTime>2011-06-29T14:17:41</ns2:creationTime>
+    <ns2:queryURL>http://waterservices.usgs.gov/nwis/iv</ns2:queryURL>
+    <ns2:criteria>
+        <ns2:locationParam>[ALL:01111300]</ns2:locationParam>
+        <ns2:variableParam>[00060]</ns2:variableParam>
+    </ns2:criteria>
+    <ns2:note title="filter:sites">[ALL:01111300]</ns2:note>
+    <ns2:note title="filter:timeRange">[mode=LATEST, modifiedSince=null]</ns2:note>
+    <ns2:note title="filter:methodId">methodIds=[[ALL]]</ns2:note>
+    <ns2:note title="requestDT">2011-06-29T18:17:41.992Z</ns2:note>
+    <ns2:note title="requestId">14366b30-a27c-11e0-a626-00144f2c470d</ns2:note>
+    <ns2:note title="disclaimer">Provisional data subject to revision. Go to http://waterdata.usgs.gov/nwis/help/?provisional for more information.</ns2:note>
+    <ns2:note title="server">sdas01</ns2:note>
+</ns1:queryInfo>
+<ns1:timeSeries name="USGS:01111300:00060" xmlns:ns1="http://www.cuahsi.org/waterML/1.1/">
+    <ns1:sourceInfo xsi:type="ns1:SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ns1:siteName>NIPMUC RIVER NEAR HARRISVILLE, RI</ns1:siteName>
+        <ns1:siteCode network="NWIS" agencyCode="USGS">01111300</ns1:siteCode>
+        <ns1:geoLocation>
+            <ns1:geogLocation xsi:type="ns1:LatLonPointType" srs="EPSG:4326">
+                <ns1:latitude>41.9812093</ns1:latitude>
+                <ns1:longitude>-71.68590049</ns1:longitude>
+            </ns1:geogLocation>
+        </ns1:geoLocation>
+        <ns1:note title="siteTypeCd">ST</ns1:note>
+        <ns1:note title="hucCd">01090003</ns1:note>
+        <ns1:note title="stateCd">44</ns1:note>
+        <ns1:note title="countyCd">44007</ns1:note>
+    </ns1:sourceInfo>
+    <ns1:variable ns1:oid="0">
+        <ns1:variableCode network="NWIS" vocabulary="NWIS:UnitValues" default="true" variableID="0">00060</ns1:variableCode>
+        <ns1:variableName>Streamflow, ft&amp;#179;/s</ns1:variableName>
+        <ns1:variableDescription>UNKNOWN</ns1:variableDescription>
+        <ns1:valueType>00060</ns1:valueType>
+        <ns1:unit>
+            <ns1:unitCode>UNKNOWN</ns1:unitCode>
+        </ns1:unit>
+        <ns1:noDataValue>-999999.0</ns1:noDataValue>
+    </ns1:variable>
+    <ns1:values>
+        <ns1:value qualifiers="P" dateTime="2011-06-29T11:20:00.000-04:00">16</ns1:value>
+        <ns1:qualifier qualifierID="0" ns1:network="NWIS" ns1:vocabulary="uv_rmk_cd">
+            <ns1:qualifierCode>P</ns1:qualifierCode>
+            <ns1:qualifierDescription>Provisional data subject to revision.</ns1:qualifierDescription>
+        </ns1:qualifier>
+        <ns1:method methodID="0">
+            <ns1:methodDescription>sensor::1</ns1:methodDescription>
+        </ns1:method>
+    </ns1:values>
+</ns1:timeSeries>
+</ns1:timeSeriesResponse>

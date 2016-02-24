@@ -1,0 +1,24 @@
+# Microsoft Developer Studio Project File - Database Project
+Begin DataProject = "ASOSTestDatabase"
+   MSDTVersion = "80"
+   DefDBRef = "moonstone.ASOS.dbo"
+   Begin Folder = "Change Scripts"
+   End
+   Begin Folder = "Create Scripts"
+      Script = "ASOS.dbo.siteinfo$.SQL"
+   End
+   Begin DBRefFolder = "Database References"
+      Begin DBRefNode = "disrupter.ASOS.dbo"
+         ConnectStr = "Data Source=disrupter;Initial Catalog=ASOS;Persist Security Info=True;User ID=webservice"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+      Begin DBRefNode = "moonstone.ASOS.dbo"
+         ConnectStr = "Data Source=moonstone\;Initial Catalog=ASOS;Integrated Security=True"
+         Provider = "{91510608-8809-4020-8897-FBA057E22D54}"
+         Colorizer = 6
+      End
+   End
+   Begin Folder = "Queries"
+   End
+End

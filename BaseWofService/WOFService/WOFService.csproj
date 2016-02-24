@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A1B499C5-1A02-4E66-9DFB-CFBE4A23E7F4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WaterOneFlow.Service</RootNamespace>
+    <AssemblyName>WOFService</AssemblyName>
+    <SignAssembly>false</SignAssembly>
+    <AssemblyOriginatorKeyFile>sdsc_his.snk</AssemblyOriginatorKeyFile>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\WofTest\WOFService\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Constants.cs" />
+    <Compile Include="DataSetHelper.cs" />
+    <Compile Include="DataValuesBuilder.cs" />
+    <Compile Include="ServicePassthrough_v1_0.cs" />
+    <Compile Include="ServiceResponses_v2_0.cs" />
+    <Compile Include="ServiceResponses_v1_1.cs" />
+    <Compile Include="CoreBuilder_v1_1.cs" />
+    <Compile Include="CoreBuilder_v1_0.cs" />
+    <Compile Include="CoreTables.cs">
+      <DependentUpon>CoreTables.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CoreTables.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CoreTables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataInfoServices_v1_0.cs" />
+    <Compile Include="DataValuesTables.cs">
+      <DependentUpon>DataValuesTables.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataValuesTables.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataValuesTables.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataTimeSeriesWofService.cs" />
+    <Compile Include="GetResponsElements.cs" />
+    <Compile Include="IWaterOneFlowWebService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ServiceResponses_v1_0.cs" />
+    <Compile Include="WofResponseAbstractTypes.cs" />
+    <Compile Include="WofResponseInterface.cs" />
+    <Compile Include="WofResponseInterface_v1_0.cs" />
+    <Compile Include="WofResponseInterface_v1_1.cs" />
+    <Compile Include="WofResponseInterface_v2_0.cs" />
+    <Compile Include="WofService.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="CoreTables.xsc">
+      <DependentUpon>CoreTables.xsd</DependentUpon>
+    </None>
+    <None Include="CoreTables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CoreTables.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="CoreTables.xss">
+      <DependentUpon>CoreTables.xsd</DependentUpon>
+    </None>
+    <None Include="DataValuesTables.xsc">
+      <DependentUpon>DataValuesTables.xsd</DependentUpon>
+    </None>
+    <None Include="DataValuesTables.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataValuesTables.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataValuesTables.xss">
+      <DependentUpon>DataValuesTables.xsd</DependentUpon>
+    </None>
+    <None Include="sdsc_his.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\waterOneFlowImpl\waterOneFlowImpl.csproj">
+      <Project>{533D0719-6D5F-4F02-BD8C-B3D829E9DEB2}</Project>
+      <Name>waterOneFlowImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WofCapabilities\WofCapabilities.csproj">
+      <Project>{AC9A8B88-23F1-4972-B757-0CA82B3B00EB}</Project>
+      <Name>WofCapabilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WofSchemas\WofSchemas.csproj">
+      <Project>{2827D644-4DD6-4206-9203-EF48B586CD38}</Project>
+      <Name>WofSchemas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WOFutilities\WOFutilities.csproj">
+      <Project>{F5784002-25A7-4217-91C3-09EF0BE623C3}</Project>
+      <Name>WOFutilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{B4F97281-0DBD-4835-9ED8-7DFB966E87FF}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="log4net.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

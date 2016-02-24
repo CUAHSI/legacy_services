@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio 1.0.8.0 (http://www.liquid-technologies.com) -->
+<xs:schema xmlns:gml="http://www.opengis.net/gml" xmlns:ogc="http://www.opengis.net/ogc" xmlns:ows="http://www.opengis.net/ows/1.1" xmlns="http://www.cuahsi.org/his/wof" xmlns:wfs="http://www.opengis.net/wfs" elementFormDefault="qualified" targetNamespace="http://www.cuahsi.org/his/wof" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="SCHEMAS_OPENGIS_NET/ows/1.1.0/owsGetCapabilities.xsd" namespace="http://www.opengis.net/ows/1.1" />
+  <xs:element name="GetCapabilities" type="GetCapabilitiesType" />
+  <xs:element name="WOF_Capabilities" type="WOF_CapabilitiesType" />
+  <xs:complexType name="GetCapabilitiesType">
+    <xs:annotation>
+      <xs:documentation>
+          Request to a WFS to perform the GetCapabilities operation.
+          This operation allows a client to retrieve a Capabilities
+          XML document providing metadata for the specific WFS server.
+
+          The GetCapapbilities element is used to request that a Web Feature
+          Service generate an XML document describing the organization
+          providing the service, the WFS operations that the service
+          supports, a list of feature types that the service can operate
+          on and list of filtering capabilities that the service support.
+          Such an XML document is called a capabilities document.
+       </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="ows:GetCapabilitiesType" />
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="WOF_CapabilitiesType">
+    <xs:annotation>
+      <xs:documentation>
+            XML encoded WFS GetCapabilities operation response. This
+            document provides clients with service metadata about a
+            specific service instance, including metadata about the
+            tightly-coupled data served. If the server does not implement
+            the updateSequence parameter, the server shall always return
+            the complete Capabilities document, without the updateSequence
+            parameter. When the server implements the updateSequence
+            parameter and the GetCapabilities operation request included
+            the updateSequence parameter with the current value, the server
+            shall return this element with only the "version" and
+            "updateSequence" attributes. Otherwise, all optional elements
+            shall be included or not depending on the actual value of the
+            Contents parameter in the GetCapabilities operation request.
+         </xs:documentation>
+    </xs:annotation>
+    <xs:complexContent mixed="false">
+      <xs:extension base="ows:CapabilitiesBaseType">
+        <xs:sequence>
+          <xs:element name="services" type="xs:anyType" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+</xs:schema>

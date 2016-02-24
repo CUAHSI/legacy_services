@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://nwis.usgs.gov/" xmlns:ns1="http://www.cuahsi.org/waterML/1.0/" targetNamespace="http://nwis.usgs.gov/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://interim.waterservices.usgs.gov:80/NWISQuery/GetWSService?xsd=1" namespace="http://www.cuahsi.org/waterML/1.0/" />
+  <xs:element name="MissingDataException" type="tns:MissingDataException" />
+  <xs:element name="ServerException" type="tns:ServerException" />
+  <xs:element name="getDV" type="tns:getDV" />
+  <xs:element name="getDVResponse" type="tns:getDVResponse" />
+  <xs:element name="getIDA" type="tns:getIDA" />
+  <xs:element name="getIDAResponse" type="tns:getIDAResponse" />
+  <xs:complexType name="getIDA">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="siteNum" type="xs:string" />
+      <xs:element minOccurs="0" name="startDate" type="xs:string" />
+      <xs:element minOccurs="0" name="endDate" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getIDAResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns1:timeSeriesResponse" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MissingDataException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ServerException">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDV">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="siteNum" type="xs:string" />
+      <xs:element minOccurs="0" name="parameterCode" type="xs:string" />
+      <xs:element minOccurs="0" name="statisticCode" type="xs:string" />
+      <xs:element minOccurs="0" name="startDate" type="xs:string" />
+      <xs:element minOccurs="0" name="endDate" type="xs:string" />
+      <xs:element minOccurs="0" name="agencyCode" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="getDVResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="ns1:timeSeriesResponse" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

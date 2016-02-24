@@ -1,0 +1,209 @@
+2008-07-07 17:07:31,031 [13] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 17:07:33,968 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:CIG|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:08:00,734 [13] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/CIG/20080101/20080301/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:08:20,656 [10] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:CIG|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:08:23,250 [10] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/CIG/20080101/20080301/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:11:08,687 [13] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NSCDCISD:01209199999||||||127.0.0.1
+2008-07-07 17:11:08,718 [13] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NSCDCISD:01209199999||||37|1|127.0.0.1
+2008-07-07 17:12:07,812 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:DEW|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:12:12,093 [12] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/DEW/20080101/20080110/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:15:07,578 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:GJ1|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:15:07,578 [13] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/GJ1/20080101/20080103/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:15:08,468 [13] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 17:15:08,484 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 17:15:08,484 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:GJ1|2008-01-01|2008-01-01|906|-9999|127.0.0.1
+2008-07-07 17:15:08,500 [13] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 17:15:36,859 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:GJ1|2007-01-01|2007-01-01|||127.0.0.1
+2008-07-07 17:15:36,859 [13] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/GJ1/20070101/20080101/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:15:45,093 [13] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 17:15:45,093 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 17:15:45,093 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:GJ1|2007-01-01|2007-01-01|8242|-9999|127.0.0.1
+2008-07-07 17:15:45,109 [13] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 17:16:26,781 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:OC1|2007-01-01|2007-01-01|||127.0.0.1
+2008-07-07 17:16:26,781 [12] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/OC1/20070101/20080101/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:16:31,281 [12] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 17:16:31,296 [12] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 17:16:31,296 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:OC1|2007-01-01|2007-01-01|4509|-9999|127.0.0.1
+2008-07-07 17:16:31,296 [12] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 17:16:57,062 [10] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:WND|2007-01-01|2007-01-01|||127.0.0.1
+2008-07-07 17:16:57,078 [10] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/WND/20070101/20080101/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:17:02,625 [10] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 17:17:02,625 [10] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 17:17:02,640 [10] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:WND|2007-01-01|2007-01-01|5567|-9999|127.0.0.1
+2008-07-07 17:17:02,640 [10] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 17:17:33,593 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:TMP|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:17:33,593 [13] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/TMP/20080101/20080110/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:24:13,125 [12] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-07 17:25:16,390 [13] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 17:25:35,765 [12] INFO  QueryLog [(null)] - NCDCISD|GetVariables||NCDCISD:TMP2|||||127.0.0.1
+2008-07-07 17:25:35,812 [12] INFO  WaterOneFlow.Service.Source.v1_0.GetDataInformationDB [(null)] - User Error: No Variables Returned
+2008-07-07 17:25:35,828 [12] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - No Variables Returned. Submit with no values to get full list.
+2008-07-07 17:25:35,843 [12] INFO  QueryLog [(null)] - NCDCISD|GetVariables||NCDCISD:TMP2|||68|-9999|127.0.0.1
+2008-07-07 17:25:35,843 [12] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - No Variables Returned. Submit with no values to get full list.
+2008-07-07 17:26:46,562 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72456789023225|NCDCISD:TMP|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:26:46,609 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - No Sites Found
+2008-07-07 17:26:46,609 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72456789023225|NCDCISD:TMP|2008-01-01|2008-01-01|47|-9999|127.0.0.1
+2008-07-07 17:26:46,625 [13] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - No Sites Found
+2008-07-07 17:30:45,515 [13] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-07 17:31:22,625 [13] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 17:31:25,703 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:BADVARIABLE|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:31:25,875 [13] INFO  WaterOneFlow.Service.Source.v1_0.GetDataInformationDB [(null)] - User Error: No Variables Returned
+2008-07-07 17:31:25,890 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - No Variables Returned. Submit with no values to get full list.
+2008-07-07 17:31:25,906 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:BADVARIABLE|2008-01-01|2008-01-01|199|-9999|127.0.0.1
+2008-07-07 17:31:25,906 [13] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - No Variables Returned. Submit with no values to get full list.
+2008-07-07 17:32:35,890 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-07 17:33:37,281 [13] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 17:33:40,484 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:BADVARIABLE|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:33:40,718 [13] INFO  WaterOneFlow.Service.Source.v1_0.GetDataInformationDB [(null)] - User Error: No Variables Returned
+2008-07-07 17:33:40,750 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Unknown Variable Code: 'NCDCISD:BADVARIABLE'
+2008-07-07 17:33:40,750 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:BADVARIABLE|2008-01-01|2008-01-01|261|-9999|127.0.0.1
+2008-07-07 17:33:40,765 [13] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - Unknown Variable Code: 'NCDCISD:BADVARIABLE'
+2008-07-07 17:34:48,390 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72456789023225|NCDCISD:TMP|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:34:48,421 [13] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Unknown Site Code: 'NCDCISD:72456789023225'
+2008-07-07 17:34:48,437 [13] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72456789023225|NCDCISD:TMP|2008-01-01|2008-01-01|36|-9999|127.0.0.1
+2008-07-07 17:34:48,437 [13] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - Unknown Site Code: 'NCDCISD:72456789023225'
+2008-07-07 17:35:36,015 [12] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-07 17:57:08,062 [4] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 17:57:10,984 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||||127.0.0.1
+2008-07-07 17:57:11,093 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||117|35|127.0.0.1
+2008-07-07 17:57:44,265 [9] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:DEW|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:57:44,390 [9] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/DEW/20080101/20080110/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:58:14,453 [4] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:WG1|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-07 17:58:14,484 [4] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/72584523225/WG1/20080101/20080110/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-07 17:58:15,515 [4] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 17:58:15,515 [4] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 17:58:15,515 [4] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:WG1|2008-01-01|2008-01-01|1071|-9999|127.0.0.1
+2008-07-07 17:58:15,531 [4] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 18:55:51,078 [14] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-07 19:45:16,562 [5] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-07 19:45:19,453 [5] INFO  QueryLog [(null)] - NCDCISD|GetSites|||||||127.0.0.1
+2008-07-07 19:45:23,312 [5] INFO  QueryLog [(null)] - NCDCISD|GetSites|||||3862|20347|127.0.0.1
+2008-07-07 19:47:07,015 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:DEW|||||127.0.0.1
+2008-07-07 19:47:07,390 [14] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:47:07,406 [14] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:47:07,406 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:DEW|||400|-9999|127.0.0.1
+2008-07-07 19:47:07,421 [14] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 19:47:45,437 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:DEW|1984-09-10|1984-09-10|||127.0.0.1
+2008-07-07 19:47:45,484 [12] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - String was not recognized as a valid DateTime.
+2008-07-07 19:47:45,484 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:DEW|1984-09-10|1984-09-10|47|-9999|127.0.0.1
+2008-07-07 19:47:45,484 [12] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - String was not recognized as a valid DateTime.
+2008-07-07 19:47:53,640 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:TMP|1984-09-10|1984-09-10|||127.0.0.1
+2008-07-07 19:47:53,656 [12] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - String was not recognized as a valid DateTime.
+2008-07-07 19:47:53,656 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01209199999|NCDCISD:TMP|1984-09-10|1984-09-10|13|-9999|127.0.0.1
+2008-07-07 19:47:53,671 [12] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - String was not recognized as a valid DateTime.
+2008-07-07 19:50:20,250 [14] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISD:23472099999||||||127.0.0.1
+2008-07-07 19:50:20,312 [14] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISD:23472099999||||63|1|127.0.0.1
+2008-07-07 19:50:55,765 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:23472099999|NCDCISD:TMP|2004-01-01|2004-01-01|||127.0.0.1
+2008-07-07 19:50:56,625 [5] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:50:56,625 [5] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:50:56,625 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:23472099999|NCDCISD:TMP|2004-01-01|2004-01-01|855|-9999|127.0.0.1
+2008-07-07 19:50:56,625 [5] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 19:51:59,890 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:91066022701|NCDCISD:TMP|1998-01-01|1998-01-01|||127.0.0.1
+2008-07-07 19:52:00,843 [5] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:52:00,843 [5] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:52:00,843 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:91066022701|NCDCISD:TMP|1998-01-01|1998-01-01|959|-9999|127.0.0.1
+2008-07-07 19:52:00,843 [5] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 19:53:26,765 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:23205099999|NCDCISD:TMP|1998-01-01|1998-01-01|||127.0.0.1
+2008-07-07 19:53:27,953 [14] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:53:27,953 [14] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:53:27,953 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:23205099999|NCDCISD:TMP|1998-01-01|1998-01-01|1187|-9999|127.0.0.1
+2008-07-07 19:53:27,968 [14] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 19:56:22,843 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72278523111|NCDCISD:TMP|1998-01-01|1998-01-01|||127.0.0.1
+2008-07-07 19:56:23,718 [14] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:56:23,718 [14] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:56:23,718 [14] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72278523111|NCDCISD:TMP|1998-01-01|1998-01-01|877|-9999|127.0.0.1
+2008-07-07 19:56:23,718 [14] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 19:56:36,078 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72278023183|NCDCISD:TMP|1998-01-01|1998-01-01|||127.0.0.1
+2008-07-07 19:56:36,812 [12] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-07 19:56:36,828 [12] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-07 19:56:36,828 [12] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72278023183|NCDCISD:TMP|1998-01-01|1998-01-01|742|-9999|127.0.0.1
+2008-07-07 19:56:36,828 [12] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-07 20:23:55,875 [14] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-08 11:10:21,156 [5] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-08 11:17:24,890 [4] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NSCDCISD:01209199999||||||127.0.0.1
+2008-07-08 11:17:25,046 [4] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NSCDCISD:01209199999||||159|1|127.0.0.1
+2008-07-08 11:18:26,562 [11] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:CIG|2008-01-01|2008-01-01|||127.0.0.1
+2008-07-08 11:20:12,593 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:CIG|2004-01-01|2004-01-01|||127.0.0.1
+2008-07-08 11:20:12,609 [5] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - NCDC ISD No Data is available before: 2005
+2008-07-08 11:20:12,609 [5] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:72584523225|NCDCISD:CIG|2004-01-01|2004-01-01|19|-9999|127.0.0.1
+2008-07-08 11:20:12,609 [5] DEBUG WaterOneFlowImpl.WaterOneFlowException [(null)] - NCDC ISD No Data is available before: 2005
+2008-07-08 14:25:21,250 [4] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-08 14:25:29,750 [5] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-09 09:35:33,921 [5] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-09 09:39:07,625 [9] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01089099999|NCDCISD:DEW|2005-08-01|2005-08-01|||127.0.0.1
+2008-07-09 09:39:33,125 [9] INFO  NCDC.RestService.v1.Utility [(null)] - Request URL: http://www7.ncdc.noaa.gov/rest/services/values/isd/01089099999/DEW/20050801/20071231/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-09 09:39:33,140 [9] INFO  NCDC.RestService.v1.Utility [(null)] - Answering IPAddress: http://www7.ncdc.noaa.gov/rest/services/values/isd/01089099999/DEW/20050801/20071231/?output=waterml&token=bgFcccciDafJnemlGInn
+2008-07-09 09:39:33,906 [9] DEBUG NCDC.RestService.v1.Utility [(null)] - HTTP Status Code: OK
+2008-07-09 09:39:33,984 [9] INFO  NCDC.RestService.v1.ASOSValuesISD [(null)] - NCDC Connection Error.
+2008-07-09 09:39:34,000 [9] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Error connecting to NCDC
+2008-07-09 09:39:34,000 [9] INFO  QueryLog [(null)] - NCDCISD|GetValues|NCDCISD:01089099999|NCDCISD:DEW|2005-08-01|2005-08-01|26384|-9999|127.0.0.1
+2008-07-09 09:39:34,015 [9] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Error connecting to NCDC
+2008-07-09 10:01:24,484 [4] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2008-07-09 11:22:48,250 [19] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2008-07-09 11:22:53,281 [20] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-22 13:00:20,890 [9] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-22 13:00:32,031 [9] INFO  QueryLog [(null)] - NCDCISD|GetSites|;||||||127.0.0.1
+2009-09-22 13:00:34,406 [9] INFO  QueryLog [(null)] - NCDCISD|GetSites|;||||2384|11555|127.0.0.1
+2009-09-22 13:01:08,187 [4] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISH:01001099999||||||127.0.0.1
+2009-09-22 13:01:08,578 [4] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISH:01001099999||||401|1|127.0.0.1
+2009-09-22 13:01:46,234 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||||127.0.0.1
+2009-09-22 13:01:46,250 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||19|35|127.0.0.1
+2009-09-22 13:04:50,421 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-22 13:04:50,515 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||83|1|127.0.0.1
+2009-09-22 13:05:09,781 [4] INFO  QueryLog [(null)] - NCDCISH|GetSites|;||||||127.0.0.1
+2009-09-22 13:05:12,171 [4] INFO  QueryLog [(null)] - NCDCISH|GetSites|;||||2396|13630|127.0.0.1
+2009-09-22 13:07:25,000 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-22 13:07:25,015 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||17|35|127.0.0.1
+2009-09-22 13:15:31,562 [8] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-22 13:17:08,984 [8] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-22 13:17:11,968 [8] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-22 13:17:12,109 [8] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||137|1|127.0.0.1
+2009-09-22 13:17:45,906 [8] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-23 16:53:41,281 [4] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-23 16:54:55,109 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-23 16:55:20,828 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-23 16:55:24,125 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-23 16:55:24,125 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 16:55:24,453 [4] ERROR WaterOneFlow.Service.Source.v1_0.GetDataInformationDB [(null)] - Cannot connect to CUASHI USGS Database
+2009-09-23 16:55:24,515 [4] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Server Error: Cannot Connect to required Database
+2009-09-23 16:55:24,531 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||408|-9999|127.0.0.1
+2009-09-23 16:55:24,531 [4] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Server Error: Cannot Connect to required Database
+2009-09-23 16:55:26,203 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||2073|1|127.0.0.1
+2009-09-23 16:55:31,984 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-23 16:55:32,093 [4] ERROR WaterOneFlow.Service.Source.v1_0.GetDataInformationDB [(null)] - Cannot connect to CUASHI USGS Database
+2009-09-23 16:55:32,109 [4] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Server Error: Cannot Connect to required Database
+2009-09-23 16:55:32,109 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||127|-9999|127.0.0.1
+2009-09-23 16:55:32,125 [4] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Server Error: Cannot Connect to required Database
+2009-09-23 16:55:41,156 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 16:55:41,187 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||29|1|127.0.0.1
+2009-09-23 16:56:15,500 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-23 16:56:43,078 [4] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-23 16:56:46,781 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-23 16:56:46,859 [4] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||78|35|127.0.0.1
+2009-09-23 16:56:50,921 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-23 16:57:19,828 [10] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-23 16:59:43,031 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||||127.0.0.1
+2009-09-23 16:59:43,109 [4] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||69|35|127.0.0.1
+2009-09-23 17:00:50,328 [8] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||||127.0.0.1
+2009-09-23 17:00:50,343 [8] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||16|35|127.0.0.1
+2009-09-23 17:01:21,546 [8] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||||127.0.0.1
+2009-09-23 17:01:21,562 [8] INFO  QueryLog [(null)] - NCDCISD|GetVariables|||||15|35|127.0.0.1
+2009-09-23 17:02:13,718 [10] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-23 17:02:13,734 [10] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||16|35|127.0.0.1
+2009-09-23 17:02:20,031 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 17:02:20,109 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||78|1|127.0.0.1
+2009-09-23 17:05:21,828 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 17:05:21,875 [4] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||51|1|127.0.0.1
+2009-09-23 17:06:43,359 [8] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 17:06:43,390 [8] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||38|1|127.0.0.1
+2009-09-23 17:07:39,437 [10] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 17:07:39,703 [10] INFO  QueryLog [(null)] - NCDCISD|GetSiteInfo|NCDCISD:01001099999||||268|1|127.0.0.1
+2009-09-23 17:07:46,000 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||||127.0.0.1
+2009-09-23 17:07:46,031 [10] INFO  QueryLog [(null)] - NCDCISH|GetSiteInfo|NCDCISD:01001099999||||42|1|127.0.0.1
+2009-09-25 13:20:21,281 [8] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-25 13:20:26,531 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-25 13:20:26,703 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||162|35|127.0.0.1
+2009-09-25 13:44:19,796 [9] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NCDCISD
+2009-09-25 13:44:30,562 [8] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NCDCISD
+2009-09-25 13:44:33,843 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||||127.0.0.1
+2009-09-25 13:44:33,953 [8] INFO  QueryLog [(null)] - NCDCISH|GetVariables|||||112|35|127.0.0.1

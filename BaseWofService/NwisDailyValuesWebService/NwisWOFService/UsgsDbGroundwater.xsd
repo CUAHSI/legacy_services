@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsgsDbGroundwater" targetNamespace="http://cuahsi.sdsc.edu/db/UsgsDbGroundwater.xsd" xmlns:mstns="http://cuahsi.sdsc.edu/db/UsgsDbGroundwater.xsd" xmlns="http://cuahsi.sdsc.edu/db/UsgsDbGroundwater.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="USGSSept2007ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="USGSSept2007ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.NwisWOFService.Properties.Settings.GlobalReference.Default.USGSSept2007ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="gw_flatfileTableAdapter" GeneratorDataComponentClassName="gw_flatfileTableAdapter" Name="gw_flatfile" UserDataComponentName="gw_flatfileTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.gw_flatfile" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT DISTINCT gw_flatfile.*
+FROM         gw_flatfile
+</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="organization" DataSetColumn="organization" />
+              <Mapping SourceColumn="SiteCode" DataSetColumn="SiteCode" />
+              <Mapping SourceColumn="Sitename" DataSetColumn="Sitename" />
+              <Mapping SourceColumn="Latitude" DataSetColumn="Latitude" />
+              <Mapping SourceColumn="Longitude" DataSetColumn="Longitude" />
+              <Mapping SourceColumn="datum" DataSetColumn="datum" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="County" DataSetColumn="County" />
+              <Mapping SourceColumn="usgs_Country" DataSetColumn="usgs_Country" />
+              <Mapping SourceColumn="elevation_m" DataSetColumn="elevation_m" />
+              <Mapping SourceColumn="verticalDatum" DataSetColumn="verticalDatum" />
+              <Mapping SourceColumn="usgs_station_type_cd" DataSetColumn="usgs_station_type_cd" />
+              <Mapping SourceColumn="usgs_timeZone" DataSetColumn="usgs_timeZone" />
+              <Mapping SourceColumn="usgs_usesDaylightSavings" DataSetColumn="usgs_usesDaylightSavings" />
+              <Mapping SourceColumn="usgs_gw_file_cd" DataSetColumn="usgs_gw_file_cd" />
+              <Mapping SourceColumn="usgs_gw_type_cd" DataSetColumn="usgs_gw_type_cd" />
+              <Mapping SourceColumn="ValueCount" DataSetColumn="ValueCount" />
+              <Mapping SourceColumn="VariableCode" DataSetColumn="VariableCode" />
+              <Mapping SourceColumn="VariableName" DataSetColumn="VariableName" />
+              <Mapping SourceColumn="VariableUnits" DataSetColumn="VariableUnits" />
+              <Mapping SourceColumn="BeginDate" DataSetColumn="BeginDate" />
+              <Mapping SourceColumn="EndDate" DataSetColumn="EndDate" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.gw_flatfile" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBySiteCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataBySiteCode" GeneratorSourceName="FillBySiteCode" GetMethodModifier="Public" GetMethodName="GetDataBySiteCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataBySiteCode" UserSourceName="FillBySiteCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT DISTINCT 
+                      organization, SiteCode, Sitename, Latitude, Longitude, datum, State, County, usgs_Country, elevation_m, verticalDatum, usgs_station_type_cd, 
+                      usgs_timeZone, usgs_usesDaylightSavings, usgs_gw_file_cd, usgs_gw_type_cd, ValueCount, VariableCode, VariableName, VariableUnits, BeginDate, 
+                      EndDate
+FROM         gw_flatfile
+WHERE     (SiteCode = @siteCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="siteCode" ColumnName="SiteCode" DataSourceName="USGSSept2007.dbo.gw_flatfile" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@siteCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="SiteCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsgsDbGroundwater" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:Prefix="NwisWOFService" msprop:Generator_UserDSName="UsgsDbGroundwater" msprop:Generator_DataSetName="UsgsDbGroundwater">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="gw_flatfile" msprop:Generator_UserTableName="gw_flatfile" msprop:Generator_RowDeletedName="gw_flatfileRowDeleted" msprop:Generator_RowChangedName="gw_flatfileRowChanged" msprop:Generator_RowClassName="gw_flatfileRow" msprop:Generator_RowChangingName="gw_flatfileRowChanging" msprop:Generator_RowEvArgName="gw_flatfileRowChangeEvent" msprop:Generator_RowEvHandlerName="gw_flatfileRowChangeEventHandler" msprop:Generator_TableClassName="gw_flatfileDataTable" msprop:Generator_TableVarName="tablegw_flatfile" msprop:Generator_RowDeletingName="gw_flatfileRowDeleting" msprop:Generator_TablePropName="gw_flatfile">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="organization" msprop:Generator_UserColumnName="organization" msprop:Generator_ColumnVarNameInTable="columnorganization" msprop:Generator_ColumnPropNameInRow="organization" msprop:Generator_ColumnPropNameInTable="organizationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SiteCode" msprop:Generator_UserColumnName="SiteCode" msprop:Generator_ColumnVarNameInTable="columnSiteCode" msprop:Generator_ColumnPropNameInRow="SiteCode" msprop:Generator_ColumnPropNameInTable="SiteCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Sitename" msprop:Generator_UserColumnName="Sitename" msprop:Generator_ColumnVarNameInTable="columnSitename" msprop:Generator_ColumnPropNameInRow="Sitename" msprop:Generator_ColumnPropNameInTable="SitenameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="48" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Latitude" msprop:Generator_UserColumnName="Latitude" msprop:Generator_ColumnVarNameInTable="columnLatitude" msprop:Generator_ColumnPropNameInRow="Latitude" msprop:Generator_ColumnPropNameInTable="LatitudeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="Longitude" msprop:Generator_UserColumnName="Longitude" msprop:Generator_ColumnVarNameInTable="columnLongitude" msprop:Generator_ColumnPropNameInRow="Longitude" msprop:Generator_ColumnPropNameInTable="LongitudeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="datum" msprop:Generator_UserColumnName="datum" msprop:Generator_ColumnVarNameInTable="columndatum" msprop:Generator_ColumnPropNameInRow="datum" msprop:Generator_ColumnPropNameInTable="datumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="County" msprop:Generator_UserColumnName="County" msprop:Generator_ColumnVarNameInTable="columnCounty" msprop:Generator_ColumnPropNameInRow="County" msprop:Generator_ColumnPropNameInTable="CountyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_Country" msprop:Generator_UserColumnName="usgs_Country" msprop:Generator_ColumnVarNameInTable="columnusgs_Country" msprop:Generator_ColumnPropNameInRow="usgs_Country" msprop:Generator_ColumnPropNameInTable="usgs_CountryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="elevation_m" msprop:Generator_UserColumnName="elevation_m" msprop:Generator_ColumnVarNameInTable="columnelevation_m" msprop:Generator_ColumnPropNameInRow="elevation_m" msprop:Generator_ColumnPropNameInTable="elevation_mColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="verticalDatum" msprop:Generator_UserColumnName="verticalDatum" msprop:Generator_ColumnVarNameInTable="columnverticalDatum" msprop:Generator_ColumnPropNameInRow="verticalDatum" msprop:Generator_ColumnPropNameInTable="verticalDatumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_station_type_cd" msprop:Generator_UserColumnName="usgs_station_type_cd" msprop:Generator_ColumnVarNameInTable="columnusgs_station_type_cd" msprop:Generator_ColumnPropNameInRow="usgs_station_type_cd" msprop:Generator_ColumnPropNameInTable="usgs_station_type_cdColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_timeZone" msprop:Generator_UserColumnName="usgs_timeZone" msprop:Generator_ColumnVarNameInTable="columnusgs_timeZone" msprop:Generator_ColumnPropNameInRow="usgs_timeZone" msprop:Generator_ColumnPropNameInTable="usgs_timeZoneColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_usesDaylightSavings" msprop:Generator_UserColumnName="usgs_usesDaylightSavings" msprop:Generator_ColumnVarNameInTable="columnusgs_usesDaylightSavings" msprop:Generator_ColumnPropNameInRow="usgs_usesDaylightSavings" msprop:Generator_ColumnPropNameInTable="usgs_usesDaylightSavingsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_gw_file_cd" msprop:Generator_UserColumnName="usgs_gw_file_cd" msprop:Generator_ColumnVarNameInTable="columnusgs_gw_file_cd" msprop:Generator_ColumnPropNameInRow="usgs_gw_file_cd" msprop:Generator_ColumnPropNameInTable="usgs_gw_file_cdColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="8" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_gw_type_cd" msprop:Generator_UserColumnName="usgs_gw_type_cd" msprop:Generator_ColumnVarNameInTable="columnusgs_gw_type_cd" msprop:Generator_ColumnPropNameInRow="usgs_gw_type_cd" msprop:Generator_ColumnPropNameInTable="usgs_gw_type_cdColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ValueCount" msprop:Generator_UserColumnName="ValueCount" msprop:Generator_ColumnVarNameInTable="columnValueCount" msprop:Generator_ColumnPropNameInRow="ValueCount" msprop:Generator_ColumnPropNameInTable="ValueCountColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="VariableCode" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VariableCode" msprop:Generator_ColumnVarNameInTable="columnVariableCode" msprop:Generator_ColumnPropNameInRow="VariableCode" msprop:Generator_ColumnPropNameInTable="VariableCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VariableName" msprop:Generator_ColumnVarNameInTable="columnVariableName" msprop:Generator_ColumnPropNameInRow="VariableName" msprop:Generator_ColumnPropNameInTable="VariableNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableUnits" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VariableUnits" msprop:Generator_ColumnVarNameInTable="columnVariableUnits" msprop:Generator_ColumnPropNameInRow="VariableUnits" msprop:Generator_ColumnPropNameInTable="VariableUnitsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="BeginDate" msprop:Generator_UserColumnName="BeginDate" msprop:Generator_ColumnVarNameInTable="columnBeginDate" msprop:Generator_ColumnPropNameInRow="BeginDate" msprop:Generator_ColumnPropNameInTable="BeginDateColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDate" msprop:Generator_UserColumnName="EndDate" msprop:Generator_ColumnVarNameInTable="columnEndDate" msprop:Generator_ColumnPropNameInRow="EndDate" msprop:Generator_ColumnPropNameInTable="EndDateColumn" type="xs:dateTime" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

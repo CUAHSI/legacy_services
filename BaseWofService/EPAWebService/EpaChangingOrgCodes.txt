@@ -1,0 +1,54 @@
+Two Sets:
+1) restricted agency code: no dashes -
+2) changing agency codes
+------
+Pass 1: - to _
+
+SELECT TOP 1000 [PK_ISN]
+      ,[ORGANIZATION_ID]
+      ,[ORGANIZATION_NAME]
+      ,[ORGANIZATION_IS_NUMBER]
+      ,[ORGANIZATION_TYPE]
+      ,[ORGANIZATION_DESCRIPTION]
+      ,[PARENT_ORG]
+  FROM [Storet].[dbo].[DI_ORG]
+  where ORGANIZATION_ID like '%-%'
+  
+  
+----
+update [Storet].[dbo].[DI_ORG]
+set [ORGANIZATION_ID]= replace([ORGANIZATION_ID], '-', '_')
+
+  where ORGANIZATION_ID like '%-%'
+------
+select sitecode from hiscentral.dbo.sites
+where sitecode like 'EPA:%-%:%'
+-- none found
+select sitecode from hiscentral.dbo.sites
+where sitecode like 'EPA:%-%:%'
+
+-- yuck. really none, but codes like: "EPA:0801505:BR-2/STE 1:1"
+
+
+
+----
+changing organizaitons
+----
+Pass 2:
+No others are wqx.
+
+select ORGANIZATION_ID from [Storet].[dbo].[DI_ORG]
+where ORGANIZATION_ID like '21IOWA%'
+
+select COUNT(*) from [Storet].[dbo].FA_REGULAR_RESULT
+where ORGANIZATION_ID like '21IOWA%'
+
+select COUNT(*) from [Storet].[dbo].FA_STATION
+where ORGANIZATION_ID like '21IOWA%'
+
+select COUNT(*) from [Storet].[dbo].odm_seriesCatalog
+where EPA_OrgID like '21IOWA'
+
+----
+his central changes:
+* copy site and series to xxx tables

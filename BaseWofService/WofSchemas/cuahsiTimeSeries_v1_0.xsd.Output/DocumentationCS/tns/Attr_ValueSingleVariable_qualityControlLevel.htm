@@ -1,0 +1,120 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>ValueSingleVariable.QualityControlLevel</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="../../tns/Enum_QualityControlLevelEnum.htm">tns.Enumerations.QualityControlLevelEnum</A> QualityControlLevel</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">QualityControlLevel</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../../tns/Enum_QualityControlLevelEnum.htm">tns.Enumerations.QualityControlLevelEnum</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_ValueSingleVariable.htm">tns.ValueSingleVariable</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Attribute</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read/Write</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			An optional <A HREF="../tns/Enum_QualityControlLevelEnum.htm">QualityControlLevelEnum</A> enumeration
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			It is optional, initially it is not populated.<BR>
+			The property IsValidQualityControlLevel indicates if the property has been populated.<BR>
+			Any attempt to read a property that has not been populated will raise an exception.<BR>
+			To 'un-populate' the property SetValidQualityControlLevel = false.<BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Also See</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../std/IsValid.HTM">IsValidQualityControlLevel</A> - Indicates if the property has been populated.</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+<A HREF="Enum_QualityControlLevelEnum.htm">QualityControlLevelEnum</A> eItem;
+<A HREF="Cls_ValueSingleVariable.htm">tns.ValueSingleVariable</A> oParent = ...;
+
+// The property is optional so is not initially set.
+// attempts to read it will result in an exception being raised
+System.Diagnostics.Debug.WriteLine(oParent.QualityControlLevel); // ERROR
+      
+// Before attempting to read the property you can test to see if ts valid
+if (oParent.IsValidQualityControlLevel)
+{
+  // its safe to read the value
+  System.Diagnostics.Debug.WriteLine( oParent.QualityControlLevel);
+}
+
+System.Diagnostics.Debug.Assert( oParent.IsValidQualityControlLevel == false);
+
+// Setting the value, use any one of the following
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.RawSpacedata;
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.QualitySpacecontrolledSpacedata;
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.DerivedSpaceproducts;
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.InterpretedSpaceproducts;
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.KnowledgeSpaceproducts;
+oParent.QualityControlLevel = tns.Enumerations.QualityControlLevelEnum.Unknown;
+System.Diagnostics.Debug.Assert( oParent.IsValidQualityControlLevel == true);
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

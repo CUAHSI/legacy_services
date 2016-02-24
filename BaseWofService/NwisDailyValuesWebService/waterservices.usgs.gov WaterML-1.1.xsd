@@ -1,0 +1,1047 @@
+<xsi:schema xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:gml="http://www.opengis.net/gml"
+xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sql="urn:schemas-microsoft-com:mapping-schema" 
+xmlns="http://www.cuahsi.org/waterML/1.1/" attributeformdefault="unqualified" elementformdefault="qualified" 
+targetnamespace="http://www.cuahsi.org/waterML/1.1/" version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema">
+  <xsi:annotation>
+    <xsi:documentation>
+    </xsi:documentation>
+  </xsi:annotation>
+  <xsi:complextype name="SiteInfoType">
+    <xsi:annotation>
+      <xsi:documentation>A sampling station is any place where data are collected.</xsi:documentation>
+    </xsi:annotation>
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="SourceInfoType">
+        <xsi:sequence>
+          <xsi:element name="siteName" type="xsi:string">
+          <xsi:element maxoccurs="unbounded" name="siteCode">
+            <xsi:annotation>
+              <xsi:documentation>A siteID is an identifier that this site is referred to as.
+					There may be multiple siteID elements. Only one should be labeled as the defaultID (set attribute defaultID=true)
+					Multiple siteID elements are allowed because site identifiers may change, 
+					and different observation networks may refer to the same site with different identifiers.</xsi:documentation>
+            </xsi:annotation>
+            <xsi:complextype>
+              <xsi:simplecontent>
+                <xsi:extension base="xsi:token">
+                  <xsi:attribute name="default" type="xsi:boolean">
+                    <xsi:annotation>
+                      <xsi:documentation>
+								True if this is the main identifier that this service uses to access this site.
+				default value is false.
+							</xsi:documentation>
+                    </xsi:annotation>
+                  </xsi:attribute>
+                  <xsi:attribute name="network" type="xsi:token" use="required">
+                    <xsi:annotation>
+                      <xsi:documentation>The name of the observation network that this site identification is use for.</xsi:documentation>
+                    </xsi:annotation>
+                  </xsi:attribute>
+                  <xsi:attribute name="siteID">
+                    <xsi:annotation>
+                      <xsi:documentation>
+								An identifier of the site, the type of identifier must be specified.
+							</xsi:documentation>
+                    </xsi:annotation>
+                    <xsi:simpletype>
+                      <xsi:restriction base="positiveInt">
+                        <xsi:mininclusive value="0">
+                      </xsi:mininclusive></xsi:restriction>
+                    </xsi:simpletype>
+                  </xsi:attribute>
+                  <xsi:attribute name="agencyCode" type="xsi:normalizedString">
+                  <xsi:attribute name="agencyName" type="xsi:normalizedString">
+                </xsi:attribute></xsi:attribute></xsi:extension>
+              </xsi:simplecontent>
+            </xsi:complextype>
+          </xsi:element>
+          <xsi:element minoccurs="0" maxoccurs="1" name="timeZoneInfo">
+            <xsi:annotation>
+              <xsi:documentation>the default time zone for this site (+00:00) and if this site shifts to daylight savings time (attribute: usesDaylightSavingsTime)</xsi:documentation>
+            </xsi:annotation>
+            <xsi:complextype>
+              <xsi:sequence>
+                <xsi:element minoccurs="0" maxoccurs="1" name="defaultTimeZone">
+                  <xsi:complextype>
+                    <xsi:complexcontent mixed="false">
+                      <xsi:extension base="TimeZoneType">
+                    </xsi:extension></xsi:complexcontent>
+                  </xsi:complextype>
+                </xsi:element>
+                <xsi:element minoccurs="0" maxoccurs="1" name="daylightSavingsTimeZone">
+                  <xsi:complextype>
+                    <xsi:complexcontent mixed="false">
+                      <xsi:extension base="TimeZoneType">
+                    </xsi:extension></xsi:complexcontent>
+                  </xsi:complextype>
+                </xsi:element>
+              </xsi:sequence>
+              <xsi:attribute name="siteUsesDaylightSavingsTime" type="xsi:boolean">
+            </xsi:attribute></xsi:complextype>
+          </xsi:element>
+          <xsi:element name="geoLocation">
+            <xsi:complextype>
+              <xsi:sequence>
+                <xsi:element name="geogLocation" type="GeogLocationType">
+                <xsi:element minoccurs="0" maxoccurs="unbounded" name="localSiteXY">
+                  <xsi:complextype>
+                    <xsi:sequence>
+                      <xsi:element name="X" type="xsi:double">
+                      <xsi:element name="Y" type="xsi:double">
+                      <xsi:element minoccurs="0" maxoccurs="1" name="Z" type="xsi:double">
+                      <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+                    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+                    <xsi:attribute name="projectionInformation" type="xsi:string">
+                  </xsi:attribute></xsi:complextype>
+                </xsi:element>
+              </xsi:element></xsi:sequence>
+            </xsi:complextype>
+          </xsi:element>
+          <xsi:element minoccurs="0" maxoccurs="1" name="elevation_m" type="xsi:double">
+          <xsi:element minoccurs="0" maxoccurs="1" name="verticalDatum" type="xsi:string">
+          <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+          <xsi:element minoccurs="0" ref="extension">
+          <xsi:element minoccurs="0" name="altname" type="xsi:string">
+          <xsi:element minoccurs="0" maxoccurs="unbounded" name="siteType" type="SiteTypeCodeList">
+          <xsi:element minoccurs="0" maxoccurs="unbounded" name="siteProperty" type="PropertyType">
+        </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+        <xsi:attribute ref="oid">
+        <xsi:attribute ref="metadataTime">
+      </xsi:attribute></xsi:attribute></xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="TsValuesSingleVariableType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="value" type="ValueSingleVariable">
+        <xsi:annotation>
+          <xsi:documentation>text</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="1" name="units" type="UnitsType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="qualifier" type="QualifierType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="qualityControlLevel" type="QualityControlLevelType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="method" type="MethodType">
+        <xsi:annotation>
+          <xsi:documentation>Multiple &amp;lt;method&amp;gt;s  lists the methods used to collect the data and any additional information about the method.
+
+Different instruments should be represented as different methods, according to ODM best practices.</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="source" type="SourceType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="offset" type="OffsetType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="sample" type="SampleType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="censorCode" type="CensorCodeType">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="VariableInfoType">
+    <xsi:sequence>
+      <xsi:sequence>
+        <xsi:element minoccurs="1" maxoccurs="unbounded" name="variableCode">
+          <xsi:complextype>
+            <xsi:simplecontent>
+              <xsi:extension base="xsi:token">
+                <xsi:attribute name="network" type="xsi:token">
+                <xsi:attribute name="vocabulary" type="xsi:token">
+                <xsi:attribute name="default" type="xsi:boolean">
+                <xsi:attribute name="variableID">
+                  <xsi:simpletype>
+                    <xsi:restriction base="positiveInt">
+                      <xsi:mininclusive value="0">
+                    </xsi:mininclusive></xsi:restriction>
+                  </xsi:simpletype>
+                </xsi:attribute>
+              </xsi:attribute></xsi:attribute></xsi:attribute></xsi:extension>
+            </xsi:simplecontent>
+          </xsi:complextype>
+        </xsi:element>
+        <xsi:element minoccurs="0" maxoccurs="1" name="variableName" type="xsi:string">
+          <xsi:annotation>
+            <xsi:documentation>A brief name of the variable that could be shown in a menu</xsi:documentation>
+          </xsi:annotation>
+        </xsi:element>
+        <xsi:element minoccurs="0" name="variableDescription" type="xsi:string">
+          <xsi:annotation>
+            <xsi:documentation>A detailed descriptn of the variable. May include processing information and other details.</xsi:documentation>
+          </xsi:annotation>
+        </xsi:element>
+        <xsi:element minoccurs="0" maxoccurs="1" name="valueType" type="ValueTypeCodeList">
+        <xsi:element minoccurs="0" name="dataType" type="DataTypeCodeList">
+        <xsi:element minoccurs="0" name="generalCategory" type="GeneralCategoryCodeList">
+        <xsi:element minoccurs="0" maxoccurs="1" name="sampleMedium" type="SampleMediumCodeList">
+        <xsi:element minoccurs="0" name="unit" type="UnitsType">
+          <xsi:annotation>
+            <xsi:documentation>The units of the measurement.</xsi:documentation>
+          </xsi:annotation>
+        </xsi:element>
+        <xsi:element minoccurs="0" maxoccurs="1" ref="options">
+          <xsi:annotation>
+            <xsi:documentation>See option element for details. This is a list of options. Options are key-value pair elements that control how a variable might be utilized in a service.     
+  </xsi:documentation>
+          </xsi:annotation>
+        </xsi:element>
+        <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+          <xsi:annotation>
+            <xsi:documentation>
+          </xsi:documentation></xsi:annotation>
+        </xsi:element>
+        <xsi:element minoccurs="0" name="related">
+          <xsi:complextype>
+            <xsi:sequence maxoccurs="unbounded">
+              <xsi:element name="parentCode">
+                <xsi:complextype>
+                  <xsi:simplecontent>
+                    <xsi:extension base="xsi:string">
+                      <xsi:attribute name="network" type="xsi:token">
+                        <xsi:annotation>
+                          <xsi:documentation>
+                        </xsi:documentation></xsi:annotation>
+                      </xsi:attribute>
+                      <xsi:attribute name="vocabulary" type="xsi:token">
+                        <xsi:annotation>
+                          <xsi:documentation>
+                        </xsi:documentation></xsi:annotation>
+                      </xsi:attribute>
+                      <xsi:attribute name="default" type="xsi:boolean">
+                    </xsi:attribute></xsi:extension>
+                  </xsi:simplecontent>
+                </xsi:complextype>
+              </xsi:element>
+              <xsi:element name="relatedCode">
+                <xsi:complextype>
+                  <xsi:simplecontent>
+                    <xsi:extension base="xsi:string">
+                      <xsi:attribute name="network" type="xsi:token">
+                        <xsi:annotation>
+                          <xsi:documentation>
+                        </xsi:documentation></xsi:annotation>
+                      </xsi:attribute>
+                      <xsi:attribute name="vocabulary" type="xsi:token">
+                        <xsi:annotation>
+                          <xsi:documentation>
+                        </xsi:documentation></xsi:annotation>
+                      </xsi:attribute>
+                      <xsi:attribute name="default" type="xsi:boolean">
+                    </xsi:attribute></xsi:extension>
+                  </xsi:simplecontent>
+                </xsi:complextype>
+              </xsi:element>
+            </xsi:sequence>
+          </xsi:complextype>
+        </xsi:element>
+        <xsi:element minoccurs="0" ref="extension">
+        <xsi:element minoccurs="0" name="noDataValue" type="xsi:double">
+        <xsi:element minoccurs="0" name="timeScale" nillable="true">
+          <xsi:annotation>
+            <xsi:documentation>Element containing the time support (or temporal footprint) of the data values.  
+
+@isRegular indicates if the spacing is regular.
+the timeInterval is the spacing between the observations, with the units being the units of the spacing.
+This basically communicates the precision of the observation. If timeSupport isReqgular, and has units of 1 day, then clients should reformat output to spreadsheets and applications to day values.
+
+In waterML 1.0, there is a divergence of mean between ODM, and WaterML.
+WaterML only communcates the regularity, and the spacing of the observations (timeInterval). Whereas timesupport in the ODM is associated with the dataType, and time support. This will be addressed in 1.1
+</xsi:documentation>
+          </xsi:annotation>
+          <xsi:complextype>
+            <xsi:sequence>
+              <xsi:element minoccurs="0" maxoccurs="1" name="unit" type="UnitsType">
+              <xsi:element minoccurs="0" maxoccurs="1" name="timeSpacing" type="xsi:float">
+              <xsi:element minoccurs="0" maxoccurs="1" name="timeSupport" type="xsi:float">
+            </xsi:element></xsi:element></xsi:element></xsi:sequence>
+            <xsi:attribute default="false" name="isRegular" type="xsi:boolean">
+          </xsi:attribute></xsi:complextype>
+        </xsi:element>
+        <xsi:element minoccurs="0" name="speciation" type="SpeciationCodeList">
+        <xsi:element minoccurs="0" maxoccurs="1" name="categories">
+          <xsi:complextype>
+            <xsi:sequence>
+              <xsi:element minoccurs="0" maxoccurs="unbounded" name="category">
+                <xsi:complextype>
+                  <xsi:sequence>
+                    <xsi:element name="dataValue" type="xsi:decimal">
+                    <xsi:element minoccurs="0" maxoccurs="1" name="description" type="xsi:string">
+                  </xsi:element></xsi:element></xsi:sequence>
+                  <xsi:attribute name="categoryID" type="xsi:int">
+                </xsi:attribute></xsi:complextype>
+              </xsi:element>
+            </xsi:sequence>
+          </xsi:complextype>
+        </xsi:element>
+        <xsi:element minoccurs="0" maxoccurs="unbounded" name="variableProperty" type="PropertyType">
+      </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+    </xsi:sequence>
+    <xsi:attribute ref="oid">
+    <xsi:attribute ref="metadataTime">
+  </xsi:attribute></xsi:attribute></xsi:complextype>
+  <xsi:element name="options">
+    <xsi:annotation>
+      <xsi:documentation>A list of options. Option elements are key-value pair elements that control how a variable maght be utilized in a service.
+            Examples:
+ MODIS web service. Information is aggreated over land or ocean or both. The plotarea option can include: plotarea=land, plotarea=land, plotarea=landocean
+
+USGS uses a statistic code, 0003, to repesent a  value type of 'Average'. The USGS statistic codes also several options that do not fit the ODM data model. </xsi:documentation>
+    </xsi:annotation>
+    <xsi:complextype>
+      <xsi:sequence>
+        <xsi:element minoccurs="0" maxoccurs="unbounded" ref="option">
+          <xsi:annotation>
+            <xsi:documentation>Option elements are key-value pair elements that control how a variable maght be utilized in a service.
+            Examples:
+ MODIS web service. Information is aggreated over land or ocean or both. The plotarea option can include: plotarea=land, plotarea=land, plotarea=landocean
+
+USGS uses a statistic code, 0003, to repesent a  value type of 'Average'. The USGS statistic codes also several options that do not fit the ODM data model. </xsi:documentation>
+          </xsi:annotation>
+        </xsi:element>
+      </xsi:sequence>
+    </xsi:complextype>
+  </xsi:element>
+  <xsi:element name="option">
+    <xsi:annotation>
+      <xsi:documentation>Option elements are key-value pair elements that control how a variable maght be utilized in a service.
+            Examples:
+ MODIS web service. Information is aggreated over land or ocean or both. The plotarea option can include: plotarea=land, plotarea=land, plotarea=landocean
+
+USGS uses a statistic code, 0003, to repesent a  value type of 'Average'. The USGS statistic codes also several options that do not fit the ODM data model. </xsi:documentation>
+    </xsi:annotation>
+    <xsi:complextype>
+      <xsi:simplecontent>
+        <xsi:extension base="xsi:string">
+          <xsi:attribute name="name" type="xsi:normalizedString">
+          <xsi:attribute name="optionID" type="xsi:integer">
+          <xsi:attribute name="optionCode" type="xsi:token">
+        </xsi:attribute></xsi:attribute></xsi:attribute></xsi:extension>
+      </xsi:simplecontent>
+    </xsi:complextype>
+  </xsi:element>
+  <xsi:simpletype name="positiveInt">
+    <xsi:annotation>
+      <xsi:documentation>.Net serializer work around. </xsi:documentation>
+    </xsi:annotation>
+    <xsi:restriction base="xsi:int">
+      <xsi:mininclusive value="0">
+    </xsi:mininclusive></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:attribute name="oid" type="xsi:normalizedString">
+  <xsi:attribute name="metadataTime" type="xsi:dateTime">
+  <xsi:attribute name="network" type="xsi:NMTOKEN">
+  <xsi:attribute name="vocabulary" type="xsi:NMTOKEN">
+  <xsi:attribute name="default" type="xsi:boolean">
+  <xsi:complextype name="QueryInfoType">
+    <xsi:annotation>
+      <xsi:documentation>
+    </xsi:documentation></xsi:annotation>
+    <xsi:sequence>
+      <xsi:element minoccurs="0" name="creationTime" type="xsi:dateTime">
+        <xsi:annotation>
+          <xsi:documentation>
+        </xsi:documentation></xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" name="queryURL" type="xsi:string">
+        <xsi:annotation>
+          <xsi:documentation>
+        </xsi:documentation></xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" name="criteria">
+        <xsi:complextype>
+          <xsi:sequence minoccurs="0">
+            <xsi:element minoccurs="0" name="locationParam" type="xsi:string">
+              <xsi:annotation>
+                <xsi:documentation>
+              </xsi:documentation></xsi:annotation>
+            </xsi:element>
+            <xsi:element minoccurs="0" name="variableParam" type="xsi:string">
+              <xsi:annotation>
+                <xsi:documentation>
+              </xsi:documentation></xsi:annotation>
+            </xsi:element>
+            <xsi:element minoccurs="0" name="timeParam">
+              <xsi:annotation>
+                <xsi:documentation>
+              </xsi:documentation></xsi:annotation>
+              <xsi:complextype>
+                <xsi:sequence>
+                  <xsi:element minoccurs="0" maxoccurs="1" name="beginDateTime" type="xsi:string">
+                  <xsi:element minoccurs="0" maxoccurs="1" name="endDateTime" type="xsi:string">
+                </xsi:element></xsi:element></xsi:sequence>
+              </xsi:complextype>
+            </xsi:element>
+            <xsi:element minoccurs="0" maxoccurs="unbounded" name="parameter">
+              <xsi:complextype>
+                <xsi:attribute name="name" type="xsi:token">
+                <xsi:attribute name="value" type="xsi:string">
+              </xsi:attribute></xsi:attribute></xsi:complextype>
+            </xsi:element>
+          </xsi:sequence>
+          <xsi:attribute name="MethodCalled" type="xsi:normalizedString">
+        </xsi:attribute></xsi:complextype>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+      <xsi:element minoccurs="0" ref="extension">
+    </xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="DataSetInfoType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="SourceInfoType">
+        <xsi:sequence>
+          <xsi:element name="dataSetIdentifier" type="xsi:string">
+          <xsi:element minoccurs="0" maxoccurs="1" name="timeZoneInfo">
+            <xsi:annotation>
+              <xsi:documentation>the default time zone for this site (+00:00) and if this site shifts to daylight savings time (attribute: usesDaylightSavingsTime)</xsi:documentation>
+            </xsi:annotation>
+            <xsi:complextype>
+              <xsi:sequence>
+                <xsi:element minoccurs="0" maxoccurs="1" name="defaultTimeZone">
+                  <xsi:complextype>
+                    <xsi:complexcontent mixed="false">
+                      <xsi:extension base="TimeZoneType">
+                    </xsi:extension></xsi:complexcontent>
+                  </xsi:complextype>
+                </xsi:element>
+                <xsi:element minoccurs="0" maxoccurs="1" name="daylightSavingsTimeZone">
+                  <xsi:complextype>
+                    <xsi:complexcontent mixed="false">
+                      <xsi:extension base="TimeZoneType">
+                    </xsi:extension></xsi:complexcontent>
+                  </xsi:complextype>
+                </xsi:element>
+              </xsi:sequence>
+              <xsi:attribute name="siteUsesDaylightSavingsTime" type="xsi:boolean">
+            </xsi:attribute></xsi:complextype>
+          </xsi:element>
+          <xsi:element name="dataSetDescription" type="xsi:string">
+          <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+          <xsi:element minoccurs="0" maxoccurs="1" name="dataSetLocation" type="GeogLocationType">
+          <xsi:element minoccurs="0" ref="extension">
+          <xsi:element minoccurs="0" maxoccurs="unbounded" name="dataSetProperty" type="PropertyType">
+        </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="TimeZoneType">
+    <xsi:attribute name="zoneOffset" type="xsi:normalizedString" use="required">
+    <xsi:attribute name="zoneAbbreviation" type="xsi:token" use="optional">
+  </xsi:attribute></xsi:attribute></xsi:complextype>
+  <xsi:complextype name="DocumentationType" mixed="true">
+    <xsi:attribute name="type" type="DocumentationEnumTypes">
+    <xsi:attribute name="href" type="xsi:string">
+    <xsi:attribute name="title" type="xsi:string">
+    <xsi:attribute name="show" type="xsi:string">
+  </xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:complextype>
+  <xsi:simpletype name="DocumentationEnumTypes">
+    <xsi:union membertypes="xsi:token ">
+      <xsi:simpletype>
+        <xsi:restriction base="xsi:token">
+          <xsi:enumeration value="funding">
+          <xsi:enumeration value="history">
+          <xsi:enumeration value="processing_level">
+          <xsi:enumeration value="rights">
+          <xsi:enumeration value="summary">
+        </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+      </xsi:simpletype>
+    </xsi:union>
+  </xsi:simpletype>
+  <xsi:complextype name="SourceInfoType">
+  <xsi:complextype name="TimePeriodType">
+    <xsi:sequence>
+      <xsi:element name="beginDateTime" type="xsi:dateTime">
+      <xsi:element name="endDateTime" type="xsi:dateTime">
+      <xsi:element minoccurs="0" maxoccurs="1" name="beginDateTimeUTC" type="xsi:dateTime">
+      <xsi:element minoccurs="0" maxoccurs="1" name="endDateTimeUTC" type="xsi:dateTime">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="TimeIntervalType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="TimePeriodType">
+    </xsi:extension></xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="TimeSingleType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="TimePeriodType">
+        <xsi:sequence>
+          <xsi:element name="timeSingle" type="xsi:dateTime">
+        </xsi:element></xsi:sequence>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="TimePeriodRealTimeType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="TimePeriodType">
+        <xsi:sequence>
+          <xsi:element name="realTimeDataPeriod" type="xsi:duration">
+        </xsi:element></xsi:sequence>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="GeogLocationType" abstract="true">
+    <xsi:sequence>
+    <xsi:attribute default="EPSG:4326" name="srs" type="xsi:string" use="optional">
+  </xsi:attribute></xsi:sequence></xsi:complextype>
+  <xsi:complextype name="LatLonPointType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="GeogLocationType">
+        <xsi:sequence>
+          <xsi:element name="latitude" type="Latitude">
+            <xsi:annotation>
+              <xsi:documentation>
+            The latitude of the site in a decimal degrees as calculated in terms of the given datum.
+          </xsi:documentation>
+            </xsi:annotation>
+          </xsi:element>
+          <xsi:element name="longitude" type="Longitude">
+            <xsi:annotation>
+              <xsi:documentation>
+            The longitude of the site in a decimal degrees as calculated in terms of the given datum.
+          </xsi:documentation>
+            </xsi:annotation>
+          </xsi:element>
+        </xsi:sequence>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="LatLonBoxType">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="GeogLocationType">
+        <xsi:sequence>
+          <xsi:element name="south" type="Latitude">
+          <xsi:element name="west" type="Longitude">
+          <xsi:element name="north" type="Latitude">
+          <xsi:element name="east" type="Longitude">
+        </xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:complextype name="latLonLineString">
+    <xsi:complexcontent mixed="false">
+      <xsi:extension base="GeogLocationType">
+        <xsi:sequence>
+          <xsi:element minoccurs="2" maxoccurs="unbounded" name="coordLatLong" type="CoordType">
+        </xsi:element></xsi:sequence>
+        <xsi:attribute name="zDirection">
+          <xsi:simpletype>
+            <xsi:union membertypes="xsi:string zDirectionEnum ">
+          </xsi:union></xsi:simpletype>
+        </xsi:attribute>
+      </xsi:extension>
+    </xsi:complexcontent>
+  </xsi:complextype>
+  <xsi:simpletype name="zDirectionEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="PositiveUp">
+      <xsi:enumeration value="PositiveDown">
+      <xsi:enumeration value="Depth">
+      <xsi:enumeration value="Altitude">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="Longitude">
+    <xsi:restriction base="xsi:double">
+      <xsi:mininclusive value="-180.00">
+      <xsi:maxinclusive value="180.00">
+    </xsi:maxinclusive></xsi:mininclusive></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="Latitude">
+    <xsi:restriction base="xsi:double">
+      <xsi:mininclusive value="-90.00">
+      <xsi:maxinclusive value="90.00">
+    </xsi:maxinclusive></xsi:mininclusive></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:complextype name="CoordType">
+    <xsi:annotation>
+      <xsi:documentation>
+        Represents a coordinate tuple in one, two, or three dimensions.
+      
+ ==============================================================
+       There are two ways to represent coordinates: (1) as a sequence 
+       of &amp;lt;coord&gt; elements that encapsulate tuples, or (2) using a 
+       single &amp;lt;coordinates&gt; string.
+  =================================================================== </xsi:documentation>
+    </xsi:annotation>
+    <xsi:sequence>
+      <xsi:element name="latitude" type="Latitude">
+      <xsi:element minoccurs="1" name="longitude" type="Longitude">
+      <xsi:element minoccurs="0" name="Z" type="xsi:decimal">
+    </xsi:element></xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:simpletype name="doubleList">
+    <xsi:annotation>
+      <xsi:documentation>
+            XML List based on XML Schema double type.  An element
+            of this type contains a space-separated list of double
+            values
+         
+ ===========================================================  
+ == Subset of basicTypes.xsd for this profile ============== 
+ =========================================================== 
+ =========================================================== 
+
+   </xsi:documentation>
+    </xsi:annotation>
+    <xsi:list itemtype="xsi:double">
+  </xsi:list></xsi:simpletype>
+  <xsi:complextype name="seriesCatalogType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="note" type="NoteType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="series">
+        <xsi:complextype>
+          <xsi:sequence>
+            <xsi:element minoccurs="0" maxoccurs="1" name="dataType" type="DataTypeCodeList">
+            <xsi:element name="variable" type="VariableInfoType">
+            <xsi:element minoccurs="0" name="valueCount">
+              <xsi:complextype>
+                <xsi:simplecontent>
+                  <xsi:extension base="positiveInt">
+                    <xsi:attribute name="countIsEstimated" type="xsi:boolean">
+                  </xsi:attribute></xsi:extension>
+                </xsi:simplecontent>
+              </xsi:complextype>
+            </xsi:element>
+            <xsi:element name="variableTimeInterval" type="TimePeriodType">
+            <xsi:element minoccurs="0" maxoccurs="1" name="valueType" type="ValueTypeCodeList">
+            <xsi:element minoccurs="0" maxoccurs="1" name="generalCategory" type="GeneralCategoryCodeList">
+            <xsi:element minoccurs="0" maxoccurs="1" name="sampleMedium" type="SampleMediumCodeList">
+            <xsi:element minoccurs="0" maxoccurs="1" name="method" type="MethodType">
+            <xsi:element minoccurs="0" maxoccurs="1" name="source" type="SourceType">
+            <xsi:element minoccurs="0" maxoccurs="1" name="qualityControlLevel" type="QualityControlLevelType">
+            <xsi:element minoccurs="0" maxoccurs="unbounded" name="seriesProperty" type="PropertyType">
+          </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+        </xsi:complextype>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="seriesCatalogProperty" type="PropertyType">
+      <xsi:element minoccurs="0" maxoccurs="1" ref="extension">
+    </xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="menuGroupName" type="xsi:normalizedString">
+    <xsi:attribute name="serviceWsdl" type="xsi:anyURI">
+  </xsi:attribute></xsi:attribute></xsi:complextype>
+  <xsi:simpletype name="CensorCodeEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="lt">
+      <xsi:enumeration value="gt">
+      <xsi:enumeration value="nc">
+      <xsi:enumeration value="nd">
+      <xsi:enumeration value="pnq">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:complextype name="QualifierType">
+    <xsi:sequence>
+      <xsi:element name="qualifierCode" type="xsi:token">
+      <xsi:element minoccurs="0" maxoccurs="1" name="qualifierDescription" type="xsi:string">
+    </xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="qualifierID" type="positiveInt">
+    <xsi:attribute ref="network">
+    <xsi:attribute ref="vocabulary">
+    <xsi:attribute ref="default">
+  </xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:complextype>
+  <xsi:complextype name="TimeSeriesType">
+    <xsi:sequence>
+      <xsi:element name="sourceInfo" type="SourceInfoType">
+      <xsi:element name="variable" type="VariableInfoType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="values" type="TsValuesSingleVariableType">
+    </xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="name" type="xsi:normalizedString" use="optional">
+  </xsi:attribute></xsi:complextype>
+  <xsi:element name="variablesResponse" type="VariablesResponseType">
+  <xsi:element name="sitesResponse" type="SiteInfoResponseType">
+  <xsi:element name="timeSeriesResponse" type="TimeSeriesResponseType">
+  <xsi:complextype name="NoteType">
+    <xsi:simplecontent>
+      <xsi:extension base="xsi:string">
+        <xsi:attribute name="type" type="xsi:token">
+        <xsi:attribute name="href" type="xsi:string">
+        <xsi:attribute name="title" type="xsi:string">
+        <xsi:attribute name="show" type="xsi:string">
+      </xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:extension>
+    </xsi:simplecontent>
+  </xsi:complextype>
+  <xsi:simpletype name="UnitsTypeEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Angle">
+      <xsi:enumeration value="Area">
+      <xsi:enumeration value="Dimensionless">
+      <xsi:enumeration value="Energy">
+      <xsi:enumeration value="Energy Flux">
+      <xsi:enumeration value="Flow">
+      <xsi:enumeration value="Force">
+      <xsi:enumeration value="Frequency">
+      <xsi:enumeration value="Length">
+      <xsi:enumeration value="Light">
+      <xsi:enumeration value="Mass">
+      <xsi:enumeration value="Permeability">
+      <xsi:enumeration value="Power">
+      <xsi:enumeration value="Pressure/Stress">
+      <xsi:enumeration value="Resolution">
+      <xsi:enumeration value="Scale">
+      <xsi:enumeration value="Temperature">
+      <xsi:enumeration value="Time">
+      <xsi:enumeration value="Velocity">
+      <xsi:enumeration value="Volume">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:complextype name="ValueSingleVariable">
+    <xsi:simplecontent>
+      <xsi:extension base="xsi:decimal">
+        <xsi:attribute name="qualifiers" type="xsi:NMTOKENS">
+          <xsi:annotation>
+            <xsi:documentation>
+          </xsi:documentation></xsi:annotation>
+        </xsi:attribute>
+        <xsi:attribute name="censorCode" type="CensorCodeCodeList">
+          <xsi:annotation>
+            <xsi:documentation>
+          </xsi:documentation></xsi:annotation>
+        </xsi:attribute>
+        <xsi:attribute name="dateTime" type="xsi:dateTime" use="required">
+        <xsi:attribute name="timeOffset" type="TimeOffsetType">
+          <xsi:annotation>
+            <xsi:documentation>This represents an offset for the time zone. [+/-]hh:mm</xsi:documentation>
+          </xsi:annotation>
+        </xsi:attribute>
+        <xsi:attribute name="dateTimeUTC" type="xsi:dateTime">
+        <xsi:attribute name="methodID" type="xsi:nonNegativeInteger">
+        <xsi:attribute name="sourceID" type="xsi:nonNegativeInteger">
+        <xsi:attribute name="accuracyStdDev" type="xsi:double">
+        <xsi:attribute name="sampleID" type="xsi:nonNegativeInteger" use="optional">
+        <xsi:attribute name="methodCode" type="xsi:token">
+        <xsi:attribute name="sourceCode" type="xsi:token">
+        <xsi:attribute name="labSampleCode" type="xsi:token">
+        <xsi:attribute name="offsetValue" type="xsi:double" use="optional">
+        <xsi:attribute name="offsetTypeID" type="xsi:nonNegativeInteger" use="optional">
+        <xsi:attribute name="offsetTypeCode" type="xsi:token">
+        <xsi:attribute name="codedVocabulary" type="xsi:boolean" use="optional">
+        <xsi:attribute name="codedVocabularyTerm" type="xsi:normalizedString" use="optional">
+        <xsi:attribute name="qualityControlLevelCode" type="xsi:token">
+        <xsi:attribute ref="metadataTime">
+        <xsi:attribute ref="oid">
+      </xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:attribute></xsi:extension>
+    </xsi:simplecontent>
+  </xsi:complextype>
+  <xsi:element name="extension" type="xsi:anyType">
+  <xsi:complextype name="VariablesResponseType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="queryInfo" type="QueryInfoType">
+      <xsi:element minoccurs="1" maxoccurs="1" name="variables">
+        <xsi:complextype>
+          <xsi:sequence>
+            <xsi:element minoccurs="0" maxoccurs="unbounded" name="variable" type="VariableInfoType">
+          </xsi:element></xsi:sequence>
+        </xsi:complextype>
+      </xsi:element>
+    </xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:simpletype name="TimeOffsetType">
+    <xsi:annotation>
+      <xsi:documentation>This represents an offset for the time zone. [+/-]hh:mm</xsi:documentation>
+    </xsi:annotation>
+    <xsi:restriction base="xsi:normalizedString">
+      <xsi:whitespace value="collapse">
+      <xsi:pattern value="^[+-][01]\d:[0-5]\d">
+    </xsi:pattern></xsi:whitespace></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:complextype name="TimeSeriesResponseType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="queryInfo" type="QueryInfoType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="timeSeries" type="TimeSeriesType">
+    </xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="SiteInfoResponseType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="queryInfo" type="QueryInfoType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="site">
+        <xsi:complextype>
+          <xsi:sequence>
+            <xsi:element minoccurs="1" maxoccurs="1" name="siteInfo" type="SiteInfoType">
+            <xsi:element minoccurs="0" maxoccurs="unbounded" name="seriesCatalog" type="seriesCatalogType">
+            <xsi:element minoccurs="0" maxoccurs="unbounded" ref="extension">
+          </xsi:element></xsi:element></xsi:element></xsi:sequence>
+        </xsi:complextype>
+      </xsi:element>
+    </xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:simpletype name="QualityControlLevelEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Raw data">
+      <xsi:enumeration value="Quality controlled data">
+      <xsi:enumeration value="Derived products">
+      <xsi:enumeration value="Interpreted products">
+      <xsi:enumeration value="Knowledge products">
+      <xsi:enumeration value="Unknown">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="SampleMediumEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Surface Water">
+      <xsi:enumeration value="Ground Water">
+      <xsi:enumeration value="Sediment">
+      <xsi:enumeration value="Soil">
+      <xsi:enumeration value="Air">
+      <xsi:enumeration value="Tissue">
+      <xsi:enumeration value="Precipitation">
+      <xsi:enumeration value="Unknown">
+      <xsi:enumeration value="Other">
+      <xsi:enumeration value="Snow">
+      <xsi:enumeration value="Not Relevant">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="generalCategoryEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Water Quality">
+      <xsi:enumeration value="Climate">
+      <xsi:enumeration value="Hydrology">
+      <xsi:enumeration value="Geology">
+      <xsi:enumeration value="Biota">
+      <xsi:enumeration value="Unknown">
+      <xsi:enumeration value="Instrumentation">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="dataTypeEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Continuous">
+      <xsi:enumeration value="Instantaneous">
+      <xsi:enumeration value="Cumulative">
+      <xsi:enumeration value="Incremental">
+      <xsi:enumeration value="Average">
+      <xsi:enumeration value="Maximum">
+      <xsi:enumeration value="Minimum">
+      <xsi:enumeration value="Constant Over Interval">
+      <xsi:enumeration value="Categorical">
+      <xsi:enumeration value="Best Easy Systematic Estimator ">
+      <xsi:enumeration value="Unknown">
+      <xsi:enumeration value="Variance">
+      <xsi:enumeration value="Median">
+      <xsi:enumeration value="Mode">
+      <xsi:enumeration value="Best Easy Systematic Estimator">
+      <xsi:enumeration value="Standard Deviation">
+      <xsi:enumeration value="Skewness">
+      <xsi:enumeration value="Equivalent Mean">
+      <xsi:enumeration value="Sporadic">
+      <xsi:enumeration value="Unknown">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="sampleTypeEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="FD">
+      <xsi:enumeration value="FF">
+      <xsi:enumeration value="FL">
+      <xsi:enumeration value="LF">
+      <xsi:enumeration value="GW">
+      <xsi:enumeration value="PB">
+      <xsi:enumeration value="PD">
+      <xsi:enumeration value="PE">
+      <xsi:enumeration value="PI">
+      <xsi:enumeration value="PW">
+      <xsi:enumeration value="RE">
+      <xsi:enumeration value="SE">
+      <xsi:enumeration value="SR">
+      <xsi:enumeration value="SS">
+      <xsi:enumeration value="SW">
+      <xsi:enumeration value="TE">
+      <xsi:enumeration value="TI">
+      <xsi:enumeration value="TW">
+      <xsi:enumeration value="VE">
+      <xsi:enumeration value="VI">
+      <xsi:enumeration value="VW">
+      <xsi:enumeration value="Grab">
+      <xsi:enumeration value="Unknown">
+      <xsi:enumeration value="No Sample">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:simpletype name="valueTypeEnum">
+    <xsi:restriction base="xsi:string">
+      <xsi:enumeration value="Field Observation">
+      <xsi:enumeration value="Sample">
+      <xsi:enumeration value="Model Simulation Result">
+      <xsi:enumeration value="Derived Value">
+      <xsi:enumeration value="Unknown">
+    </xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:enumeration></xsi:restriction>
+  </xsi:simpletype>
+  <xsi:complextype name="UnitsType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" name="unitName" type="xsi:string">
+      <xsi:element minoccurs="0" name="unitDescription" type="xsi:string">
+      <xsi:element minoccurs="0" name="unitType" type="UnitsTypeCodeList">
+      <xsi:element minoccurs="0" name="unitAbbreviation" type="xsi:string">
+      <xsi:element name="unitCode" type="xsi:token">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="unitID" type="xsi:int">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="MethodType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="methodCode" type="xsi:token">
+      <xsi:element minoccurs="0" maxoccurs="1" name="methodDescription" type="xsi:string">
+      <xsi:element minoccurs="0" maxoccurs="1" name="methodLink" type="xsi:string">
+    </xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="methodID" type="positiveInt">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="SampleType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" name="labSampleCode" type="xsi:normalizedString">
+      <xsi:element minoccurs="0" name="sampleType" type="SampleTypeCodeList">
+      <xsi:element minoccurs="0" name="labMethod" type="LabMethodType">
+    </xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="sampleID" type="xsi:int">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="LabMethodType">
+    <xsi:sequence>
+      <xsi:element name="labCode" type="xsi:token">
+        <xsi:annotation>
+          <xsi:documentation>The Abbrevation for the lab. e.g. BETA for Beta Analytical</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" name="labName" type="xsi:string">
+      <xsi:element minoccurs="0" name="labOrganization" type="xsi:string">
+      <xsi:element minoccurs="0" name="labMethodName" type="xsi:string">
+      <xsi:element minoccurs="0" name="labMethodDescription" type="xsi:string">
+      <xsi:element minoccurs="0" name="labMethodLink" type="xsi:string">
+      <xsi:element minoccurs="0" maxoccurs="1" name="labSourceDetails" type="SourceType">
+        <xsi:annotation>
+          <xsi:documentation>This is the contact information for a laboratory</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="labMethodID" type="xsi:int">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="CensorCodeType">
+    <xsi:sequence>
+      <xsi:element name="censorCode" type="CensorCodeCodeList">
+      <xsi:element name="censorCodeDescription" type="xsi:string">
+    </xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="censorCodeID" type="xsi:int">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="SourceType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="sourceCode" type="xsi:token">
+        <xsi:annotation>
+          <xsi:documentation>The abbreviation for the source. e.g. USGS for US Geological Survey.</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="1" name="organization" type="xsi:string">
+      <xsi:element minoccurs="0" maxoccurs="1" name="sourceDescription" type="xsi:string">
+      <xsi:element minoccurs="0" name="metadata" type="MetaDataType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="contactInformation" type="ContactInformationType">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="sourceLink" type="xsi:anyURI">
+      <xsi:element minoccurs="0" name="citation" type="xsi:string">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="sourceID" type="positiveInt">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="ContactInformationType">
+    <xsi:sequence>
+      <xsi:element minoccurs="1" maxoccurs="1" name="contactName" type="xsi:string">
+      <xsi:element minoccurs="0" maxoccurs="1" name="typeOfContact" type="xsi:normalizedString">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="email" type="xsi:normalizedString">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="phone" type="xsi:string">
+      <xsi:element minoccurs="0" maxoccurs="unbounded" name="address" type="xsi:anyType">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="MetaDataType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" name="topicCategory" type="xsi:string">
+      <xsi:element minoccurs="0" name="title" type="xsi:string">
+      <xsi:element minoccurs="0" name="abstract" type="xsi:string">
+      <xsi:element minoccurs="0" name="profileVersion" type="xsi:string">
+      <xsi:element minoccurs="0" name="metadataLink" type="xsi:anyURI">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+  </xsi:complextype>
+  <xsi:complextype name="QualityControlLevelType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="qualityControlLevelCode" type="xsi:token">
+        <xsi:annotation>
+          <xsi:documentation>Code used to identify the level of quality control to which data values have been subjected.
+
+This code is used to link a quality element (qualityControlLevelType) to a dataValue/@ququalityControlLevel
+
+“1”, “1.1”, “Raw”, “QCChecked”
+
+A quality control level code of -9999 is suggested for data whose quality control level is unknown</xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="1" name="definition">
+        <xsi:annotation>
+          <xsi:documentation>Definition of Quality Control Level.
+“Raw Data”, “Quality Controlled Data”</xsi:documentation>
+        </xsi:annotation>
+        <xsi:simpletype>
+          <xsi:restriction base="xsi:string">
+            <xsi:maxlength value="255">
+            <xsi:minlength value="0">
+          </xsi:minlength></xsi:maxlength></xsi:restriction>
+        </xsi:simpletype>
+      </xsi:element>
+      <xsi:element minoccurs="0" maxoccurs="1" name="explanation" type="xsi:string">
+        <xsi:annotation>
+          <xsi:documentation>Explanation of Quality Control Level
+
+eg
+“Raw data is defined as unprocessed data and data products that have not undergone quality control.” </xsi:documentation>
+        </xsi:annotation>
+      </xsi:element>
+    </xsi:sequence>
+    <xsi:attribute name="qualityControlLevelID" type="xsi:int">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="OffsetType">
+    <xsi:sequence>
+      <xsi:element minoccurs="0" maxoccurs="1" name="offsetTypeCode" type="xsi:token">
+      <xsi:element name="offsetValue" type="xsi:float">
+      <xsi:element minoccurs="0" maxoccurs="1" name="offsetDescription" type="xsi:string">
+      <xsi:element name="unit" type="UnitsType">
+      <xsi:element default="true" name="offsetIsVertical" type="xsi:boolean">
+      <xsi:element minoccurs="0" maxoccurs="1" name="offsetAzimuthDegrees" type="xsi:int">
+    </xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:element></xsi:sequence>
+    <xsi:attribute name="offsetTypeID" type="positiveInt">
+  </xsi:attribute></xsi:complextype>
+  <xsi:complextype name="PropertyType">
+    <xsi:simplecontent>
+      <xsi:extension base="xsi:string">
+        <xsi:attribute name="type" type="xsi:token" use="optional">
+        <xsi:attribute name="name" type="xsi:normalizedString" use="required">
+        <xsi:attribute name="uri" type="xsi:anyURI" use="optional">
+      </xsi:attribute></xsi:attribute></xsi:attribute></xsi:extension>
+    </xsi:simplecontent>
+  </xsi:complextype>
+  <xsi:simpletype name="CensorCodeCodeList">
+    <xsi:union membertypes="CensorCodeEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="SampleTypeCodeList">
+    <xsi:union membertypes="sampleTypeEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="ValueTypeCodeList">
+    <xsi:union membertypes="xsi:string valueTypeEnum ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="GeneralCategoryCodeList">
+    <xsi:union membertypes="generalCategoryEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="QualityControlLevelCodeList">
+    <xsi:union membertypes="QualityControlLevelEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="DataTypeCodeList">
+    <xsi:union membertypes="dataTypeEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="SampleMediumCodeList">
+    <xsi:union membertypes="SampleMediumEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="UnitsTypeCodeList">
+    <xsi:union membertypes="xsi:string UnitsTypeEnum ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="SiteTypeCodeList">
+    <xsi:union membertypes="SiteTypeEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="SiteTypeEnum">
+    <xsi:restriction base="xsi:string">
+  </xsi:restriction></xsi:simpletype>
+  <xsi:simpletype name="SpeciationCodeList">
+    <xsi:union membertypes="SpeciationEnum xsi:string ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="SpeciationEnum">
+    <xsi:restriction base="xsi:string">
+  </xsi:restriction></xsi:simpletype>
+  <xsi:simpletype name="TopicCategoryEnum">
+    <xsi:restriction base="xsi:string">
+  </xsi:restriction></xsi:simpletype>
+  <xsi:simpletype name="TopicCategoryCodeList">
+    <xsi:union membertypes="xsi:string TopicCategoryEnum ">
+  </xsi:union></xsi:simpletype>
+  <xsi:simpletype name="VerticalDatumEnum">
+    <xsi:restriction base="xsi:token">
+  </xsi:restriction></xsi:simpletype>
+  <xsi:simpletype name="VerticalDatumCodeList">
+    <xsi:union membertypes="VerticalDatumEnum xsi:string xsi:token ">
+  </xsi:union></xsi:simpletype>
+</xsi:element></xsi:element></xsi:element></xsi:element></xsi:complextype></xsi:attribute></xsi:attribute></xsi:attribute>
+</xsi:attribute></xsi:attribute></xsi:schema>

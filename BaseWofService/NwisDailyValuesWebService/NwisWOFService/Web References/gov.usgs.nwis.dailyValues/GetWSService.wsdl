@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="http://nwis.usgs.gov/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GetWSService" targetNamespace="http://nwis.usgs.gov/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://interim.waterservices.usgs.gov:80/NWISQuery/GetWSService?xsd=1" namespace="http://www.cuahsi.org/waterML/1.0/" />
+    </xsd:schema>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://interim.waterservices.usgs.gov:80/NWISQuery/GetWSService?xsd=2" namespace="http://nwis.usgs.gov/" />
+    </xsd:schema>
+  </types>
+  <message name="getDV">
+    <part name="parameters" element="tns:getDV" />
+  </message>
+  <message name="getDVResponse">
+    <part name="parameters" element="tns:getDVResponse" />
+  </message>
+  <message name="MissingDataException">
+    <part name="fault" element="tns:MissingDataException" />
+  </message>
+  <message name="ServerException">
+    <part name="fault" element="tns:ServerException" />
+  </message>
+  <message name="getIDA">
+    <part name="parameters" element="tns:getIDA" />
+  </message>
+  <message name="getIDAResponse">
+    <part name="parameters" element="tns:getIDAResponse" />
+  </message>
+  <portType name="GetWS">
+    <operation name="getDV">
+      <input message="tns:getDV" />
+      <output message="tns:getDVResponse" />
+      <fault name="MissingDataException" message="tns:MissingDataException" />
+      <fault name="ServerException" message="tns:ServerException" />
+    </operation>
+    <operation name="getIDA">
+      <input message="tns:getIDA" />
+      <output message="tns:getIDAResponse" />
+      <fault name="MissingDataException" message="tns:MissingDataException" />
+      <fault name="ServerException" message="tns:ServerException" />
+    </operation>
+  </portType>
+  <binding name="GetWSPortBinding" type="tns:GetWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="getDV">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="MissingDataException">
+        <soap:fault use="literal" name="MissingDataException" namespace="" />
+      </fault>
+      <fault name="ServerException">
+        <soap:fault use="literal" name="ServerException" namespace="" />
+      </fault>
+    </operation>
+    <operation name="getIDA">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+      <fault name="MissingDataException">
+        <soap:fault use="literal" name="MissingDataException" namespace="" />
+      </fault>
+      <fault name="ServerException">
+        <soap:fault use="literal" name="ServerException" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="GetWSService">
+    <port name="GetWSPort" binding="tns:GetWSPortBinding">
+      <soap:address location="http://interim.waterservices.usgs.gov:80/NWISQuery/GetWSService" />
+    </port>
+  </service>
+</definitions>

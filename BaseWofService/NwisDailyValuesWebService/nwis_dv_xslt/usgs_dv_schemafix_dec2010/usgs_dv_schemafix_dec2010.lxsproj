@@ -1,0 +1,15 @@
+﻿<?xml version="1.0"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="8.1.7.2743" UseRelativePaths="false">
+	<Project Name="usgs_dv_schemafix_dec2010">
+		<SubGroup Name="Documents">
+			<File Uri="C:\dev2005\BaseWofService\NwisDailyValuesWebService\nwis_dv_xslt\GetDV1.xml"/>
+			<File Uri="C:\dev2005\BaseWofService\NwisDailyValuesWebService\nwis_dv_xslt\GetDV1_test3.xml"/>
+		</SubGroup>
+		<SubGroup Name="Schemas"/>
+		<SubGroup Name="Transforms">
+			<File Uri="C:\dev2005\BaseWofService\NwisDailyValuesWebService\nwis_dv_xslt\usgs_dv_V10_dec_fix.xslt"/>
+			<File Uri="C:\dev2005\BaseWofService\NwisDailyValuesWebService\nwis_dv_xslt\usgs_dv_passthrough.xslt"/>
+		</SubGroup>
+	</Project>
+</XmlStudioProject>

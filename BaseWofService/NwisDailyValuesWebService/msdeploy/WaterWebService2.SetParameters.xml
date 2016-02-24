@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/WaterWebService2_deploy" />
+  <setParameter name="ODDB-Web.config Connection String" value="Data Source=kyle.ucsd.edu;Failover Partner=disrupter.sdsc.edu;Initial Catalog=USGSApr2012;User=webservice;password=webservice" />
+  <setParameter name="elmah-sqlserver-Web.config Connection String" value="Server=disrupter.sdsc.edu;Database=errorLogging;User ID=loggingService;Password=l0gg1ng;Trusted_Connection=False;" />
+</parameters>

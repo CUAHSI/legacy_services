@@ -1,0 +1,1 @@
+﻿asosimportcommand.exe datasetid=10 all=all token=bgFcccciDafJnemlGInn connectionString=Server=disrupter.sdsc.edu;Database=ASOS_Catalog;user=asosWriter;password=asos;

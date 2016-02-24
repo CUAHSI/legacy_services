@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProjectOptions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="9.1.5.3408">
+	<OpenFile Uri="C:\dev_2010\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_1.xsd"/>
+	<OpenFile Uri="C:\SoftwareReleases\genericodws\lbrsampleResponses20091110\v10\GetValues_wellsville_sample.xml"/>
+	<OpenFile Uri="C:\SoftwareReleases\genericodws\lbrsampleResponses20091110\v11\GetValues_wellsville_sample.xml"/>
+	<OpenFile Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\WaterWebService2\usgs_v11toV10.xslt"/>
+	<OpenFile Uri="C:\dev_2010\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd"/>
+	<OpenFile Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\01646500.xml"/>
+</XmlStudioProjectOptions>

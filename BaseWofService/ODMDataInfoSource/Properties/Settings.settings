@@ -1,0 +1,33 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WaterOneFlow.Service.Source.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SiteCodeQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE SiteCode = @siteCode </Value>
+    </Setting>
+    <Setting Name="VariableCodeQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE VariableCode = @variableCode </Value>
+    </Setting>
+    <Setting Name="VariableIDQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE VariableID = @variableID </Value>
+    </Setting>
+    <Setting Name="getAllQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT  top 50000 * FROM {0} </Value>
+    </Setting>
+    <Setting Name="valuesQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * from {0} WHERE
+SiteID = @SiteID
+AND VariableID = @Variable
+</Value>
+    </Setting>
+    <Setting Name="ValuesDateRangeFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DateTime BETWEEN {0} AND {1}</Value>
+    </Setting>
+    <Setting Name="ValuesDateOnlyBeginDateFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DateTime &gt;= {0}</Value>
+    </Setting>
+    <Setting Name="ValuesDateOnlyEndDateFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">DateTime &lt;= {0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

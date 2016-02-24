@@ -1,0 +1,8 @@
+Request ID : 866073
+Request Type : Station Download
+Record Count : 530487
+Request Mode : Overnight batch
+File Name : all_20110830_133342.zip
+URL : http://www.epa.gov/storpubl/modern/downloads/all_20110830_133342.zip
+Email Address : valentin@sdsc.edu
+You will be notified when the request is processed.

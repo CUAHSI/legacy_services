@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestLists xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestList name="sites" id="04349826-5965-4d76-94d6-cc3cd87295da" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink name="GetSeriesTest" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="3da7f4e2-a03f-c535-43bb-cbb328984c42" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="GetSitesTest" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="60209405-e7e1-31ec-744a-1dc9411d2d9d" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+  <TestList name="Lists of Tests" id="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <RunConfiguration name="Local Test Run" storage="localtestrun.testrunconfig" id="11669042-1893-4f8b-8c22-0c7bbad8ae39" type="Microsoft.VisualStudio.TestTools.Common.TestRunConfiguration" />
+  </TestList>
+  <TestList name="variables list" id="96e5325c-070a-4cfd-a037-45f22e20a8db" parentListId="8c43106b-9dc1-4907-a29f-aa66a61bf5b6">
+    <TestLinks>
+      <TestLink name="GetVariablesTest" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="63813262-ac4b-4c14-ef92-d4169de9ef96" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="option2UsgsStatCodeTest4" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="2fcbfd76-9d79-a72f-f5b8-4b9b0b420f98" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="option2UsgsStatCodeTest5" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="9023d8e2-942f-a288-8d62-7256b4a26bf3" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="option2UsgsStatCodeTest2" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="dcafa191-250f-7a52-c2ff-a56d2d4f2432" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="RowToVariableTest" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="20947a81-c5f2-a7df-d514-62131a196252" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="option2UsgsStatCodeTest3" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="83e93766-b591-3ff0-7d0c-94b5678ce6a4" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+      <TestLink name="option2UsgsStatCodeTest" storage="nwiswoftest\bin\debug\nwiswoftest.dll" id="411e1120-b7ce-e1c8-6ce1-06dd833113c3" type="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestElement, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.ObjectModel,   PublicKeyToken=b03f5f7f11d50a3a" />
+    </TestLinks>
+  </TestList>
+</TestLists>

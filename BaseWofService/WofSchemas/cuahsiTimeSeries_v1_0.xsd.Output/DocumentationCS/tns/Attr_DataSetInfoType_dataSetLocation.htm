@@ -1,0 +1,147 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>DataSetInfoType.DataSetLocation</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="Cls_IGeogLocationType.htm">tns.IGeogLocationType</A> DataSetLocation</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">DataSetLocation</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_IGeogLocationType.htm">tns.IGeogLocationType</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_DataSetInfoType.htm">tns.DataSetInfoType</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Element</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read/Write</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			An optional <A HREF="../tns/Cls_IGeogLocationType.htm">IGeogLocationType</A>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			It is optional, initially it is null.<BR>
+			The object type is an interface, this means that it must be populated using a class derived from <A HREF="Cls_IGeogLocationType.htm">IGeogLocationType</A>.<BR>
+			In order to populate it, a new class deriving from tns.IGeogLocationType must be created and assigned to the property.<BR>
+			To 'un-populate' the property set it to null.<BR>
+			&nbsp;<BR>
+			<B>obj.DataSetLocation = new XXXX();</B><BR>
+			&nbsp;<BR>
+			Where XXXX is one of the following classes<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_GeogLocationType.htm">GeogLocationType</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_LatLonBox.htm">LatLonBox</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_LatLonBoxType.htm">LatLonBoxType</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_LatLonPoint.htm">LatLonPoint</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_LatLonPointType.htm">LatLonPointType</A><BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+// One of the following
+<A HREF="Cls_GeogLocationType.htm">tns.GeogLocationType</A> oItem = new <A HREF="Cls_GeogLocationType.htm">tns.GeogLocationType</A>();
+<A HREF="Cls_LatLonBox.htm">tns.LatLonBox</A> oItem = new <A HREF="Cls_LatLonBox.htm">tns.LatLonBox</A>();
+<A HREF="Cls_LatLonBoxType.htm">tns.LatLonBoxType</A> oItem = new <A HREF="Cls_LatLonBoxType.htm">tns.LatLonBoxType</A>();
+<A HREF="Cls_LatLonPoint.htm">tns.LatLonPoint</A> oItem = new <A HREF="Cls_LatLonPoint.htm">tns.LatLonPoint</A>();
+<A HREF="Cls_LatLonPointType.htm">tns.LatLonPointType</A> oItem = new <A HREF="Cls_LatLonPointType.htm">tns.LatLonPointType</A>();
+<A HREF="Cls_DataSetInfoType.htm">tns.DataSetInfoType</A> oParent = ...;
+
+// The property is optional, so it must be populated before it can be
+// used.
+oParent.DataSetLocation = oItem;
+
+// Now its populated it can be used.
+oParent.DataSetLocation.[Some Property] = ...;
+
+// Note:
+// It may be nessarsary to cast the class to its actaul type
+// (see types listed above for posibles) in order to access 
+// all of its properties i.e.
+if (oParent.DataSetLocation[0].GetType().Name == "GeogLocationType")
+{
+  <A HREF="Cls_GeogLocationType.htm">tns.GeogLocationType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_GeogLocationType.htm">tns.GeogLocationType</A>)oParent.DataSetLocation[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.DataSetLocation[0].GetType().Name == "LatLonBox")
+{
+  <A HREF="Cls_LatLonBox.htm">tns.LatLonBox</A> oDervItem;
+  oDervItem = (<A HREF="Cls_LatLonBox.htm">tns.LatLonBox</A>)oParent.DataSetLocation[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.DataSetLocation[0].GetType().Name == "LatLonBoxType")
+{
+  <A HREF="Cls_LatLonBoxType.htm">tns.LatLonBoxType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_LatLonBoxType.htm">tns.LatLonBoxType</A>)oParent.DataSetLocation[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.DataSetLocation[0].GetType().Name == "LatLonPoint")
+{
+  <A HREF="Cls_LatLonPoint.htm">tns.LatLonPoint</A> oDervItem;
+  oDervItem = (<A HREF="Cls_LatLonPoint.htm">tns.LatLonPoint</A>)oParent.DataSetLocation[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.DataSetLocation[0].GetType().Name == "LatLonPointType")
+{
+  <A HREF="Cls_LatLonPointType.htm">tns.LatLonPointType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_LatLonPointType.htm">tns.LatLonPointType</A>)oParent.DataSetLocation[1];
+  oDervItem.[Some Property] = ...;
+}
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

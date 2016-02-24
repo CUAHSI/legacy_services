@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<LXDBWizardProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" ProjectVersion="5.2.2" IsValid="false">
+	<Schema FullPathName="D:\dev2005\waterOneFlow\waterOneFlowImpl\cuahsiTimeSeries.xsd" SchemaType="XSD" XDRAllowAdditionalAttributes="false" XDRIgnoreSimpleElements="false" CurrentLanguage="CS">
+		<CPP DefaultClassNamespace="cuahsiTimeSeriesLib" CollectionMapping="Original"/>
+		<CSharp DefaultClassNamespace="cuahsiTimeSeriesLib" BaseNamespace="waterOneFlowtest" CollectionMapping="Original"/>
+		<Java DefaultPackageName="cuahsiTimeSeriesLib" BasePackage="waterOneFlow.schema.v1" CollectionMapping="Original"/>
+		<VBNet DefaultClassNamespace="cuahsiTimeSeriesLib" BaseNamespace="" CollectionMapping="Original"/>
+		<VB6 ComponentName="cuahsiTimeSeriesLib" Description="" MajorVersion="0" MinorVersion="0" Revision="0" ProductName=""/>
+	</Schema>
+	<Output OutputPath="D:\dev2005\cuahsiTimeSeries.xsd.Output.java" CreateDocumentation="true" CreateSampleApplication="true" OutputDateInHeaderBlock="true" OutputProjectFiles="true" OutputFastInfosetTables="false">
+		<SampleXML FilePath="E:\Documents and Settings\valentin\My Documents\xmlResponse2\nwisIID\GetVariableInfoObject.xml"/>
+		<SampleXML FilePath="E:\Documents and Settings\valentin\My Documents\xmlResponse2\nwisIID\GetValuesObject.xml"/>
+		<SelectedElements ElementName="extension(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="note(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="option(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="optionGroup(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="options(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="qualifier(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="qualityControlLevel(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="site(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="sitesResponse(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="timeSeriesResponse(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="timeZoneInfo(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="units(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="variableCode(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="variables(http://www.cuahsi.org/waterML/1.0/)"/>
+		<SelectedElements ElementName="variablesResponse(http://www.cuahsi.org/waterML/1.0/)"/>
+	</Output>
+	<PostBuild BuildHelp="true" OpenHelp="true" OpenProject="true"/>
+</LXDBWizardProject>

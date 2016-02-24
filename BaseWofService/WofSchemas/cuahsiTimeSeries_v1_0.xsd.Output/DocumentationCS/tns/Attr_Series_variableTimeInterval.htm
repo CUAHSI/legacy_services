@@ -1,0 +1,140 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Series.VariableTimeInterval</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="Cls_ITimePeriodType.htm">tns.ITimePeriodType</A> VariableTimeInterval</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">VariableTimeInterval</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_ITimePeriodType.htm">tns.ITimePeriodType</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_Series.htm">tns.Series</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Element</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read/Write</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			A mandatory <A HREF="../tns/Cls_ITimePeriodType.htm">ITimePeriodType</A>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			It is mandatory and therefore must be populated within the XML.<BR>
+			The Property is initially set to null. It MUST have an object assigned to it before ToXml or ToXmlFile are called.<BR>
+			The object type is an interface, this means that it must be populated using a class derived from <A HREF="Cls_ITimePeriodType.htm">ITimePeriodType</A>.<BR>
+			In order to populate it a new class deriving from tns.ITimePeriodType must be created and assigned to the property.<BR>
+			&nbsp;<BR>
+			<B>obj.VariableTimeInterval = new XXXX();</B><BR>
+			&nbsp;<BR>
+			Where XXXX is one of the following classes<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_TimeIntervalType.htm">TimeIntervalType</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_TimePeriodRealTimeType.htm">TimePeriodRealTimeType</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_TimePeriodType.htm">TimePeriodType</A><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<A HREF="Cls_TimeSingleType.htm">TimeSingleType</A><BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+// One of the following
+<A HREF="Cls_TimeIntervalType.htm">tns.TimeIntervalType</A> oItem = new <A HREF="Cls_TimeIntervalType.htm">tns.TimeIntervalType</A>();
+<A HREF="Cls_TimePeriodRealTimeType.htm">tns.TimePeriodRealTimeType</A> oItem = new <A HREF="Cls_TimePeriodRealTimeType.htm">tns.TimePeriodRealTimeType</A>();
+<A HREF="Cls_TimePeriodType.htm">tns.TimePeriodType</A> oItem = new <A HREF="Cls_TimePeriodType.htm">tns.TimePeriodType</A>();
+<A HREF="Cls_TimeSingleType.htm">tns.TimeSingleType</A> oItem = new <A HREF="Cls_TimeSingleType.htm">tns.TimeSingleType</A>();
+<A HREF="Cls_Series.htm">tns.Series</A> oParent = ...;
+
+// The property MUST be populated for the XML document to be valid.
+// Because the item is abstract, it can contain anyone of the 
+// classes listed above, so can not be pre-populated by the generator
+oParent.VariableTimeInterval = oItem;
+
+// Now its populated it can be used.
+oParent.VariableTimeInterval.[Some Property] = ...;
+
+// Note:
+// It may be nessarsary to cast the class to its actaul type
+// (see types listed above for posibles) in order to access 
+// all of its properties i.e.
+if (oParent.VariableTimeInterval[0].GetType().Name == "TimeIntervalType")
+{
+  <A HREF="Cls_TimeIntervalType.htm">tns.TimeIntervalType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_TimeIntervalType.htm">tns.TimeIntervalType</A>)oParent.VariableTimeInterval[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.VariableTimeInterval[0].GetType().Name == "TimePeriodRealTimeType")
+{
+  <A HREF="Cls_TimePeriodRealTimeType.htm">tns.TimePeriodRealTimeType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_TimePeriodRealTimeType.htm">tns.TimePeriodRealTimeType</A>)oParent.VariableTimeInterval[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.VariableTimeInterval[0].GetType().Name == "TimePeriodType")
+{
+  <A HREF="Cls_TimePeriodType.htm">tns.TimePeriodType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_TimePeriodType.htm">tns.TimePeriodType</A>)oParent.VariableTimeInterval[1];
+  oDervItem.[Some Property] = ...;
+}
+if (oParent.VariableTimeInterval[0].GetType().Name == "TimeSingleType")
+{
+  <A HREF="Cls_TimeSingleType.htm">tns.TimeSingleType</A> oDervItem;
+  oDervItem = (<A HREF="Cls_TimeSingleType.htm">tns.TimeSingleType</A>)oParent.VariableTimeInterval[1];
+  oDervItem.[Some Property] = ...;
+}
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

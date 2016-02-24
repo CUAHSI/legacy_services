@@ -1,0 +1,123 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2DCB289E-B816-4800-9FD5-85703751938C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>cuahsiTimeSeries_v1_0Lib</RootNamespace>
+    <AssemblyName>cuahsiTimeSeries_v1_0Lib</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiquidTechnologies.Runtime.Net20, Version=8.0.0.0, Culture=neutral, PublicKeyToken=64bee40f6e1c14f0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Liquid Technologies\Liquid XML Studio 2010\XmlDataBinder8\Redist8\DotNet\LiquidTechnologies.Runtime.Net20.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ClassFactory.cs" />
+    <Compile Include="Enumerations.cs" />
+    <Compile Include="XmlObjectCollection.cs" />
+    <Compile Include="XmlCommonBase.cs" />
+    <Compile Include="tns\ContactInformationType.cs" />
+    <Compile Include="tns\Criteria.cs" />
+    <Compile Include="tns\DatasetInfo.cs" />
+    <Compile Include="tns\DataSetInfoType.cs" />
+    <Compile Include="tns\DaylightSavingsTimeZone.cs" />
+    <Compile Include="tns\DefaultTimeZone.cs" />
+    <Compile Include="tns\Extension.cs" />
+    <Compile Include="tns\GeogLocationType.cs" />
+    <Compile Include="tns\GeoLocation.cs" />
+    <Compile Include="tns\IGeogLocationType.cs" />
+    <Compile Include="tns\ISourceInfoType.cs" />
+    <Compile Include="tns\ITimePeriodType.cs" />
+    <Compile Include="tns\LatLonBox.cs" />
+    <Compile Include="tns\LatLonBoxType.cs" />
+    <Compile Include="tns\LatLonPoint.cs" />
+    <Compile Include="tns\LatLonPointType.cs" />
+    <Compile Include="tns\LocalSiteXY.cs" />
+    <Compile Include="tns\MetaDataType.cs" />
+    <Compile Include="tns\MethodType.cs" />
+    <Compile Include="tns\NoteType.cs" />
+    <Compile Include="tns\OffsetType.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Option.cs" />
+    <Compile Include="tns\OptionA.cs" />
+    <Compile Include="tns\OptionGroup.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Options.cs" />
+    <Compile Include="tns\OptionsA.cs" />
+    <Compile Include="tns\ParentID.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Qualifier.cs" />
+    <Compile Include="tns\QualifierA.cs" />
+    <Compile Include="tns\QualifierAA.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\QualityControlLevel.cs" />
+    <Compile Include="tns\QualityControlLevelA.cs" />
+    <Compile Include="tns\QualityControlLevelType.cs" />
+    <Compile Include="tns\QueryInfoType.cs" />
+    <Compile Include="tns\Related.cs" />
+    <Compile Include="tns\RelatedID.cs" />
+    <Compile Include="tns\Series.cs" />
+    <Compile Include="tns\SeriesCatalogType.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Site.cs" />
+    <Compile Include="tns\SiteA.cs" />
+    <Compile Include="tns\SiteCode.cs" />
+    <Compile Include="tns\SiteInfoType.cs" />
+    <Compile Include="tns\SitesResponse.cs" />
+    <Compile Include="tns\SourceInfoType.cs" />
+    <Compile Include="tns\SourceType.cs" />
+    <Compile Include="tns\TimeIntervalType.cs" />
+    <Compile Include="tns\TimeParam.cs" />
+    <Compile Include="tns\TimePeriodRealTimeType.cs" />
+    <Compile Include="tns\TimePeriodType.cs" />
+    <Compile Include="tns\TimeSeriesResponse.cs" />
+    <Compile Include="tns\TimeSeriesType.cs" />
+    <Compile Include="tns\TimeSingleType.cs" />
+    <Compile Include="tns\TimeSupport.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\TimeZoneInfo.cs" />
+    <Compile Include="tns\TimeZoneInfoA.cs" />
+    <Compile Include="tns\TsValuesSingleVariableType.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Units.cs" />
+    <Compile Include="tns\UnitsA.cs" />
+    <Compile Include="tns\UnitsType.cs" />
+    <Compile Include="tns\ValueCount.cs" />
+    <Compile Include="tns\ValueSingleVariable.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\VariableCode.cs" />
+    <Compile Include="tns\VariableCodeA.cs" />
+    <Compile Include="tns\VariableInfoType.cs" />
+    <Compile Include="tns\VariableInfoType_related_Group.cs" />
+    <Compile Include="cuahsiTimeSeries_v1_0Lib\Variables.cs" />
+    <Compile Include="tns\VariablesA.cs" />
+    <Compile Include="tns\VariablesResponse.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
+

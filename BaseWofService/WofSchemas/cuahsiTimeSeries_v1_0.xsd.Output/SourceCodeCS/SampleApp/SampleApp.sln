@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleApp", "SampleApp.csproj", "{2D2E22A6-2EF0-4E73-9B4C-16CBBBE48B62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cuahsiTimeSeries_v1_0Lib", "..\cuahsiTimeSeries_v1_0Lib.csproj", "{2DCB289E-B816-4800-9FD5-85703751938C}"
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectDependencies) = postSolution
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{2D2E22A6-2EF0-4E73-9B4C-16CBBBE48B62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D2E22A6-2EF0-4E73-9B4C-16CBBBE48B62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D2E22A6-2EF0-4E73-9B4C-16CBBBE48B62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D2E22A6-2EF0-4E73-9B4C-16CBBBE48B62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DCB289E-B816-4800-9FD5-85703751938C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DCB289E-B816-4800-9FD5-85703751938C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DCB289E-B816-4800-9FD5-85703751938C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DCB289E-B816-4800-9FD5-85703751938C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
+

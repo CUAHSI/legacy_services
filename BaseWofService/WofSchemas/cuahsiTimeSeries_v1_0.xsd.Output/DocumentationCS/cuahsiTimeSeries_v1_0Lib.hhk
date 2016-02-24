@@ -1,0 +1,3170 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Liquid Technologies; Liquid XML Data Binder">
+<!-- Sitemap 1.0 -->
+</HEAD><BODY>
+<UL>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType (Class)">
+		<param name="Local" value="tns\Cls_ContactInformationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ContactInformationType (Class)">
+		<param name="Local" value="tns\Cls_ContactInformationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType.ContactName (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_ContactName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactName (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_ContactName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ContactName (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_ContactName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType.TypeOfContact (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_TypeOfContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TypeOfContact (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_TypeOfContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TypeOfContact (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_TypeOfContact.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType.Phone (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Phone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Phone (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Phone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Phone (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Phone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType.Email (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Email.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Email (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Email.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Email (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Email.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformationType.Address (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Address.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Address (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Address.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Address (Property)">
+		<param name="Local" value="tns\Attr_ContactInformationType_Address.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Criteria (Class)">
+		<param name="Local" value="tns\Cls_Criteria.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Criteria (Class)">
+		<param name="Local" value="tns\Cls_Criteria.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Criteria.LocationParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_locationParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocationParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_locationParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LocationParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_locationParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Criteria.VariableParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_variableParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_variableParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_variableParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Criteria.TimeParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_timeParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_timeParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeParam (Property)">
+		<param name="Local" value="tns\Attr_Criteria_timeParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo (Class)">
+		<param name="Local" value="tns\Cls_DatasetInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DatasetInfo (Class)">
+		<param name="Local" value="tns\Cls_DatasetInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.DataSetIdentifier (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetIdentifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetIdentifier (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetIdentifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DataSetIdentifier (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetIdentifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.TimeZoneInfo (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_timeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneInfo (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_timeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeZoneInfo (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_timeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.DataSetDescription (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetDescription (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DataSetDescription (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.Note (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Note (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Note (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.DataSetLocation (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetLocation (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DataSetLocation (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_dataSetLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DatasetInfo.Extension (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Extension (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Extension (Property)">
+		<param name="Local" value="tns\Attr_DatasetInfo_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType (Class)">
+		<param name="Local" value="tns\Cls_DataSetInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DataSetInfoType (Class)">
+		<param name="Local" value="tns\Cls_DataSetInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.DataSetIdentifier (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_dataSetIdentifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.TimeZoneInfo (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_timeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.DataSetDescription (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_dataSetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.Note (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.DataSetLocation (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_dataSetLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataSetInfoType.Extension (Property)">
+		<param name="Local" value="tns\Attr_DataSetInfoType_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DaylightSavingsTimeZone (Class)">
+		<param name="Local" value="tns\Cls_DaylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DaylightSavingsTimeZone (Class)">
+		<param name="Local" value="tns\Cls_DaylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DaylightSavingsTimeZone.ZoneAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ZoneAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ZoneAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DaylightSavingsTimeZone.ZoneOffset (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneOffset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ZoneOffset (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneOffset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ZoneOffset (Property)">
+		<param name="Local" value="tns\Attr_DaylightSavingsTimeZone_ZoneOffset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefaultTimeZone (Class)">
+		<param name="Local" value="tns\Cls_DefaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DefaultTimeZone (Class)">
+		<param name="Local" value="tns\Cls_DefaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefaultTimeZone.ZoneAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_DefaultTimeZone_ZoneAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefaultTimeZone.ZoneOffset (Property)">
+		<param name="Local" value="tns\Attr_DefaultTimeZone_ZoneOffset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Extension (Class)">
+		<param name="Local" value="tns\Cls_Extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Extension (Class)">
+		<param name="Local" value="tns\Cls_Extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Extension.AnyElement (Property)">
+		<param name="Local" value="tns\Attr_Extension_AnyElement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AnyElement (Property)">
+		<param name="Local" value="tns\Attr_Extension_AnyElement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.AnyElement (Property)">
+		<param name="Local" value="tns\Attr_Extension_AnyElement.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeogLocationType (Class)">
+		<param name="Local" value="tns\Cls_GeogLocationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.GeogLocationType (Class)">
+		<param name="Local" value="tns\Cls_GeogLocationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeogLocationType.Srs (Property)">
+		<param name="Local" value="tns\Attr_GeogLocationType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Srs (Property)">
+		<param name="Local" value="tns\Attr_GeogLocationType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Srs (Property)">
+		<param name="Local" value="tns\Attr_GeogLocationType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeoLocation (Class)">
+		<param name="Local" value="tns\Cls_GeoLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.GeoLocation (Class)">
+		<param name="Local" value="tns\Cls_GeoLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeoLocation.GeogLocation (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_geogLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeogLocation (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_geogLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.GeogLocation (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_geogLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeoLocation.LocalSiteXY (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_localSiteXY.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_localSiteXY.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LocalSiteXY (Property)">
+		<param name="Local" value="tns\Attr_GeoLocation_localSiteXY.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IGeogLocationType (Interface)">
+		<param name="Local" value="tns\Cls_IGeogLocationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.IGeogLocationType (Interface)">
+		<param name="Local" value="tns\Cls_IGeogLocationType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IGeogLocationType.Srs (Property)">
+		<param name="Local" value="tns\Attr_IGeogLocationType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ISourceInfoType (Interface)">
+		<param name="Local" value="tns\Cls_ISourceInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ISourceInfoType (Interface)">
+		<param name="Local" value="tns\Cls_ISourceInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ITimePeriodType (Interface)">
+		<param name="Local" value="tns\Cls_ITimePeriodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ITimePeriodType (Interface)">
+		<param name="Local" value="tns\Cls_ITimePeriodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox (Class)">
+		<param name="Local" value="tns\Cls_LatLonBox.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LatLonBox (Class)">
+		<param name="Local" value="tns\Cls_LatLonBox.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox.Srs (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox.South (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_south.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="South (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_south.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.South (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_south.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox.West (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_west.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="West (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_west.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.West (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_west.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox.North (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_north.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="North (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_north.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.North (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_north.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBox.East (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_east.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="East (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_east.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.East (Property)">
+		<param name="Local" value="tns\Attr_LatLonBox_east.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType (Class)">
+		<param name="Local" value="tns\Cls_LatLonBoxType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LatLonBoxType (Class)">
+		<param name="Local" value="tns\Cls_LatLonBoxType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType.Srs (Property)">
+		<param name="Local" value="tns\Attr_LatLonBoxType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType.South (Property)">
+		<param name="Local" value="tns\Attr_LatLonBoxType_south.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType.West (Property)">
+		<param name="Local" value="tns\Attr_LatLonBoxType_west.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType.North (Property)">
+		<param name="Local" value="tns\Attr_LatLonBoxType_north.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonBoxType.East (Property)">
+		<param name="Local" value="tns\Attr_LatLonBoxType_east.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPoint (Class)">
+		<param name="Local" value="tns\Cls_LatLonPoint.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LatLonPoint (Class)">
+		<param name="Local" value="tns\Cls_LatLonPoint.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPoint.Srs (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPoint.Latitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_latitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Latitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_latitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Latitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_latitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPoint.Longitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_longitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Longitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_longitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Longitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPoint_longitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPointType (Class)">
+		<param name="Local" value="tns\Cls_LatLonPointType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LatLonPointType (Class)">
+		<param name="Local" value="tns\Cls_LatLonPointType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPointType.Srs (Property)">
+		<param name="Local" value="tns\Attr_LatLonPointType_srs.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPointType.Latitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPointType_latitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LatLonPointType.Longitude (Property)">
+		<param name="Local" value="tns\Attr_LatLonPointType_longitude.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY (Class)">
+		<param name="Local" value="tns\Cls_LocalSiteXY.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.LocalSiteXY (Class)">
+		<param name="Local" value="tns\Cls_LocalSiteXY.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY.ProjectionInformation (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_projectionInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ProjectionInformation (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_projectionInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ProjectionInformation (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_projectionInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY.X (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_X.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="X (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_X.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.X (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_X.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY.Y (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Y.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Y (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Y.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Y (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Y.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY.Z (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Z.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Z (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Z.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Z (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_Z.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LocalSiteXY.Note (Property)">
+		<param name="Local" value="tns\Attr_LocalSiteXY_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType (Class)">
+		<param name="Local" value="tns\Cls_MetaDataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MetaDataType (Class)">
+		<param name="Local" value="tns\Cls_MetaDataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType.TopicCategory (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_TopicCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TopicCategory (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_TopicCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TopicCategory (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_TopicCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType.Title (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_Title.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Title (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_Title.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Title (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_Title.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType.abstract_ (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_abstract_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="abstract_ (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_abstract_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.abstract_ (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_abstract_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType.ProfileVersion (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_ProfileVersion.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ProfileVersion (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_ProfileVersion.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ProfileVersion (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_ProfileVersion.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetaDataType.MetadataLink (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_MetadataLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetadataLink (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_MetadataLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MetadataLink (Property)">
+		<param name="Local" value="tns\Attr_MetaDataType_MetadataLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodType (Class)">
+		<param name="Local" value="tns\Cls_MethodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MethodType (Class)">
+		<param name="Local" value="tns\Cls_MethodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodType.MethodID (Property)">
+		<param name="Local" value="tns\Attr_MethodType_methodID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodID (Property)">
+		<param name="Local" value="tns\Attr_MethodType_methodID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MethodID (Property)">
+		<param name="Local" value="tns\Attr_MethodType_methodID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodType.MethodDescription (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodDescription (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MethodDescription (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodType.MethodLink (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MethodLink (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MethodLink (Property)">
+		<param name="Local" value="tns\Attr_MethodType_MethodLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoteType (Class)">
+		<param name="Local" value="tns\Cls_NoteType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.NoteType (Class)">
+		<param name="Local" value="tns\Cls_NoteType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoteType.Type (Property)">
+		<param name="Local" value="tns\Attr_NoteType_type.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Type (Property)">
+		<param name="Local" value="tns\Attr_NoteType_type.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Type (Property)">
+		<param name="Local" value="tns\Attr_NoteType_type.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoteType.Href (Property)">
+		<param name="Local" value="tns\Attr_NoteType_href.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Href (Property)">
+		<param name="Local" value="tns\Attr_NoteType_href.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Href (Property)">
+		<param name="Local" value="tns\Attr_NoteType_href.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoteType.Title (Property)">
+		<param name="Local" value="tns\Attr_NoteType_title.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoteType.Show (Property)">
+		<param name="Local" value="tns\Attr_NoteType_show.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Show (Property)">
+		<param name="Local" value="tns\Attr_NoteType_show.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Show (Property)">
+		<param name="Local" value="tns\Attr_NoteType_show.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType (Class)">
+		<param name="Local" value="tns\Cls_OffsetType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetType (Class)">
+		<param name="Local" value="tns\Cls_OffsetType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.OffsetTypeID (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetTypeID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetTypeID (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetTypeID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetTypeID (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetTypeID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.OffsetValue (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetValue (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetValue (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.OffsetDescription (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetDescription (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetDescription (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.Units (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Units (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Units (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.OffsetIsVertical (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetIsVertical.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetIsVertical (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetIsVertical.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetIsVertical (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetIsVertical.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetType.OffsetHorizDirectionDegrees (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetHorizDirectionDegrees.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetHorizDirectionDegrees (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetHorizDirectionDegrees.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetHorizDirectionDegrees (Property)">
+		<param name="Local" value="tns\Attr_OffsetType_offsetHorizDirectionDegrees.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Option (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Option (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Option.Name (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_name.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Name (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_name.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Name (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_name.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Option.OptionID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OptionID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.OptionID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Option.OptionCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OptionCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.OptionCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Option_optionCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Option (Class)">
+		<param name="Local" value="tns\Cls_OptionA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Name (Property)">
+		<param name="Local" value="tns\Attr_OptionA_name.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OptionID (Property)">
+		<param name="Local" value="tns\Attr_OptionA_optionID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OptionCode (Property)">
+		<param name="Local" value="tns\Attr_OptionA_optionCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OptionGroup (Class)">
+		<param name="Local" value="tns\Cls_OptionGroup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OptionGroup (Class)">
+		<param name="Local" value="tns\Cls_OptionGroup.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OptionGroup.Option (Property)">
+		<param name="Local" value="tns\Attr_OptionGroup_option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Option (Property)">
+		<param name="Local" value="tns\Attr_OptionGroup_option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Option (Property)">
+		<param name="Local" value="tns\Attr_OptionGroup_option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Options (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Options (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Options.Option (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Options_option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Option (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Options_option.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Options (Class)">
+		<param name="Local" value="tns\Cls_OptionsA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ParentID (Class)">
+		<param name="Local" value="tns\Cls_ParentID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ParentID (Class)">
+		<param name="Local" value="tns\Cls_ParentID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ParentID.Network (Property)">
+		<param name="Local" value="tns\Attr_ParentID_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Network (Property)">
+		<param name="Local" value="tns\Attr_ParentID_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Network (Property)">
+		<param name="Local" value="tns\Attr_ParentID_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ParentID.Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_ParentID_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_ParentID_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_ParentID_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ParentID.default_ (Property)">
+		<param name="Local" value="tns\Attr_ParentID_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="default_ (Property)">
+		<param name="Local" value="tns\Attr_ParentID_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.default_ (Property)">
+		<param name="Local" value="tns\Attr_ParentID_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Qualifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Qualifier (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Qualifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.QualifierCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.QualifierCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.QualifierID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.QualifierID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_qualifierID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.Oid (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Oid (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Oid (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.MetadataDateTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MetadataDateTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.MetadataDateTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.Network (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Network (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.Vocabulary (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Vocabulary (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier.default_ (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.default_ (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Qualifier_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Qualifier (Class)">
+		<param name="Local" value="tns\Cls_QualifierA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualifierCode (Property)">
+		<param name="Local" value="tns\Attr_QualifierA_qualifierCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualifierID (Property)">
+		<param name="Local" value="tns\Attr_QualifierA_qualifierID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Oid (Property)">
+		<param name="Local" value="tns\Attr_QualifierA_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MetadataDateTime (Property)">
+		<param name="Local" value="tns\Attr_QualifierA_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA (Class)">
+		<param name="Local" value="tns\Cls_QualifierAA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualifierA (Class)">
+		<param name="Local" value="tns\Cls_QualifierAA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA.QualifierID (Property)">
+		<param name="Local" value="tns\Attr_QualifierAA_qualifierID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA.Network (Property)">
+		<param name="Local" value="tns\Attr_QualifierAA_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA.Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_QualifierAA_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA.default_ (Property)">
+		<param name="Local" value="tns\Attr_QualifierAA_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualifierA.QualifierCode (Property)">
+		<param name="Local" value="tns\Attr_QualifierAA_qualifierCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_QualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.QualityControlLevel (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_QualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.QualityControlLevelCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevelCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.QualityControlLevelCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.Oid (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.MetadataDateTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.Network (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.Vocabulary (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.default_ (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel.QualityControlLevelID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevelID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.QualityControlLevelID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_QualityControlLevel_qualityControlLevelID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualityControlLevel (Class)">
+		<param name="Local" value="tns\Cls_QualityControlLevelA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualityControlLevelCode (Property)">
+		<param name="Local" value="tns\Attr_QualityControlLevelA_qualityControlLevelCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualityControlLevelID (Property)">
+		<param name="Local" value="tns\Attr_QualityControlLevelA_qualityControlLevelID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevelType (Class)">
+		<param name="Local" value="tns\Cls_QualityControlLevelType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualityControlLevelType (Class)">
+		<param name="Local" value="tns\Cls_QualityControlLevelType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevelType.QualityControlLevelID (Property)">
+		<param name="Local" value="tns\Attr_QualityControlLevelType_qualityControlLevelID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType (Class)">
+		<param name="Local" value="tns\Cls_QueryInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QueryInfoType (Class)">
+		<param name="Local" value="tns\Cls_QueryInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.CreationTime (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_creationTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CreationTime (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_creationTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.CreationTime (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_creationTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.QueryURL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_queryURL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryURL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_queryURL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QueryURL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_queryURL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.QuerySQL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_querySQL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QuerySQL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_querySQL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QuerySQL (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_querySQL.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.Criteria (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_criteria.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Criteria (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_criteria.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Criteria (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_criteria.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.Note (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfoType.Extension (Property)">
+		<param name="Local" value="tns\Attr_QueryInfoType_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Related (Class)">
+		<param name="Local" value="tns\Cls_Related.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Related (Class)">
+		<param name="Local" value="tns\Cls_Related.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Related.VariableInfoType_related_Group (Property)">
+		<param name="Local" value="tns\Attr_Related_VariableInfoType_related_Group.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType_related_Group (Property)">
+		<param name="Local" value="tns\Attr_Related_VariableInfoType_related_Group.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableInfoType_related_Group (Property)">
+		<param name="Local" value="tns\Attr_Related_VariableInfoType_related_Group.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RelatedID (Class)">
+		<param name="Local" value="tns\Cls_RelatedID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.RelatedID (Class)">
+		<param name="Local" value="tns\Cls_RelatedID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RelatedID.Network (Property)">
+		<param name="Local" value="tns\Attr_RelatedID_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RelatedID.Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_RelatedID_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RelatedID.default_ (Property)">
+		<param name="Local" value="tns\Attr_RelatedID_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series (Class)">
+		<param name="Local" value="tns\Cls_Series.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Series (Class)">
+		<param name="Local" value="tns\Cls_Series.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.DataType (Property)">
+		<param name="Local" value="tns\Attr_Series_dataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataType (Property)">
+		<param name="Local" value="tns\Attr_Series_dataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DataType (Property)">
+		<param name="Local" value="tns\Attr_Series_dataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.Variable (Property)">
+		<param name="Local" value="tns\Attr_Series_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variable (Property)">
+		<param name="Local" value="tns\Attr_Series_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Variable (Property)">
+		<param name="Local" value="tns\Attr_Series_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.ValueCount (Property)">
+		<param name="Local" value="tns\Attr_Series_valueCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueCount (Property)">
+		<param name="Local" value="tns\Attr_Series_valueCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ValueCount (Property)">
+		<param name="Local" value="tns\Attr_Series_valueCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.VariableTimeInterval (Property)">
+		<param name="Local" value="tns\Attr_Series_variableTimeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableTimeInterval (Property)">
+		<param name="Local" value="tns\Attr_Series_variableTimeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableTimeInterval (Property)">
+		<param name="Local" value="tns\Attr_Series_variableTimeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.ValueType (Property)">
+		<param name="Local" value="tns\Attr_Series_valueType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueType (Property)">
+		<param name="Local" value="tns\Attr_Series_valueType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ValueType (Property)">
+		<param name="Local" value="tns\Attr_Series_valueType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.GeneralCategory (Property)">
+		<param name="Local" value="tns\Attr_Series_generalCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeneralCategory (Property)">
+		<param name="Local" value="tns\Attr_Series_generalCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.GeneralCategory (Property)">
+		<param name="Local" value="tns\Attr_Series_generalCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.SampleMedium (Property)">
+		<param name="Local" value="tns\Attr_Series_sampleMedium.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SampleMedium (Property)">
+		<param name="Local" value="tns\Attr_Series_sampleMedium.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SampleMedium (Property)">
+		<param name="Local" value="tns\Attr_Series_sampleMedium.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.Method (Property)">
+		<param name="Local" value="tns\Attr_Series_Method.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Method (Property)">
+		<param name="Local" value="tns\Attr_Series_Method.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Method (Property)">
+		<param name="Local" value="tns\Attr_Series_Method.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.Source (Property)">
+		<param name="Local" value="tns\Attr_Series_Source.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Source (Property)">
+		<param name="Local" value="tns\Attr_Series_Source.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Source (Property)">
+		<param name="Local" value="tns\Attr_Series_Source.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.QualityControlLevel (Property)">
+		<param name="Local" value="tns\Attr_Series_QualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevel (Property)">
+		<param name="Local" value="tns\Attr_Series_QualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QualityControlLevel (Property)">
+		<param name="Local" value="tns\Attr_Series_QualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series.Extension (Property)">
+		<param name="Local" value="tns\Attr_Series_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType (Class)">
+		<param name="Local" value="tns\Cls_SeriesCatalogType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SeriesCatalogType (Class)">
+		<param name="Local" value="tns\Cls_SeriesCatalogType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType.MenuGroupName (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_menuGroupName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="MenuGroupName (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_menuGroupName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.MenuGroupName (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_menuGroupName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType.ServiceWsdl (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_serviceWsdl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ServiceWsdl (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_serviceWsdl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ServiceWsdl (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_serviceWsdl.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType.Note (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType.Series (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_series.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Series (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_series.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Series (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_series.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalogType.Extension (Property)">
+		<param name="Local" value="tns\Attr_SeriesCatalogType_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Site.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Site (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Site.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site.SiteInfo (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_siteInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfo (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_siteInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.SiteInfo (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_siteInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site.SeriesCatalog (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_seriesCatalog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SeriesCatalog (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_seriesCatalog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.SeriesCatalog (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_seriesCatalog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site.Extension (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Extension (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Site_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Site (Class)">
+		<param name="Local" value="tns\Cls_SiteA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteInfo (Property)">
+		<param name="Local" value="tns\Attr_SiteA_siteInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SeriesCatalog (Property)">
+		<param name="Local" value="tns\Attr_SiteA_seriesCatalog.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode (Class)">
+		<param name="Local" value="tns\Cls_SiteCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteCode (Class)">
+		<param name="Local" value="tns\Cls_SiteCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode.DefaultId (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_defaultId.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefaultId (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_defaultId.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DefaultId (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_defaultId.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode.Network (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode.SiteID (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_siteID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteID (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_siteID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteID (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_siteID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode.AgencyCode (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AgencyCode (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.AgencyCode (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode.AgencyName (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AgencyName (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.AgencyName (Property)">
+		<param name="Local" value="tns\Attr_SiteCode_agencyName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType (Class)">
+		<param name="Local" value="tns\Cls_SiteInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteInfoType (Class)">
+		<param name="Local" value="tns\Cls_SiteInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.Oid (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.MetadataDateTime (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.SiteName (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteName (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteName (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.SiteCode (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteCode (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteCode (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_siteCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.TimeZoneInfo (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_timeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.GeoLocation (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_geoLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeoLocation (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_geoLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.GeoLocation (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_geoLocation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.Elevation_m (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_elevation_m.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Elevation_m (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_elevation_m.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Elevation_m (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_elevation_m.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.VerticalDatum (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_verticalDatum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VerticalDatum (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_verticalDatum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VerticalDatum (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_verticalDatum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.Note (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.Extension (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteInfoType.Altname (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_altname.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Altname (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_altname.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Altname (Property)">
+		<param name="Local" value="tns\Attr_SiteInfoType_altname.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SitesResponse (Class)">
+		<param name="Local" value="tns\Cls_SitesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SitesResponse (Class)">
+		<param name="Local" value="tns\Cls_SitesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SitesResponse.QueryInfo (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_queryInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QueryInfo (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_queryInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.QueryInfo (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_queryInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SitesResponse.Site (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_site.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_site.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Site (Property)">
+		<param name="Local" value="tns\Attr_SitesResponse_site.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceInfoType (Class)">
+		<param name="Local" value="tns\Cls_SourceInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceInfoType (Class)">
+		<param name="Local" value="tns\Cls_SourceInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType (Class)">
+		<param name="Local" value="tns\Cls_SourceType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceType (Class)">
+		<param name="Local" value="tns\Cls_SourceType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.SourceID (Property)">
+		<param name="Local" value="tns\Attr_SourceType_sourceID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceID (Property)">
+		<param name="Local" value="tns\Attr_SourceType_sourceID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceID (Property)">
+		<param name="Local" value="tns\Attr_SourceType_sourceID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.Organization (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Organization.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Organization (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Organization.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Organization (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Organization.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.SourceDescription (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceDescription (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceDescription (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.Metadata (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Metadata.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Metadata (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Metadata.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Metadata (Property)">
+		<param name="Local" value="tns\Attr_SourceType_Metadata.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.ContactInformation (Property)">
+		<param name="Local" value="tns\Attr_SourceType_ContactInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ContactInformation (Property)">
+		<param name="Local" value="tns\Attr_SourceType_ContactInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ContactInformation (Property)">
+		<param name="Local" value="tns\Attr_SourceType_ContactInformation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceType.SourceLink (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceLink (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceLink (Property)">
+		<param name="Local" value="tns\Attr_SourceType_SourceLink.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeIntervalType (Class)">
+		<param name="Local" value="tns\Cls_TimeIntervalType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeIntervalType (Class)">
+		<param name="Local" value="tns\Cls_TimeIntervalType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeIntervalType.BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeIntervalType.EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeIntervalType_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeParam (Class)">
+		<param name="Local" value="tns\Cls_TimeParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeParam (Class)">
+		<param name="Local" value="tns\Cls_TimeParam.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeParam.BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeParam_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeParam.EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeParam_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimePeriodRealTimeType (Class)">
+		<param name="Local" value="tns\Cls_TimePeriodRealTimeType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimePeriodRealTimeType (Class)">
+		<param name="Local" value="tns\Cls_TimePeriodRealTimeType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimePeriodRealTimeType.RealTimeDataPeriod (Property)">
+		<param name="Local" value="tns\Attr_TimePeriodRealTimeType_realTimeDataPeriod.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RealTimeDataPeriod (Property)">
+		<param name="Local" value="tns\Attr_TimePeriodRealTimeType_realTimeDataPeriod.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.RealTimeDataPeriod (Property)">
+		<param name="Local" value="tns\Attr_TimePeriodRealTimeType_realTimeDataPeriod.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimePeriodRealTimeType.BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimePeriodRealTimeType_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimePeriodRealTimeType.EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimePeriodRealTimeType_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimePeriodType (Class)">
+		<param name="Local" value="tns\Cls_TimePeriodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimePeriodType (Class)">
+		<param name="Local" value="tns\Cls_TimePeriodType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesResponse (Class)">
+		<param name="Local" value="tns\Cls_TimeSeriesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSeriesResponse (Class)">
+		<param name="Local" value="tns\Cls_TimeSeriesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesResponse.QueryInfo (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesResponse_queryInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesResponse.TimeSeries (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesResponse_timeSeries.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeries (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesResponse_timeSeries.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSeries (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesResponse_timeSeries.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesType (Class)">
+		<param name="Local" value="tns\Cls_TimeSeriesType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSeriesType (Class)">
+		<param name="Local" value="tns\Cls_TimeSeriesType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesType.Name (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_name.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesType.SourceInfo (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_sourceInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SourceInfo (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_sourceInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SourceInfo (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_sourceInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesType.Variable (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSeriesType.Values (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_values.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Values (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_values.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Values (Property)">
+		<param name="Local" value="tns\Attr_TimeSeriesType_values.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSingleType (Class)">
+		<param name="Local" value="tns\Cls_TimeSingleType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSingleType (Class)">
+		<param name="Local" value="tns\Cls_TimeSingleType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSingleType.TimeSingle (Property)">
+		<param name="Local" value="tns\Attr_TimeSingleType_timeSingle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSingle (Property)">
+		<param name="Local" value="tns\Attr_TimeSingleType_timeSingle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSingle (Property)">
+		<param name="Local" value="tns\Attr_TimeSingleType_timeSingle.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSingleType.BeginDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeSingleType_beginDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSingleType.EndDateTime (Property)">
+		<param name="Local" value="tns\Attr_TimeSingleType_endDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSupport (Class)">
+		<param name="Local" value="tns\Cls_TimeSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSupport (Class)">
+		<param name="Local" value="tns\Cls_TimeSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSupport.IsRegular (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_isRegular.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="IsRegular (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_isRegular.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.IsRegular (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_isRegular.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSupport.Unit (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_unit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unit (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_unit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Unit (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_unit.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSupport.TimeInterval (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_timeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeInterval (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_timeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeInterval (Property)">
+		<param name="Local" value="tns\Attr_TimeSupport_timeInterval.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneInfo (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_TimeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.TimeZoneInfo (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_TimeZoneInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneInfo.SiteUsesDaylightSavingsTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_siteUsesDaylightSavingsTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SiteUsesDaylightSavingsTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_siteUsesDaylightSavingsTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.SiteUsesDaylightSavingsTime (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_siteUsesDaylightSavingsTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneInfo.DefaultTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_defaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DefaultTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_defaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.DefaultTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_defaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneInfo.DaylightSavingsTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_daylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DaylightSavingsTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_daylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.DaylightSavingsTimeZone (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_TimeZoneInfo_daylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeZoneInfo (Class)">
+		<param name="Local" value="tns\Cls_TimeZoneInfoA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SiteUsesDaylightSavingsTime (Property)">
+		<param name="Local" value="tns\Attr_TimeZoneInfoA_siteUsesDaylightSavingsTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DefaultTimeZone (Property)">
+		<param name="Local" value="tns\Attr_TimeZoneInfoA_defaultTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DaylightSavingsTimeZone (Property)">
+		<param name="Local" value="tns\Attr_TimeZoneInfoA_daylightSavingsTimeZone.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType (Class)">
+		<param name="Local" value="tns\Cls_TsValuesSingleVariableType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TsValuesSingleVariableType (Class)">
+		<param name="Local" value="tns\Cls_TsValuesSingleVariableType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.TimeZoneShiftApplied (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSileVariableType_timeZoneShiftApplied.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeZoneShiftApplied (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSileVariableType_timeZoneShiftApplied.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeZoneShiftApplied (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSileVariableType_timeZoneShiftApplied.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.UnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.UnitsCode (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsCode (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitsCode (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.UnitsType (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitsType (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Count (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_count.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Count (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_count.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Count (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_count.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.UnitsAreConverted (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAreConverted.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsAreConverted (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAreConverted.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitsAreConverted (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_unitsAreConverted.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Value (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_value.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Value (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_value.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Value (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_value.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Qualifier (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_qualifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifier (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_qualifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Qualifier (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_qualifier.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.QualityControlLevel (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_qualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Method (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_method.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Source (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_source.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TsValuesSingleVariableType.Offset (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_offset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Offset (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_offset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Offset (Property)">
+		<param name="Local" value="tns\Attr_TsValuesSingleVariableType_offset.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Units (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Units (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Units.UnitsAbbreviation (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.UnitsAbbreviation (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Units.UnitsCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.UnitsCode (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Units.UnitsType (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.UnitsType (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Units_unitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Units (Class)">
+		<param name="Local" value="tns\Cls_UnitsA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType (Class)">
+		<param name="Local" value="tns\Cls_UnitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitsType (Class)">
+		<param name="Local" value="tns\Cls_UnitsType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType.UnitID (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitID (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitID (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType.UnitName (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitName (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitName (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType.UnitDescription (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitDescription (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitDescription (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType.UnitType (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitType (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitType (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsType.UnitAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.UnitAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_UnitsType_UnitAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueCount (Class)">
+		<param name="Local" value="tns\Cls_ValueCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ValueCount (Class)">
+		<param name="Local" value="tns\Cls_ValueCount.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueCount.CountIsEstimated (Property)">
+		<param name="Local" value="tns\Attr_ValueCount_countIsEstimated.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CountIsEstimated (Property)">
+		<param name="Local" value="tns\Attr_ValueCount_countIsEstimated.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.CountIsEstimated (Property)">
+		<param name="Local" value="tns\Attr_ValueCount_countIsEstimated.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable (Class)">
+		<param name="Local" value="tns\Cls_ValueSingleVariable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ValueSingleVariable (Class)">
+		<param name="Local" value="tns\Cls_ValueSingleVariable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.Qualifiers (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_qualifiers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Qualifiers (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_qualifiers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Qualifiers (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_qualifiers.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.CensorCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_censorCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CensorCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_censorCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.CensorCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_censorCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.DateTime (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_dateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DateTime (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_dateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.DateTime (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_dateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.QualityControlLevel (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_qualityControlLevel.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.MethodID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_methodID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.SourceID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_sourceID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.AccuracyStdDev (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_accuracyStdDev.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="AccuracyStdDev (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_accuracyStdDev.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.AccuracyStdDev (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_accuracyStdDev.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.CodedVocabulary (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CodedVocabulary (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.CodedVocabulary (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.CodedVocabularyTerm (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabularyTerm.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CodedVocabularyTerm (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabularyTerm.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.CodedVocabularyTerm (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_codedVocabularyTerm.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.SampleID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_sampleID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SampleID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_sampleID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.SampleID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_sampleID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.OffsetValue (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.OffsetTypeID (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetTypeID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.OffsetDescription (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.OffsetUnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetUnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetUnitsAbbreviation (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsAbbreviation.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.OffsetUnitsCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="OffsetUnitsCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.OffsetUnitsCode (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_offsetUnitsCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.Oid (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueSingleVariable.MetadataDateTime (Property)">
+		<param name="Local" value="tns\Attr_ValueSingleVariable_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_VariableCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.VariableCode (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_VariableCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode.Network (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode.Vocabulary (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode.default_ (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode.VariableID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_variableID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_variableID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.VariableID (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_VariableCode_variableID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableCode (Class)">
+		<param name="Local" value="tns\Cls_VariableCodeA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableID (Property)">
+		<param name="Local" value="tns\Attr_VariableCodeA_variableID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType (Class)">
+		<param name="Local" value="tns\Cls_VariableInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableInfoType (Class)">
+		<param name="Local" value="tns\Cls_VariableInfoType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Oid (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_oid.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.MetadataDateTime (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_metadataDateTime.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Network (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_network.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Vocabulary (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_vocabulary.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.default_ (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_default_.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.VariableCode (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableCode (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableCode (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableCode.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.VariableName (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableName (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableName (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableName.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.VariableDescription (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableDescription (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableDescription (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_variableDescription.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.ValueType (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_valueType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.DataType (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_dataType.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.GeneralCategory (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_generalCategory.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.SampleMedium (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_sampleMedium.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Units (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_units.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Options (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Options (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Options (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_options.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Note (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_note.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Related (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Related (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Related (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.Extension (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_extension.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.NoDataValue (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_NoDataValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoDataValue (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_NoDataValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.NoDataValue (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_NoDataValue.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType.TimeSupport (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_timeSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TimeSupport (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_timeSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.TimeSupport (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_timeSupport.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType_related_Group (Class)">
+		<param name="Local" value="tns\Cls_VariableInfoType_related_Group.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariableInfoType_related_Group (Class)">
+		<param name="Local" value="tns\Cls_VariableInfoType_related_Group.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType_related_Group.ParentID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_parentID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ParentID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_parentID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.ParentID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_parentID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariableInfoType_related_Group.RelatedID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_relatedID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RelatedID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_relatedID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.RelatedID (Property)">
+		<param name="Local" value="tns\Attr_VariableInfoType_related_Group_relatedID.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variables (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Variables.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Variables (Class)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Cls_Variables.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variables.Variable (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Variables_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="cuahsiTimeSeries_v1_0Lib.Variable (Property)">
+		<param name="Local" value="cuahsiTimeSeries_v1_0Lib\Attr_Variables_variable.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Variables (Class)">
+		<param name="Local" value="tns\Cls_VariablesA.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariablesResponse (Class)">
+		<param name="Local" value="tns\Cls_VariablesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.VariablesResponse (Class)">
+		<param name="Local" value="tns\Cls_VariablesResponse.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariablesResponse.QueryInfo (Property)">
+		<param name="Local" value="tns\Attr_VariablesResponse_queryInfo.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VariablesResponse.Variables (Property)">
+		<param name="Local" value="tns\Attr_VariablesResponse_variables.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variables (Property)">
+		<param name="Local" value="tns\Attr_VariablesResponse_variables.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="tns.Variables (Property)">
+		<param name="Local" value="tns\Attr_VariablesResponse_variables.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration GeneralCategoryEnum">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GeneralCategoryEnum">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="WaterSpaceQuality">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Climate">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Hydrology">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Geology">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Biota">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Unknown">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Instrumentation">
+		<param name="Local" value="tns\Enum_GeneralCategoryEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration DataTypeEnum">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DataTypeEnum">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Continuous">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Instantaneous">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Cumulative">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Incremental">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Average">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Maximum">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Minimum">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ConstantSpaceOverSpaceInterval">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Categorical">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BestSpaceEasySpaceSystematicSpaceEstimatorSpace">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Variance">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Median">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mode">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="BestSpaceEasySpaceSystematicSpaceEstimator">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="StandardSpaceDeviation">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Skewness">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EquivalentSpaceMean">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sporadic">
+		<param name="Local" value="tns\Enum_DataTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration ValueTypeEnum">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ValueTypeEnum">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FieldSpaceObservation">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sample">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="ModelSpaceSimulationSpaceResult">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DerivedSpaceValue">
+		<param name="Local" value="tns\Enum_ValueTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration QualityControlLevelEnum">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualityControlLevelEnum">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RawSpacedata">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="QualitySpacecontrolledSpacedata">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="DerivedSpaceproducts">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="InterpretedSpaceproducts">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="KnowledgeSpaceproducts">
+		<param name="Local" value="tns\Enum_QualityControlLevelEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration UnitsTypeEnum">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="UnitsTypeEnum">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Angle">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Area">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Dimensionless">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Energy">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="EnergySpaceFlux">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Flow">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Force">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Frequency">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Length">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Light">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Mass">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Permeability">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Power">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PressureSlashStress">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Resolution">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Scale">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Temperature">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Time">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Velocity">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Volume">
+		<param name="Local" value="tns\Enum_UnitsTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration SampleMediumEnum">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SampleMediumEnum">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SurfaceSpaceWater">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GroundSpaceWater">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Sediment">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Soil">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Air">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Tissue">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Precipitation">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Other">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Snow">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NotSpaceRelevant">
+		<param name="Local" value="tns\Enum_SampleMediumEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration CensorCodeEnum">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="CensorCodeEnum">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Lt">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Gt">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Nc">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Nd">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Pnq">
+		<param name="Local" value="tns\Enum_CensorCodeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Enumeration SampleTypeEnum">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SampleTypeEnum">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FD">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FF">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="FL">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LF">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="GW">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PB">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PD">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PE">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PI">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="PW">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="RE">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SE">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SR">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SS">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="SW">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TE">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TI">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="TW">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VE">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VI">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="VW">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Grab">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="NoSpaceSample">
+		<param name="Local" value="tns\Enum_SampleTypeEnum.htm">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="LtHelp.hhc">
+		<param name="Local" value="LtHelp.chm::/LtHelp.hhc">
+		</OBJECT>
+	<LI> <OBJECT type="text/sitemap">
+		<param name="Name" value="Site.hhc">
+		<param name="Local" value="LtExamples.chm::/Site.hhc">
+		</OBJECT>
+</UL>
+</BODY></HTML>
+

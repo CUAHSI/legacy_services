@@ -1,0 +1,129 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>Extension.AnyElement</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="ms-its:LtHelp.chm::/API/CPP/LtXmlLib_CElementCol.htm">LiquidTechnologies.Runtime.Net20.ElementCol</A> AnyElement</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">AnyElement</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="ms-its:LtHelp.chm::/API/CPP/LtXmlLib_CElementCol.htm">LiquidTechnologies.Runtime.Net20.ElementCol</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_Extension.htm">tns.Extension</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Element</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read Only</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			A collection of untyped <A HREF="../std/LtXmlLib_Element.htm">Element</A>'s
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			Only one Element within this class may be populated at a time (this collection, as a whole is counted as an element).<BR>
+			This collection may contain 0 or 0 to Many entries. <BR>
+			Emptying the collection allows a different element to be the populated one. <BR>
+			If there is already a populated item, and an item is added to this collection then an exception will be raised.<BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Choice Properties</TD>
+		<TD CLASS="TableLightDesc">Only one of the following properties may be populated at any one time<BR>			<A HREF="Attr_Extension_AnyElement.HTM">AnyElement</A><BR>
+<BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+LiquidTechnologies.Runtime.Net20.Element oElm;
+<A HREF="Cls_Extension.htm">tns.Extension</A> oParent = ...;
+
+// The collection object will already exist, but we may want to add items to it
+
+// This method creates a new object adds it to the collection and 
+// returns the new object
+oElm = oParent.AnyElement.Add("PostCode", "http://www.liquid-technologies.com/Test");
+oElm.Text = "SW5 R82";
+
+// This way you can add an existing object to the collection
+oElm = new LiquidTechnologies.Runtime.Net20.Element();
+oElm.Name = "PostCode";
+oElm.Namespace = "http://www.liquid-technologies.com/Test";
+oElm.Text = "SW5 R82";
+oParent.AnyElement.Add(oElm);
+
+//-------------------------------------------------------------
+// To iterate through the collection
+
+// using the iterator
+foreach(oElm in oParent.AnyElement)
+{
+  System.Diagnostics.Debug.WriteLine(oElm.Name);
+}
+
+// using an index
+for(int i=0; i&lt;oParent.AnyElement.Count; i++)
+{
+  oElm = oParent.AnyElement[i];
+  System.Diagnostics.Debug.WriteLine(oElm.Name);
+}
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

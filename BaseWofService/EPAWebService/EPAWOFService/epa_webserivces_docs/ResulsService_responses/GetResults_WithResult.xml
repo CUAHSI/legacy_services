@@ -1,0 +1,744 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SOAP-ENV:Body>
+    <ns1:getResultsResponse xmlns:ns1="http://gov.epa.storet.storetresultservice/StoretResultService.wsdl" SOAP-ENV:encodingStyle="http://xml.apache.org/xml-soap/literalxml">
+      <return>
+        <WQX>
+          <Organization>
+            <OrganizationDescription>
+              <OrganizationIdentifier>11NPSWRD</OrganizationIdentifier>
+              <OrganizationFormalName>National Park Service</OrganizationFormalName>
+            </OrganizationDescription>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00008</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-10-03</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>9960</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 9.96</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00032</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-10-13</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13000</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00062</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-10-28</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13350</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.35</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00083</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-11-11</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>9540</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 9.54</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00137</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-11-21</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>14430</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 14.43</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS93-00166</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1993-12-20</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13720</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.72</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00017</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-01-05</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>15570</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 15.57</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00049</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-01-22</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>18030</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 18.03</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00072</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-02-16</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13280</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.28</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00090</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-03-06</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>14880</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 14.88</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00111</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-03-21</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>10110</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 10.11</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00138</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-03-31</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>14720</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 14.72</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00162</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-04-16</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>10880</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 10.88</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00183</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-04-29</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>9300</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 9.3</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00216</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-05-14</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>11210</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 11.21</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00237</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-05-29</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>210</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 0.21</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00267</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-06-12</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13290</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.29</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00285</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-06-26</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13620</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.62</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00308</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-07-24</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>13430</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 13.43</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00335</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-08-22</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>9360</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 9.36</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00356</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-09-01</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>12900</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 12.9</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00377</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-10-17</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>12500</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 12.5</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00398</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-10-24</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>12140</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 12.14</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00419</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-10-31</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>12480</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 12.48</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+            <Activity>
+              <ActivityDescription>
+                <ActivityIdentifier>CHIS94-00443</ActivityIdentifier>
+                <ActivityTypeCode>Field Msr/Obs</ActivityTypeCode>
+                <ActivityMediaName>Water</ActivityMediaName>
+                <ActivityStartDate>1994-12-04</ActivityStartDate>
+                <ProjectIdentifier>CHIS0002</ProjectIdentifier>
+              </ActivityDescription>
+              <MonitoringLocation>
+                <MonitoringLocationIdentifier>CHIS_NPS_Q3    </MonitoringLocationIdentifier>
+                <MonitoringLocationName>QUEMADA CANYON NEAR OLD RANCH CANYON CORRAL</MonitoringLocationName>
+              </MonitoringLocation>
+              <Result>
+                <ResultDescription>
+                  <CharacteristicName>Dissolved oxygen (DO)</CharacteristicName>
+                  <ResultMeasure>
+                    <ResultMeasureValue>14420</ResultMeasureValue>
+                    <MeasureUnitCode>ug/l      </MeasureUnitCode>
+                  </ResultMeasure>
+                  <ResultStatusIdentifier>F</ResultStatusIdentifier>
+                  <ResultValueTypeName>Actual    </ResultValueTypeName>
+                  <DataQuality/>
+                  <ResultCommentText>Old STORET Parameter Code: 00299¶Description: OXYGEN ,DISSOLVED, ANALYSIS BY PROBE  MG/L¶Value: 14.42</ResultCommentText>
+                </ResultDescription>
+                <ResultLabInformation>
+                  <ResultLaboratoryCommentCode/>
+                </ResultLabInformation>
+              </Result>
+            </Activity>
+          </Organization>
+        </WQX>
+      </return>
+    </ns1:getResultsResponse>
+
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

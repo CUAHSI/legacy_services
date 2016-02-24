@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio - Education Edition 7.1.1.1206 (http://www.liquid-technologies.com) -->
+<tns:timeSeriesResponse xmlns:tns="http://www.cuahsi.org/waterML/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.cuahsi.org/waterML/1.0/ D:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd">
+  <tns:queryInfo>
+    <tns:creationTime>1999-04-02T07:33:50.80</tns:creationTime>
+    <tns:queryURL>string</tns:queryURL>
+    <tns:querySQL>string</tns:querySQL>
+    <tns:criteria />
+    <tns:extension />
+  </tns:queryInfo>
+  <tns:timeSeries name="string">
+    <tns:sourceInfo />
+    <tns:variable oid="string" metadataDateTime="1998-09-19T06:41:08.91">
+      <tns:variableCode vocabulary="string" default="0">string</tns:variableCode>
+    </tns:variable>
+    <tns:values unitsAbbreviation="string" unitsType="Angle" unitsAreConverted="false">
+      <tns:value dateTime="1970-01-09T00:11:04.76" qualityControlLevel="Interpreted products" accuracyStdDev="7491.8549058039" codedVocabulary="1" offsetTypeID="5894" offsetDescription="string" offsetUnitsAbbreviation="string" offsetUnitsCode="string" oid="string" metadataDateTime="1973-04-26T03:42:38.81">-7687.805094196054907</tns:value>
+    </tns:values>
+  </tns:timeSeries>
+</tns:timeSeriesResponse>

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  Microsoft Visual Studio 2010 Web Deployment Project 
+  http://go.microsoft.com/fwlink/?LinkID=104956
+
+-->
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C2683AAF-F545-44EC-850A-C1FD599A74E0}</ProjectGuid>
+    <SourceWebPhysicalPath>..\WaterWebService</SourceWebPhysicalPath>
+    <SourceWebProject>{7D755735-7BAB-4956-BF2B-32B3C3839023}|C:\dev_2010\BaseWofService\EPAWebService\WaterWebService</SourceWebProject>
+    <SourceWebVirtualPath>/WaterWebService</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>.\Debug</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>EPAWaterWebService_deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <OutputPath>.\Release</OutputPath>
+    <EnableUpdateable>true</EnableUpdateable>
+    <UseMerge>true</UseMerge>
+    <SingleAssemblyName>EPAWaterWebService_deploy</SingleAssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ODM1_1_Datasets\ODM1_1_Datasets.csproj">
+      <Project>{5EEAEAA9-A624-4C68-A6B9-250AF448DE4B}</Project>
+      <Name>ODM1_1_Datasets</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ODMDataInfoSource\ODMDataInfoSource.csproj">
+      <Project>{9EC0523A-D560-464B-B3E6-F25601BA9F58}</Project>
+      <Name>ODMDataInfoSource</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\waterOneFlowImpl\waterOneFlowImpl.csproj">
+      <Project>{533D0719-6D5F-4F02-BD8C-B3D829E9DEB2}</Project>
+      <Name>waterOneFlowImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WofCapabilities\WofCapabilities.csproj">
+      <Project>{AC9A8B88-23F1-4972-B757-0CA82B3B00EB}</Project>
+      <Name>WofCapabilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WofSchemas\WofSchemas.csproj">
+      <Project>{2827D644-4DD6-4206-9203-EF48B586CD38}</Project>
+      <Name>WofSchemas</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WOFService\WOFService.csproj">
+      <Project>{A1B499C5-1A02-4E66-9DFB-CFBE4A23E7F4}</Project>
+      <Name>WOFService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\WOFutilities\WOFutilities.csproj">
+      <Project>{F5784002-25A7-4217-91C3-09EF0BE623C3}</Project>
+      <Name>WOFutilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EPAWOFService\EPAWOFService.csproj">
+      <Project>{31336043-44C9-43BD-B08B-A55E3F877DDA}</Project>
+      <Name>EPAWOFService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GetResultsXslt\GetResultsXslt.csproj">
+      <Project>{927436BE-9387-4632-9F60-A68A4BE857B5}</Project>
+      <Name>GetResultsXslt</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WebDeployment\v10.0\Microsoft.WebDeployment.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.WebDeployment.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="BeforeMerge">
+  </Target>
+  <Target Name="AfterMerge">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

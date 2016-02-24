@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?><timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+<queryInfo>
+    <creationTime>2010-09-30T19:05:09</creationTime>
+    <queryURL>http://waterservices.usgs.gov/nwis/iv</queryURL>
+    <criteria>
+        <locationParam>[ALL:01646500]</locationParam>
+        <variableParam>[00060, 00065]</variableParam>
+    </criteria>
+    <note title="filter:sites">[ALL:01646500]</note>
+    <note title="filter:timeRange">[mode=LATEST, modifiedSince=null]</note>
+    <note title="filter:methodId">methodIds=[[ALL]]</note>
+    <note title="requestDT">2010-09-30T23:05:09.740Z</note>
+    <note title="requestId">2c4d0140-cce7-11df-a757-0003ba0b4227</note>
+    <note title="disclaimer">Provisional data subject to revision. Go to http://waterdata.usgs.gov/nwis/help/?provisional for more information.</note>
+    <note title="server">sdas01</note>
+<note title="CUAHSI">Tranformed from WaterML 1.1 </note></queryInfo>
+<timeSeries>
+    <sourceInfo xsi:type="ns1:SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <siteName>POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA</siteName>
+        <siteCode network="NWISIID" agencyCode="USGS">01646500</siteCode>
+        <geoLocation>
+            <geogLocation srs="EPSG:4326" xsi:type="ns1:LatLonPointType">
+                <latitude>38.94977778</latitude>
+                <longitude>-77.12763889</longitude>
+            </geogLocation>
+        </geoLocation>
+        <note title="siteTypeCd">ST</note>
+        <note title="hucCd">02070008</note>
+        <note title="stateCd">24</note>
+        <note title="countyCd">24031</note>
+    </sourceInfo>
+    <variable>
+        <variableCode network="NWISIID" vocabulary="NWISIID" default="true">00060</variableCode>
+        <variableName>Streamflow, ft&amp;#179;/s</variableName>
+        <variableDescription>UNKNOWN</variableDescription>
+        <valueType>00060</valueType>
+        <units>
+            UNKNOWN
+        </units>
+        <NoDataValue>-999999.0</NoDataValue>
+    </variable>
+    <values>
+        <value dateTime="2010-09-30T17:45:00.000-05:00" qualifiers="P">9150</value>
+        <qualifier qualifierID="0">
+             QualifierCode:P
+              QualifierDescription:Provisional data subject to revision.
+        </qualifier>
+        <method>
+            <MethodDescription>sensor::1</MethodDescription>
+        </method>
+    </values>
+</timeSeries>
+<timeSeries>
+    <sourceInfo xsi:type="ns1:SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <siteName>POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA</siteName>
+        <siteCode network="NWISIID" agencyCode="USGS">01646500</siteCode>
+        <geoLocation>
+            <geogLocation srs="EPSG:4326" xsi:type="ns1:LatLonPointType">
+                <latitude>38.94977778</latitude>
+                <longitude>-77.12763889</longitude>
+            </geogLocation>
+        </geoLocation>
+        <note title="siteTypeCd">ST</note>
+        <note title="hucCd">02070008</note>
+        <note title="stateCd">24</note>
+        <note title="countyCd">24031</note>
+    </sourceInfo>
+    <variable>
+        <variableCode network="NWISIID" vocabulary="NWISIID" default="true">00065</variableCode>
+        <variableName>Gage height, ft</variableName>
+        <variableDescription>UNKNOWN</variableDescription>
+        <valueType>00065</valueType>
+        <units>
+            UNKNOWN
+        </units>
+        <NoDataValue>-999999.0</NoDataValue>
+    </variable>
+    <values>
+        <value dateTime="2010-09-30T17:45:00.000-05:00" qualifiers="P">3.87</value>
+        <qualifier qualifierID="0">
+             QualifierCode:P
+              QualifierDescription:Provisional data subject to revision.
+        </qualifier>
+        <method>
+            <MethodDescription>sensor::2</MethodDescription>
+        </method>
+    </values>
+</timeSeries>
+</timeSeriesResponse>

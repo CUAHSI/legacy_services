@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WaterOneFlow.GenericDB.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="VariableCodeQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE VariableCode = @variableCode </Value>
+    </Setting>
+    <Setting Name="VariableIDQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE VariableID = @variableID</Value>
+    </Setting>
+    <Setting Name="getAllQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT  top 50000 * FROM {0}</Value>
+    </Setting>
+    <Setting Name="parameterColumn" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">parm_cd</Value>
+    </Setting>
+    <Setting Name="SiteCodeQueryFormat" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">SELECT * FROM {0} WHERE SiteCode = @siteCode</Value>
+    </Setting>
+    <Setting Name="WOFGenericDB_edu_sdsc_river_WaterOneFlow" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://water.sdsc.edu/wateroneflow/EPA/cuahsi_1_0.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="UsgsDbDailyValues" targetNamespace="http://cuahsi.sdsc.edu/db/UsgsDbDailyValues.xsd" xmlns:mstns="http://cuahsi.sdsc.edu/db/UsgsDbDailyValues.xsd" xmlns="http://cuahsi.sdsc.edu/db/UsgsDbDailyValues.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="USGSSept2007ConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="USGSSept2007ConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.NwisWOFService.Properties.Settings.GlobalReference.Default.USGSSept2007ConnectionString" Provider="System.Data.SqlClient">
+          </Connection>
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="sitesTableAdapter" GeneratorDataComponentClassName="sitesTableAdapter" Name="sites" UserDataComponentName="sitesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_sites" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     SiteID, usgs_agency, SiteCode, SiteName, Latitude, Longitude, LatLongDatumID, Elevation_m, VerticalDatum, PosAccuracy_m, County, State, 
+                      Comments, odws_timeZoneAbbreviation, usgs_State_fipCode, Usgs_County_fipsCode, usgs_UsesDaylightSavingsTime, SiteVocabulary, 
+                      usgs_station_type
+FROM         odm_dv_sites</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="SiteID" DataSetColumn="SiteID" />
+              <Mapping SourceColumn="SiteCode" DataSetColumn="SiteCode" />
+              <Mapping SourceColumn="SiteName" DataSetColumn="SiteName" />
+              <Mapping SourceColumn="Latitude" DataSetColumn="Latitude" />
+              <Mapping SourceColumn="Longitude" DataSetColumn="Longitude" />
+              <Mapping SourceColumn="LatLongDatumID" DataSetColumn="LatLongDatumID" />
+              <Mapping SourceColumn="Elevation_m" DataSetColumn="Elevation_m" />
+              <Mapping SourceColumn="VerticalDatum" DataSetColumn="VerticalDatum" />
+              <Mapping SourceColumn="PosAccuracy_m" DataSetColumn="PosAccuracy_m" />
+              <Mapping SourceColumn="County" DataSetColumn="County" />
+              <Mapping SourceColumn="State" DataSetColumn="State" />
+              <Mapping SourceColumn="Comments" DataSetColumn="Comments" />
+              <Mapping SourceColumn="usgs_State_fipCode" DataSetColumn="usgs_State_fipCode" />
+              <Mapping SourceColumn="Usgs_County_fipsCode" DataSetColumn="Usgs_County_fipsCode" />
+              <Mapping SourceColumn="usgs_agency" DataSetColumn="usgs_agency" />
+              <Mapping SourceColumn="usgs_UsesDaylightSavingsTime" DataSetColumn="usgs_UsesDaylightSavingsTime" />
+              <Mapping SourceColumn="odws_timeZoneAbbreviation" DataSetColumn="odws_timeZoneAbbreviation" />
+              <Mapping SourceColumn="SiteVocabulary" DataSetColumn="SiteVocabulary" />
+              <Mapping SourceColumn="usgs_station_type" DataSetColumn="usgs_station_type" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_sites" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByAgencySiteCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataByAgencySiteCode" GeneratorSourceName="FillByAgencySiteCode" GetMethodModifier="Public" GetMethodName="GetDataByAgencySiteCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataByAgencySiteCode" UserSourceName="FillByAgencySiteCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT Comments, County, Elevation_m, LatLongDatumID, Latitude, Longitude, PosAccuracy_m, SiteCode, SiteID, SiteName, SiteVocabulary, State, Usgs_County_fipsCode, VerticalDatum, odws_timeZoneAbbreviation, usgs_State_fipCode, usgs_UsesDaylightSavingsTime, usgs_agency, usgs_station_type FROM odm_dv_sites WHERE (usgs_agency = @agency) AND (SiteCode = @siteCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="agency" ColumnName="usgs_agency" DataSourceName="USGSSept2007.dbo.odm_dv_sites" DataTypeServer="varchar(5)" DbType="AnsiString" Direction="Input" ParameterName="@agency" Precision="0" ProviderType="VarChar" Scale="0" Size="5" SourceColumn="usgs_agency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="siteCode" ColumnName="SiteCode" DataSourceName="USGSSept2007.dbo.odm_dv_sites" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@siteCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="SiteCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_sites" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBySiteCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataBySiteCode" GeneratorSourceName="FillBySiteCode" GetMethodModifier="Public" GetMethodName="GetDataBySiteCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataBySiteCode" UserSourceName="FillBySiteCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     Comments, County, Elevation_m, LatLongDatumID, Latitude, Longitude, PosAccuracy_m, SiteCode, SiteID, SiteName, SiteVocabulary, State, 
+                      Usgs_County_fipsCode, VerticalDatum, odws_timeZoneAbbreviation, usgs_State_fipCode, usgs_UsesDaylightSavingsTime, usgs_agency, 
+                      usgs_station_type
+FROM         odm_dv_sites
+WHERE     (SiteCode = @siteCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="siteCode" ColumnName="SiteCode" DataSourceName="USGSSept2007.dbo.odm_dv_sites" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@siteCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="SiteCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="VariablesTableAdapter" GeneratorDataComponentClassName="VariablesTableAdapter" Name="Variables" UserDataComponentName="VariablesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     odm_dv_variables.VariableID, odm_dv_variables.VariableCode, odm_dv_variables.VariableName, odm_dv_variables.SampleMedium, 
+                      odm_dv_variables.ValueType, odm_dv_variables.isRegular, odm_dv_variables.TimeSupport, odm_dv_variables.TimeUnitsID, 
+                      odm_dv_variables.GeneralCategory, odm_dv_variables.NoDataValue, odm_dv_variables.networkId, odm_dv_variables.VariableUnitsID, 
+                      odm_dv_variables.mediumCode, odm_dv_variables.DataType, Units.Units, Units.UnitType, Units.UnitAbbreviation, odm_dv_variables.stat_cd
+FROM         odm_dv_variables INNER JOIN
+                      Units ON odm_dv_variables.VariableUnitsID = Units.UnitID</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="VariableID" DataSetColumn="VariableID" />
+              <Mapping SourceColumn="VariableCode" DataSetColumn="VariableCode" />
+              <Mapping SourceColumn="VariableName" DataSetColumn="VariableName" />
+              <Mapping SourceColumn="SampleMedium" DataSetColumn="SampleMedium" />
+              <Mapping SourceColumn="ValueType" DataSetColumn="ValueType" />
+              <Mapping SourceColumn="isRegular" DataSetColumn="isRegular" />
+              <Mapping SourceColumn="TimeSupport" DataSetColumn="TimeSupport" />
+              <Mapping SourceColumn="TimeUnitsID" DataSetColumn="TimeUnitsID" />
+              <Mapping SourceColumn="GeneralCategory" DataSetColumn="GeneralCategory" />
+              <Mapping SourceColumn="NoDataValue" DataSetColumn="NoDataValue" />
+              <Mapping SourceColumn="networkId" DataSetColumn="networkId" />
+              <Mapping SourceColumn="VariableUnitsID" DataSetColumn="VariableUnitsID" />
+              <Mapping SourceColumn="mediumCode" DataSetColumn="mediumCode" />
+              <Mapping SourceColumn="Units" DataSetColumn="Units" />
+              <Mapping SourceColumn="UnitType" DataSetColumn="UnitType" />
+              <Mapping SourceColumn="UnitAbbreviation" DataSetColumn="UnitAbbreviation" />
+              <Mapping SourceColumn="DataType" DataSetColumn="DataType" />
+              <Mapping SourceColumn="stat_cd" DataSetColumn="stat_cd" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillBy" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataBy" GeneratorSourceName="FillBy" GetMethodModifier="Public" GetMethodName="GetDataBy" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataBy" UserSourceName="FillBy">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     odm_dv_variables.VariableID, odm_dv_variables.VariableCode, odm_dv_variables.VariableName, odm_dv_variables.SampleMedium, 
+                      odm_dv_variables.ValueType, odm_dv_variables.isRegular, odm_dv_variables.TimeSupport, odm_dv_variables.TimeUnitsID, 
+                      odm_dv_variables.GeneralCategory, odm_dv_variables.NoDataValue, odm_dv_variables.networkId, odm_dv_variables.VariableUnitsID, 
+                      odm_dv_variables.mediumCode, odm_dv_variables.DataType, Units.Units, Units.UnitType, Units.UnitAbbreviation, odm_dv_variables.stat_cd
+FROM         odm_dv_variables INNER JOIN
+                      Units ON odm_dv_variables.VariableUnitsID = Units.UnitID</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByVariableCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataByVariableCode" GeneratorSourceName="FillByVariableCode" GetMethodModifier="Public" GetMethodName="GetDataByVariableCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataByVariableCode" UserSourceName="FillByVariableCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     odm_dv_variables.VariableID, odm_dv_variables.VariableCode, odm_dv_variables.VariableName, odm_dv_variables.SampleMedium, 
+                      odm_dv_variables.ValueType, odm_dv_variables.isRegular, odm_dv_variables.TimeSupport, odm_dv_variables.TimeUnitsID, 
+                      odm_dv_variables.GeneralCategory, odm_dv_variables.NoDataValue, odm_dv_variables.networkId, odm_dv_variables.VariableUnitsID, 
+                      odm_dv_variables.mediumCode, Units.Units, Units.UnitType, Units.UnitAbbreviation, odm_dv_variables.stat_cd, odm_dv_variables.DataType
+FROM         odm_dv_variables INNER JOIN
+                      Units ON odm_dv_variables.VariableUnitsID = Units.UnitID
+WHERE     (odm_dv_variables.VariableCode = @variableCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="variableCode" ColumnName="VariableCode" DataSourceName="USGSSept2007.dbo.odm_dv_variables" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@variableCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="VariableCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="FillByVariableID" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataByVariableID" GeneratorSourceName="FillByVariableID" GetMethodModifier="Public" GetMethodName="GetDataByVariableID" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataByVariableID" UserSourceName="FillByVariableID">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     odm_dv_variables.VariableID, odm_dv_variables.VariableCode, odm_dv_variables.VariableName, odm_dv_variables.SampleMedium, 
+                      odm_dv_variables.ValueType, odm_dv_variables.isRegular, odm_dv_variables.TimeSupport, odm_dv_variables.TimeUnitsID, 
+                      odm_dv_variables.GeneralCategory, odm_dv_variables.NoDataValue, odm_dv_variables.networkId, odm_dv_variables.VariableUnitsID, 
+                      odm_dv_variables.mediumCode, Units.Units, Units.UnitType, Units.UnitAbbreviation, odm_dv_variables.DataType, odm_dv_variables.stat_cd
+FROM         odm_dv_variables INNER JOIN
+                      Units ON odm_dv_variables.VariableUnitsID = Units.UnitID
+WHERE     (odm_dv_variables.VariableID = @variableID)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="False" AutogeneratedName="variableID" ColumnName="VariableID" DataSourceName="USGSSept2007.dbo.odm_dv_variables" DataTypeServer="int" DbType="Int32" Direction="Input" ParameterName="@variableID" Precision="0" ProviderType="Int" Scale="0" Size="4" SourceColumn="VariableID" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="seriesCatalogTableAdapter" GeneratorDataComponentClassName="seriesCatalogTableAdapter" Name="seriesCatalog" UserDataComponentName="seriesCatalogTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_seriesCatalog" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="False" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="False" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     siteID, usgs_agency, SiteCode, siteName, TimeSupport, TimeUnitsID, TimeUnitsName, MethodName, MethodID, SourceID, Organization, 
+                      SourceDescription, QualityControlLevelID, BeginDateTime, EndDateTime, ValueCount, usgs_stat_cd, VariableCode, VariableName, SampleMedium, 
+                      ValueType, isRegular, GeneralCategory, NoDataValue, VariableUnitsID, DataType, VariableUnitsName, VariableUnitsAbbreviation, VariableVocabulary, 
+                      SiteVocabulary
+FROM         odm_dv_seriesCatalog</CommandText>
+                    <Parameters>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="siteID" DataSetColumn="siteID" />
+              <Mapping SourceColumn="SiteCode" DataSetColumn="SiteCode" />
+              <Mapping SourceColumn="siteName" DataSetColumn="siteName" />
+              <Mapping SourceColumn="VariableCode" DataSetColumn="VariableCode" />
+              <Mapping SourceColumn="VariableName" DataSetColumn="VariableName" />
+              <Mapping SourceColumn="VariableUnitsName" DataSetColumn="VariableUnitsName" />
+              <Mapping SourceColumn="VariableUnitsID" DataSetColumn="VariableUnitsID" />
+              <Mapping SourceColumn="SampleMedium" DataSetColumn="SampleMedium" />
+              <Mapping SourceColumn="ValueType" DataSetColumn="ValueType" />
+              <Mapping SourceColumn="TimeSupport" DataSetColumn="TimeSupport" />
+              <Mapping SourceColumn="TimeUnitsID" DataSetColumn="TimeUnitsID" />
+              <Mapping SourceColumn="TimeUnitsName" DataSetColumn="TimeUnitsName" />
+              <Mapping SourceColumn="GeneralCategory" DataSetColumn="GeneralCategory" />
+              <Mapping SourceColumn="MethodID" DataSetColumn="MethodID" />
+              <Mapping SourceColumn="MethodName" DataSetColumn="MethodName" />
+              <Mapping SourceColumn="SourceID" DataSetColumn="SourceID" />
+              <Mapping SourceColumn="Organization" DataSetColumn="Organization" />
+              <Mapping SourceColumn="SourceDescription" DataSetColumn="SourceDescription" />
+              <Mapping SourceColumn="QualityControlLevelID" DataSetColumn="QualityControlLevelID" />
+              <Mapping SourceColumn="BeginDateTime" DataSetColumn="BeginDateTime" />
+              <Mapping SourceColumn="EndDateTime" DataSetColumn="EndDateTime" />
+              <Mapping SourceColumn="ValueCount" DataSetColumn="ValueCount" />
+              <Mapping SourceColumn="DataType" DataSetColumn="DataType" />
+              <Mapping SourceColumn="mediumCode" DataSetColumn="mediumCode" />
+              <Mapping SourceColumn="usgs_stat_cd" DataSetColumn="usgs_stat_cd" />
+              <Mapping SourceColumn="VariableUnitsAbbreviation" DataSetColumn="VariableUnitsAbbreviation" />
+              <Mapping SourceColumn="usgs_agency" DataSetColumn="usgs_agency" />
+              <Mapping SourceColumn="isRegular" DataSetColumn="isRegular" />
+              <Mapping SourceColumn="NoDataValue" DataSetColumn="NoDataValue" />
+              <Mapping SourceColumn="VariableVocabulary" DataSetColumn="VariableVocabulary" />
+              <Mapping SourceColumn="SiteVocabulary" DataSetColumn="SiteVocabulary" />
+            </Mappings>
+            <Sources>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_seriesCatalog" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillByAgencySiteCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataByAgencySiteCode" GeneratorSourceName="FillByAgencySiteCode" GetMethodModifier="Public" GetMethodName="GetDataByAgencySiteCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataByAgencySiteCode" UserSourceName="FillByAgencySiteCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     BeginDateTime, DataType, EndDateTime, GeneralCategory, MethodID, MethodName, NoDataValue, Organization, QualityControlLevelID, 
+                      SampleMedium, SiteCode, SiteVocabulary, SourceDescription, SourceID, TimeSupport, TimeUnitsID, TimeUnitsName, ValueCount, ValueType, 
+                      VariableCode, VariableName, VariableUnitsAbbreviation, VariableUnitsID, VariableUnitsName, VariableVocabulary, isRegular, siteID, siteName, 
+                      usgs_agency, usgs_stat_cd
+FROM         odm_dv_seriesCatalog
+WHERE     (usgs_agency = @agency) AND (SiteCode = @siteCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="agency" ColumnName="usgs_agency" DataSourceName="USGSSept2007.dbo.odm_dv_seriesCatalog" DataTypeServer="varchar(5)" DbType="AnsiString" Direction="Input" ParameterName="@agency" Precision="0" ProviderType="VarChar" Scale="0" Size="5" SourceColumn="usgs_agency" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                      <Parameter AllowDbNull="True" AutogeneratedName="siteCode" ColumnName="SiteCode" DataSourceName="USGSSept2007.dbo.odm_dv_seriesCatalog" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@siteCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="SiteCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+              <DbSource ConnectionRef="USGSSept2007ConnectionString (Settings)" DbObjectName="USGSSept2007.dbo.odm_dv_seriesCatalog" DbObjectType="View" FillMethodModifier="Public" FillMethodName="FillBySiteCode" GenerateMethods="Both" GenerateShortCommands="True" GeneratorGetMethodName="GetDataBySiteCode" GeneratorSourceName="FillBySiteCode" GetMethodModifier="Public" GetMethodName="GetDataBySiteCode" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="True" UserGetMethodName="GetDataBySiteCode" UserSourceName="FillBySiteCode">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="True">
+                    <CommandText>SELECT     BeginDateTime, DataType, EndDateTime, GeneralCategory, MethodID, MethodName, NoDataValue, Organization, QualityControlLevelID, 
+                      SampleMedium, SiteCode, SiteVocabulary, SourceDescription, SourceID, TimeSupport, TimeUnitsID, TimeUnitsName, ValueCount, ValueType, 
+                      VariableCode, VariableName, VariableUnitsAbbreviation, VariableUnitsID, VariableUnitsName, VariableVocabulary, isRegular, siteID, siteName, 
+                      usgs_agency, usgs_stat_cd
+FROM         odm_dv_seriesCatalog
+WHERE     (SiteCode = @siteCode)</CommandText>
+                    <Parameters>
+                      <Parameter AllowDbNull="True" AutogeneratedName="siteCode" ColumnName="SiteCode" DataSourceName="USGSSept2007.dbo.odm_dv_seriesCatalog" DataTypeServer="varchar(50)" DbType="AnsiString" Direction="Input" ParameterName="@siteCode" Precision="0" ProviderType="VarChar" Scale="0" Size="50" SourceColumn="SiteCode" SourceColumnNullMapping="False" SourceVersion="Current">
+                      </Parameter>
+                    </Parameters>
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </Sources>
+          </TableAdapter>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="UsgsDbDailyValues" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False" msdata:Prefix="NwisWOFService" msprop:Generator_UserDSName="UsgsDbDailyValues" msprop:Generator_DataSetName="UsgsDbDailyValues">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="sites" msprop:Generator_UserTableName="sites" msprop:Generator_RowDeletedName="sitesRowDeleted" msprop:Generator_RowChangedName="sitesRowChanged" msprop:Generator_RowClassName="sitesRow" msprop:Generator_RowChangingName="sitesRowChanging" msprop:Generator_RowEvArgName="sitesRowChangeEvent" msprop:Generator_RowEvHandlerName="sitesRowChangeEventHandler" msprop:Generator_TableClassName="sitesDataTable" msprop:Generator_TableVarName="tablesites" msprop:Generator_RowDeletingName="sitesRowDeleting" msprop:Generator_TablePropName="sites">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SiteID" msprop:Generator_UserColumnName="SiteID" msprop:Generator_ColumnVarNameInTable="columnSiteID" msprop:Generator_ColumnPropNameInRow="SiteID" msprop:Generator_ColumnPropNameInTable="SiteIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SiteCode" msprop:Generator_UserColumnName="SiteCode" msprop:Generator_ColumnVarNameInTable="columnSiteCode" msprop:Generator_ColumnPropNameInRow="SiteCode" msprop:Generator_ColumnPropNameInTable="SiteCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SiteName" msprop:Generator_UserColumnName="SiteName" msprop:Generator_ColumnVarNameInTable="columnSiteName" msprop:Generator_ColumnPropNameInRow="SiteName" msprop:Generator_ColumnPropNameInTable="SiteNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="48" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Latitude" msprop:Generator_UserColumnName="Latitude" msprop:Generator_ColumnVarNameInTable="columnLatitude" msprop:Generator_ColumnPropNameInRow="Latitude" msprop:Generator_ColumnPropNameInTable="LatitudeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="Longitude" msprop:Generator_UserColumnName="Longitude" msprop:Generator_ColumnVarNameInTable="columnLongitude" msprop:Generator_ColumnPropNameInRow="Longitude" msprop:Generator_ColumnPropNameInTable="LongitudeColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="LatLongDatumID" msprop:Generator_UserColumnName="LatLongDatumID" msprop:Generator_ColumnVarNameInTable="columnLatLongDatumID" msprop:Generator_ColumnPropNameInRow="LatLongDatumID" msprop:Generator_ColumnPropNameInTable="LatLongDatumIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Elevation_m" msprop:Generator_UserColumnName="Elevation_m" msprop:Generator_ColumnVarNameInTable="columnElevation_m" msprop:Generator_ColumnPropNameInRow="Elevation_m" msprop:Generator_ColumnPropNameInTable="Elevation_mColumn" type="xs:float" minOccurs="0" />
+              <xs:element name="VerticalDatum" msprop:Generator_UserColumnName="VerticalDatum" msprop:Generator_ColumnVarNameInTable="columnVerticalDatum" msprop:Generator_ColumnPropNameInRow="VerticalDatum" msprop:Generator_ColumnPropNameInTable="VerticalDatumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="PosAccuracy_m" msdata:ReadOnly="true" msprop:Generator_UserColumnName="PosAccuracy_m" msprop:Generator_ColumnVarNameInTable="columnPosAccuracy_m" msprop:Generator_ColumnPropNameInRow="PosAccuracy_m" msprop:Generator_ColumnPropNameInTable="PosAccuracy_mColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="County" msprop:Generator_UserColumnName="County" msprop:Generator_ColumnVarNameInTable="columnCounty" msprop:Generator_ColumnPropNameInRow="County" msprop:Generator_ColumnPropNameInTable="CountyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="252" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="State" msprop:Generator_UserColumnName="State" msprop:Generator_ColumnVarNameInTable="columnState" msprop:Generator_ColumnPropNameInRow="State" msprop:Generator_ColumnPropNameInTable="StateColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="2" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Comments" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="usgs_State_fipCode" msprop:Generator_UserColumnName="usgs_State_fipCode" msprop:Generator_ColumnVarNameInTable="columnusgs_State_fipCode" msprop:Generator_ColumnPropNameInRow="usgs_State_fipCode" msprop:Generator_ColumnPropNameInTable="usgs_State_fipCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Usgs_County_fipsCode" msprop:Generator_UserColumnName="Usgs_County_fipsCode" msprop:Generator_ColumnVarNameInTable="columnUsgs_County_fipsCode" msprop:Generator_ColumnPropNameInRow="Usgs_County_fipsCode" msprop:Generator_ColumnPropNameInTable="Usgs_County_fipsCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_agency" msprop:Generator_UserColumnName="usgs_agency" msprop:Generator_ColumnVarNameInTable="columnusgs_agency" msprop:Generator_ColumnPropNameInRow="usgs_agency" msprop:Generator_ColumnPropNameInTable="usgs_agencyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_UsesDaylightSavingsTime" msprop:Generator_UserColumnName="usgs_UsesDaylightSavingsTime" msprop:Generator_ColumnPropNameInRow="usgs_UsesDaylightSavingsTime" msprop:Generator_ColumnVarNameInTable="columnusgs_UsesDaylightSavingsTime" msprop:Generator_ColumnPropNameInTable="usgs_UsesDaylightSavingsTimeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="odws_timeZoneAbbreviation" msprop:Generator_UserColumnName="odws_timeZoneAbbreviation" msprop:Generator_ColumnPropNameInRow="odws_timeZoneAbbreviation" msprop:Generator_ColumnVarNameInTable="columnodws_timeZoneAbbreviation" msprop:Generator_ColumnPropNameInTable="odws_timeZoneAbbreviationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SiteVocabulary" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SiteVocabulary" msprop:Generator_ColumnVarNameInTable="columnSiteVocabulary" msprop:Generator_ColumnPropNameInRow="SiteVocabulary" msprop:Generator_ColumnPropNameInTable="SiteVocabularyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_station_type" msprop:Generator_UserColumnName="usgs_station_type" msprop:Generator_ColumnPropNameInRow="usgs_station_type" msprop:Generator_ColumnVarNameInTable="columnusgs_station_type" msprop:Generator_ColumnPropNameInTable="usgs_station_typeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="255" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Variables" msprop:Generator_UserTableName="Variables" msprop:Generator_RowDeletedName="VariablesRowDeleted" msprop:Generator_RowChangedName="VariablesRowChanged" msprop:Generator_RowClassName="VariablesRow" msprop:Generator_RowChangingName="VariablesRowChanging" msprop:Generator_RowEvArgName="VariablesRowChangeEvent" msprop:Generator_RowEvHandlerName="VariablesRowChangeEventHandler" msprop:Generator_TableClassName="VariablesDataTable" msprop:Generator_TableVarName="tableVariables" msprop:Generator_RowDeletingName="VariablesRowDeleting" msprop:Generator_TablePropName="Variables">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VariableID" msprop:Generator_UserColumnName="VariableID" msprop:Generator_ColumnVarNameInTable="columnVariableID" msprop:Generator_ColumnPropNameInRow="VariableID" msprop:Generator_ColumnPropNameInTable="VariableIDColumn" type="xs:int" />
+              <xs:element name="VariableCode" msprop:Generator_UserColumnName="VariableCode" msprop:Generator_ColumnVarNameInTable="columnVariableCode" msprop:Generator_ColumnPropNameInRow="VariableCode" msprop:Generator_ColumnPropNameInTable="VariableCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableName" msprop:Generator_UserColumnName="VariableName" msprop:Generator_ColumnVarNameInTable="columnVariableName" msprop:Generator_ColumnPropNameInRow="VariableName" msprop:Generator_ColumnPropNameInTable="VariableNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SampleMedium" msprop:Generator_UserColumnName="SampleMedium" msprop:Generator_ColumnVarNameInTable="columnSampleMedium" msprop:Generator_ColumnPropNameInRow="SampleMedium" msprop:Generator_ColumnPropNameInTable="SampleMediumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ValueType" msdata:ReadOnly="true" msprop:Generator_UserColumnName="ValueType" msprop:Generator_ColumnVarNameInTable="columnValueType" msprop:Generator_ColumnPropNameInRow="ValueType" msprop:Generator_ColumnPropNameInTable="ValueTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="17" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isRegular" msdata:ReadOnly="true" msprop:Generator_UserColumnName="isRegular" msprop:Generator_ColumnVarNameInTable="columnisRegular" msprop:Generator_ColumnPropNameInRow="isRegular" msprop:Generator_ColumnPropNameInTable="isRegularColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="TimeSupport" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeSupport" msprop:Generator_ColumnVarNameInTable="columnTimeSupport" msprop:Generator_ColumnPropNameInRow="TimeSupport" msprop:Generator_ColumnPropNameInTable="TimeSupportColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TimeUnitsID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeUnitsID" msprop:Generator_ColumnVarNameInTable="columnTimeUnitsID" msprop:Generator_ColumnPropNameInRow="TimeUnitsID" msprop:Generator_ColumnPropNameInTable="TimeUnitsIDColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GeneralCategory" msprop:Generator_UserColumnName="GeneralCategory" msprop:Generator_ColumnVarNameInTable="columnGeneralCategory" msprop:Generator_ColumnPropNameInRow="GeneralCategory" msprop:Generator_ColumnPropNameInTable="GeneralCategoryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="NoDataValue" msprop:Generator_UserColumnName="NoDataValue" msprop:Generator_ColumnVarNameInTable="columnNoDataValue" msprop:Generator_ColumnPropNameInRow="NoDataValue" msprop:Generator_ColumnPropNameInTable="NoDataValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="networkId" msprop:Generator_UserColumnName="networkId" msprop:Generator_ColumnVarNameInTable="columnnetworkId" msprop:Generator_ColumnPropNameInRow="networkId" msprop:Generator_ColumnPropNameInTable="networkIdColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="VariableUnitsID" msprop:Generator_UserColumnName="VariableUnitsID" msprop:Generator_ColumnVarNameInTable="columnVariableUnitsID" msprop:Generator_ColumnPropNameInRow="VariableUnitsID" msprop:Generator_ColumnPropNameInTable="VariableUnitsIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="mediumCode" msprop:Generator_UserColumnName="mediumCode" msprop:Generator_ColumnVarNameInTable="columnmediumCode" msprop:Generator_ColumnPropNameInRow="mediumCode" msprop:Generator_ColumnPropNameInTable="mediumCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Units" msprop:Generator_UserColumnName="Units" msprop:Generator_ColumnVarNameInTable="columnUnits" msprop:Generator_ColumnPropNameInRow="Units" msprop:Generator_ColumnPropNameInTable="UnitsColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitType" msprop:Generator_UserColumnName="UnitType" msprop:Generator_ColumnVarNameInTable="columnUnitType" msprop:Generator_ColumnPropNameInRow="UnitType" msprop:Generator_ColumnPropNameInTable="UnitTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="UnitAbbreviation" msprop:Generator_UserColumnName="UnitAbbreviation" msprop:Generator_ColumnVarNameInTable="columnUnitAbbreviation" msprop:Generator_ColumnPropNameInRow="UnitAbbreviation" msprop:Generator_ColumnPropNameInTable="UnitAbbreviationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataType" msprop:Generator_UserColumnName="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="stat_cd" msprop:Generator_UserColumnName="stat_cd" msprop:Generator_ColumnVarNameInTable="columnstat_cd" msprop:Generator_ColumnPropNameInRow="stat_cd" msprop:Generator_ColumnPropNameInTable="stat_cdColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="seriesCatalog" msprop:Generator_UserTableName="seriesCatalog" msprop:Generator_RowDeletedName="seriesCatalogRowDeleted" msprop:Generator_RowChangedName="seriesCatalogRowChanged" msprop:Generator_RowClassName="seriesCatalogRow" msprop:Generator_RowChangingName="seriesCatalogRowChanging" msprop:Generator_RowEvArgName="seriesCatalogRowChangeEvent" msprop:Generator_RowEvHandlerName="seriesCatalogRowChangeEventHandler" msprop:Generator_TableClassName="seriesCatalogDataTable" msprop:Generator_TableVarName="tableseriesCatalog" msprop:Generator_RowDeletingName="seriesCatalogRowDeleting" msprop:Generator_TablePropName="seriesCatalog">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="siteID" msprop:Generator_UserColumnName="siteID" msprop:Generator_ColumnVarNameInTable="columnsiteID" msprop:Generator_ColumnPropNameInRow="siteID" msprop:Generator_ColumnPropNameInTable="siteIDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="SiteCode" msprop:Generator_UserColumnName="SiteCode" msprop:Generator_ColumnVarNameInTable="columnSiteCode" msprop:Generator_ColumnPropNameInRow="SiteCode" msprop:Generator_ColumnPropNameInTable="SiteCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="siteName" msprop:Generator_UserColumnName="siteName" msprop:Generator_ColumnVarNameInTable="columnsiteName" msprop:Generator_ColumnPropNameInRow="siteName" msprop:Generator_ColumnPropNameInTable="siteNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="48" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableCode" msprop:Generator_UserColumnName="VariableCode" msprop:Generator_ColumnVarNameInTable="columnVariableCode" msprop:Generator_ColumnPropNameInRow="VariableCode" msprop:Generator_ColumnPropNameInTable="VariableCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableName" msprop:Generator_UserColumnName="VariableName" msprop:Generator_ColumnVarNameInTable="columnVariableName" msprop:Generator_ColumnPropNameInRow="VariableName" msprop:Generator_ColumnPropNameInTable="VariableNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableUnitsName" msprop:Generator_UserColumnName="VariableUnitsName" msprop:Generator_ColumnVarNameInTable="columnVariableUnitsName" msprop:Generator_ColumnPropNameInRow="VariableUnitsName" msprop:Generator_ColumnPropNameInTable="VariableUnitsNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableUnitsID" msprop:Generator_UserColumnName="VariableUnitsID" msprop:Generator_ColumnVarNameInTable="columnVariableUnitsID" msprop:Generator_ColumnPropNameInRow="VariableUnitsID" msprop:Generator_ColumnPropNameInTable="VariableUnitsIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="SampleMedium" msprop:Generator_UserColumnName="SampleMedium" msprop:Generator_ColumnVarNameInTable="columnSampleMedium" msprop:Generator_ColumnPropNameInRow="SampleMedium" msprop:Generator_ColumnPropNameInTable="SampleMediumColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ValueType" msprop:Generator_UserColumnName="ValueType" msprop:Generator_ColumnVarNameInTable="columnValueType" msprop:Generator_ColumnPropNameInRow="ValueType" msprop:Generator_ColumnPropNameInTable="ValueTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="TimeSupport" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeSupport" msprop:Generator_ColumnVarNameInTable="columnTimeSupport" msprop:Generator_ColumnPropNameInRow="TimeSupport" msprop:Generator_ColumnPropNameInTable="TimeSupportColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeUnitsID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeUnitsID" msprop:Generator_ColumnVarNameInTable="columnTimeUnitsID" msprop:Generator_ColumnPropNameInRow="TimeUnitsID" msprop:Generator_ColumnPropNameInTable="TimeUnitsIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="TimeUnitsName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="TimeUnitsName" msprop:Generator_ColumnVarNameInTable="columnTimeUnitsName" msprop:Generator_ColumnPropNameInRow="TimeUnitsName" msprop:Generator_ColumnPropNameInTable="TimeUnitsNameColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="3" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="GeneralCategory" msprop:Generator_UserColumnName="GeneralCategory" msprop:Generator_ColumnVarNameInTable="columnGeneralCategory" msprop:Generator_ColumnPropNameInRow="GeneralCategory" msprop:Generator_ColumnPropNameInTable="GeneralCategoryColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="MethodID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MethodID" msprop:Generator_ColumnVarNameInTable="columnMethodID" msprop:Generator_ColumnPropNameInRow="MethodID" msprop:Generator_ColumnPropNameInTable="MethodIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="MethodName" msdata:ReadOnly="true" msprop:Generator_UserColumnName="MethodName" msprop:Generator_ColumnVarNameInTable="columnMethodName" msprop:Generator_ColumnPropNameInRow="MethodName" msprop:Generator_ColumnPropNameInTable="MethodNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SourceID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SourceID" msprop:Generator_ColumnVarNameInTable="columnSourceID" msprop:Generator_ColumnPropNameInRow="SourceID" msprop:Generator_ColumnPropNameInTable="SourceIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="Organization" msdata:ReadOnly="true" msprop:Generator_UserColumnName="Organization" msprop:Generator_ColumnVarNameInTable="columnOrganization" msprop:Generator_ColumnPropNameInRow="Organization" msprop:Generator_ColumnPropNameInTable="OrganizationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SourceDescription" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SourceDescription" msprop:Generator_ColumnVarNameInTable="columnSourceDescription" msprop:Generator_ColumnPropNameInRow="SourceDescription" msprop:Generator_ColumnPropNameInTable="SourceDescriptionColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="9" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="QualityControlLevelID" msdata:ReadOnly="true" msprop:Generator_UserColumnName="QualityControlLevelID" msprop:Generator_ColumnVarNameInTable="columnQualityControlLevelID" msprop:Generator_ColumnPropNameInRow="QualityControlLevelID" msprop:Generator_ColumnPropNameInTable="QualityControlLevelIDColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BeginDateTime" msprop:Generator_UserColumnName="BeginDateTime" msprop:Generator_ColumnVarNameInTable="columnBeginDateTime" msprop:Generator_ColumnPropNameInRow="BeginDateTime" msprop:Generator_ColumnPropNameInTable="BeginDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="EndDateTime" msprop:Generator_UserColumnName="EndDateTime" msprop:Generator_ColumnVarNameInTable="columnEndDateTime" msprop:Generator_ColumnPropNameInRow="EndDateTime" msprop:Generator_ColumnPropNameInTable="EndDateTimeColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="ValueCount" msprop:Generator_UserColumnName="ValueCount" msprop:Generator_ColumnVarNameInTable="columnValueCount" msprop:Generator_ColumnPropNameInRow="ValueCount" msprop:Generator_ColumnPropNameInTable="ValueCountColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="DataType" msprop:Generator_UserColumnName="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="mediumCode" msprop:Generator_UserColumnName="mediumCode" msprop:Generator_ColumnVarNameInTable="columnmediumCode" msprop:Generator_ColumnPropNameInRow="mediumCode" msprop:Generator_ColumnPropNameInTable="mediumCodeColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_stat_cd" msprop:Generator_UserColumnName="usgs_stat_cd" msprop:Generator_ColumnVarNameInTable="columnusgs_stat_cd" msprop:Generator_ColumnPropNameInRow="usgs_stat_cd" msprop:Generator_ColumnPropNameInTable="usgs_stat_cdColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="VariableUnitsAbbreviation" msprop:Generator_UserColumnName="VariableUnitsAbbreviation" msprop:Generator_ColumnVarNameInTable="columnVariableUnitsAbbreviation" msprop:Generator_ColumnPropNameInRow="VariableUnitsAbbreviation" msprop:Generator_ColumnPropNameInTable="VariableUnitsAbbreviationColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="usgs_agency" msprop:Generator_UserColumnName="usgs_agency" msprop:Generator_ColumnVarNameInTable="columnusgs_agency" msprop:Generator_ColumnPropNameInRow="usgs_agency" msprop:Generator_ColumnPropNameInTable="usgs_agencyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="isRegular" msdata:ReadOnly="true" msprop:Generator_UserColumnName="isRegular" msprop:Generator_ColumnPropNameInRow="isRegular" msprop:Generator_ColumnVarNameInTable="columnisRegular" msprop:Generator_ColumnPropNameInTable="isRegularColumn" type="xs:boolean" minOccurs="0" />
+              <xs:element name="NoDataValue" msprop:Generator_UserColumnName="NoDataValue" msprop:Generator_ColumnPropNameInRow="NoDataValue" msprop:Generator_ColumnVarNameInTable="columnNoDataValue" msprop:Generator_ColumnPropNameInTable="NoDataValueColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="VariableVocabulary" msdata:ReadOnly="true" msprop:Generator_UserColumnName="VariableVocabulary" msprop:Generator_ColumnVarNameInTable="columnVariableVocabulary" msprop:Generator_ColumnPropNameInRow="VariableVocabulary" msprop:Generator_ColumnPropNameInTable="VariableVocabularyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="SiteVocabulary" msdata:ReadOnly="true" msprop:Generator_UserColumnName="SiteVocabulary" msprop:Generator_ColumnVarNameInTable="columnSiteVocabulary" msprop:Generator_ColumnPropNameInRow="SiteVocabulary" msprop:Generator_ColumnPropNameInTable="SiteVocabularyColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="4" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

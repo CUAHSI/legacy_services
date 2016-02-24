@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?><timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+<queryInfo>
+    <creationTime>2010-12-09T18:00:48</creationTime>
+    <queryURL>http://waterservices.usgs.gov/nwis/iv</queryURL>
+    <criteria>
+        <locationParam>[ALL:08158700]</locationParam>
+        <variableParam>[00060]</variableParam>
+    </criteria>
+    <note title="filter:sites">[ALL:08158700]</note>
+    <note title="filter:timeRange">[mode=LATEST, modifiedSince=null]</note>
+    <note title="filter:methodId">methodIds=[[ALL]]</note>
+    <note title="requestDT">2010-12-09T23:00:48.615Z</note>
+    <note title="requestId">29940f60-03e8-11e0-b96c-0003ba0ac94b</note>
+    <note title="disclaimer">Provisional data subject to revision. Go to http://waterdata.usgs.gov/nwis/help/?provisional for more information.</note>
+    <note title="server">vaas01</note>
+<note title="CUAHSI">Tranformed from WaterML 1.1 </note></queryInfo>
+<timeSeries>
+    <sourceInfo xsi:type="SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <siteName>Onion Ck nr Driftwood, TX</siteName>
+        <siteCode network="NWISIID" agencyCode="USGS">08158700</siteCode>
+        <geoLocation>
+            <geogLocation srs="EPSG:4326" xsi:type="LatLonPointType">
+                <latitude>30.08298924</latitude>
+                <longitude>-98.0077859</longitude>
+            </geogLocation>
+        </geoLocation>
+        <note title="siteTypeCd">ST</note>
+        <note title="hucCd">12090205</note>
+        <note title="stateCd">48</note>
+        <note title="countyCd">48209</note>
+    </sourceInfo>
+    <variable>
+        <variableCode network="NWISIID" vocabulary="NWISIID" default="true">00060</variableCode>
+        <variableName>Streamflow, ft&#179;/s</variableName>
+        <variableDescription>Streamflow, ft&#179;/s</variableDescription>
+        <valueType>Field Observation</valueType>
+        <units unitsType="Flow" unitsAbbreviation="cfs">cubic feet per second</units>
+        <NoDataValue>-999999.0</NoDataValue>
+    </variable>
+    <values>
+        <value dateTime="2010-12-09T16:20:00.000-06:00" qualifiers="P">4.1</value>
+        <qualifier qualifierID="0">
+             QualifierCode:P
+              QualifierDescription:Provisional data subject to revision.
+        </qualifier>
+        <method methodID="0">
+            <MethodDescription>sensor::5</MethodDescription>
+        </method>
+    </values>
+</timeSeries>
+</timeSeriesResponse>

@@ -1,0 +1,121 @@
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<TITLE>VariableInfoType.GeneralCategory</TITLE>
+<LINK REL=STYLESHEET HREF="../std/schema.css" TYPE="text/css">
+</HEAD>
+<BODY topmargin=0 rightmargin=0 leftmargin=0 style="background-image: url(../titletile.jpg); background-repeat:repeat-x; background-position: 0 0;" >
+<DIV CLASS="PageHeading"><A HREF="../../tns/Enum_GeneralCategoryEnum.htm">tns.Enumerations.GeneralCategoryEnum</A> GeneralCategory</DIV>
+<IMG src="../std/GradLeft.jpg" width=7 height=378 alt="" border="0" style="position:absolute; left:10; top:18;z-Index:2">
+<IMG src="../std/GradTop.jpg" width=352 height=7 alt="" border="0" align="top" style="position:absolute; left:10; top:18; z-index:1">
+
+<TABLE CLASS="InfoTable" cellpadding=0 cellspacing=0>
+	<TR height=20>
+		<TD width=20>&nbsp;</TD>
+		<TD valign=top align=left width=9 bgcolor="#cccc66"><IMG SRC="../std/tablecorner.jpg" align=top></TD>
+		<TD CLASS="TableLightLabel" WIDTH=206>Property</TD>
+		<TD CLASS="TableLightLabel" >Description</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Name</TD>
+		<TD CLASS="TableLightDesc">GeneralCategory</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Property Type</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../../tns/Enum_GeneralCategoryEnum.htm">tns.Enumerations.GeneralCategoryEnum</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Parent Class</TD>
+		<TD CLASS="TableLightDesc"><A HREF="Cls_VariableInfoType.htm">tns.VariableInfoType</A></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">XML Type</TD>
+		<TD CLASS="TableLightDesc">Element</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Accessors</TD>
+		<TD CLASS="TableLightDesc">Read/Write</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Description</TD>
+		<TD CLASS="TableLightDesc">			An optional <A HREF="../tns/Enum_GeneralCategoryEnum.htm">GeneralCategoryEnum</A> enumeration
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Remarks</TD>
+		<TD CLASS="TableLightDesc">			It is optional, initially it is not populated.<BR>
+			The property IsValidGeneralCategory indicates if the property has been populated.<BR>
+			Any attempt to read a property that has not been populated will raise an exception.<BR>
+			To 'un-populate' the property SetValidGeneralCategory = false.<BR>
+<BR><BR></TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Also See</TD>
+		<TD CLASS="TableLightDesc"><A HREF="../std/IsValid.HTM">IsValidGeneralCategory</A> - Indicates if the property has been populated.</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+	<TR height=20 VALIGN="TOP">
+		<TD width=20>&nbsp;</TD>
+		<TD CLASS="TableLightDesc">&nbsp;</TD>
+		<TD CLASS="TableLightDesc">Example</TD>
+		<TD CLASS="TableLightDesc">      <PRE>
+<A HREF="Enum_GeneralCategoryEnum.htm">GeneralCategoryEnum</A> eItem;
+<A HREF="Cls_VariableInfoType.htm">tns.VariableInfoType</A> oParent = ...;
+
+// The property is optional so is not initially set.
+// attempts to read it will result in an exception being raised
+System.Diagnostics.Debug.WriteLine(oParent.GeneralCategory); // ERROR
+      
+// Before attempting to read the property you can test to see if ts valid
+if (oParent.IsValidGeneralCategory)
+{
+  // its safe to read the value
+  System.Diagnostics.Debug.WriteLine( oParent.GeneralCategory);
+}
+
+System.Diagnostics.Debug.Assert( oParent.IsValidGeneralCategory == false);
+
+// Setting the value, use any one of the following
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.WaterSpaceQuality;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Climate;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Hydrology;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Geology;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Biota;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Unknown;
+oParent.GeneralCategory = tns.Enumerations.GeneralCategoryEnum.Instrumentation;
+System.Diagnostics.Debug.Assert( oParent.IsValidGeneralCategory == true);
+      </PRE>
+</TD>
+		<TD width=20>&nbsp;</TD>
+	</TR>
+</TABLE>
+
+</BODY>
+</HTML>
+
+
+

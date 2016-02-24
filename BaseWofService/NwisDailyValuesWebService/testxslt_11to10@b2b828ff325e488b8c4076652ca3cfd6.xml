@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+  <queryInfo>
+    <creationTime>2011-03-21T15:54:18.473-07:00</creationTime>
+    <wml10:criteria xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wml10="http://www.cuahsi.org/waterML/1.0/" xmlns=""><wml10:locationParam>NWISIID</wml10:locationParam><wml10:variableParam>NWISIID</wml10:variableParam><wml10:timeParam><wml10:beginDateTime>NWISIID</wml10:beginDateTime><wml10:endDateTime>NWISIID</wml10:endDateTime></wml10:timeParam></wml10:criteria><note title="USGS_output_site">LBR_TEST:USU-LBR-Wellsville</note><note title="USGS_output_variable">LBR_TEST:USU41</note><note title="USGS_output_startDate">2007-10-04</note><note title="USGS_output_endDate">2007-12-31</note>
+  <note title="CUAHSI">Tranformed from WaterML 1.1 </note></queryInfo>
+  <timeSeries>
+    <sourceInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="SiteInfoType">
+      <siteName>Little Bear River near Wellsville, Utah</siteName>
+      <siteCode network="NWISIID" agencyCode=""/>
+      <geoLocation>
+        <geogLocation srs="EPSG:4269" xsi:type="LatLonPointType">
+          <latitude>41.643457</latitude>
+          <longitude>-111.917649</longitude>
+        </geogLocation>
+        <localSiteXY projectionInformation=" NAD83 / UTM zone 12N"><X>423579.317</X><Y>4610597.583</Y></localSiteXY>
+      </geoLocation>
+      <elevation_m>1365</elevation_m>
+      <verticalDatum>NGVD29</verticalDatum>
+      <note title="County">Cache</note>
+      <note title="State">Utah</note>
+      <note title="Site Comments">Located on the upstream side of State Highway 101 bridge.</note>
+    </sourceInfo>
+    <variable>
+      <variableCode network="NWISIID" vocabulary="NWISIID" default="true">USU41</variableCode>
+      <variableName>Solids, total Suspended</variableName>
+      <valueType>Unknown</valueType>
+      <dataType>Sporadic</dataType>
+      <generalCategory>Water Quality</generalCategory>
+      <sampleMedium>Surface Water</sampleMedium>
+      <units unitsType="" unitsCode="199">milligrams per liter</units>
+      <NoDataValue>-9999</NoDataValue>
+      <timeSupport xmlns:wml10="http://www.cuahsi.org/waterML/1.0/" wml10:isRegular="false"/>
+      <note title="speciation">Not Applicable</note>
+    </variable>
+    <values>
+      <value dateTime="2007-11-07T13:00:00" methodId="25" sourceId="3" sampleID="26">10.5</value>
+      <value dateTime="2007-11-13T12:30:00" methodId="25" sourceId="3" sampleID="32">2.5</value>
+      <value dateTime="2007-11-21T14:00:00" methodId="25" sourceId="3" sampleID="38">7.2</value>
+      <value dateTime="2007-12-05T11:00:00" methodId="25" sourceId="3" sampleID="83">2.5</value>
+      <value dateTime="2007-12-20T14:05:00" methodId="25" sourceId="3" sampleID="171">2.5</value>
+      
+      <method>
+        <methodCode>25</methodCode>
+        <MethodDescription>Water chemistry grab sample collected by technicians in the field.</MethodDescription>
+      </method>
+      <source sourceID="3">
+        <sourceCode>3</sourceCode>
+        <organization>Utah State University Utah Water Research Laboratory</organization>
+        <sourceDescription>Water chemistry monitoring data collected by Utah State University as part of a National Science Foundation funded test bed project.</sourceDescription>
+        <ContactInformation>
+          <ContactName>Amber Spackman</ContactName>
+          <TypeOfContact>main</TypeOfContact>
+          <Email>amber.s@aggiemail.usu.edu</Email>
+          <Phone>1-435-797-0045</Phone>
+          <Address>8200 Old Main Hill
+,Logan, Utah 84322-8200</Address>
+        </ContactInformation>
+        <SourceLink>http://water.usu.edu/littlebearriver</SourceLink>
+        Water chemistry monitoring data collected by Jeff Horsburgh, David Stevens, David Tarboton, Nancy Mesner, Amber Spackman, and Sandra Gurrero at Utah State University as part of a National Science Foundation funded WATERS Network Test Bed project.
+      </source>
+      
+      
+      
+      
+      
+      
+    </values>
+  </timeSeries>
+</timeSeriesResponse>

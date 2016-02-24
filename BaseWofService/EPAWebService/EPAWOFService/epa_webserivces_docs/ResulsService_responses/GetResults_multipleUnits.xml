@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<SOAP-ENV:Body>
+<ns1:getResultsResponse xmlns:ns1="http://gov.epa.storet.storetresultservice/StoretResultService.wsdl" SOAP-ENV:encodingStyle="http://xml.apache.org/xml-soap/literalxml">
+<return>
+<WQX><Organization><OrganizationDescription><OrganizationIdentifier>21SC60WQ</OrganizationIdentifier><OrganizationFormalName>SC Dept. of Health &amp; Environmental Control</OrganizationFormalName></OrganizationDescription><Activity><ActivityDescription><ActivityIdentifier>SWS2002</ActivityIdentifier><ActivityTypeCode>Sample       </ActivityTypeCode><ActivityMediaName>Water</ActivityMediaName><ActivityStartDate>2002-07-09</ActivityStartDate><ProjectIdentifier>SWS2002 </ProjectIdentifier></ActivityDescription><MonitoringLocation><MonitoringLocationIdentifier>RO-02017       </MonitoringLocationIdentifier><MonitoringLocationName>BROAD RVR 4.4 MI N OF SC 170</MonitoringLocationName></MonitoringLocation><Result><ResultDescription><CharacteristicName>Dissolved oxygen (DO)</CharacteristicName><ResultSampleFractionText>Dissolved</ResultSampleFractionText><ResultMeasure><ResultMeasureValue>5830</ResultMeasureValue><MeasureUnitCode>ug/l      </MeasureUnitCode></ResultMeasure><ResultStatusIdentifier>F</ResultStatusIdentifier><ResultValueTypeName>Actual    </ResultValueTypeName><ResultWeightBasisText>            </ResultWeightBasisText><ResultTimeBasisText>          </ResultTimeBasisText><ResultTemperatureBasisText>        </ResultTemperatureBasisText><DataQuality><PrecisionValue>            </PrecisionValue><ConfidenceIntervalValue>        </ConfidenceIntervalValue></DataQuality><ResultCommentText/></ResultDescription><ResultLabInformation><ResultLaboratoryCommentCode/></ResultLabInformation></Result></Activity></Organization></WQX>
+</return>
+</ns1:getResultsResponse>
+
+</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+

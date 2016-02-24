@@ -1,0 +1,1 @@
+http://interim.waterservices.usgs.gov:80/NWISQuery/GetWSService

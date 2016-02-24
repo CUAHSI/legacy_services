@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<lxdb8:LXDBWizardProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xmlns:lxdb8="http://www.liquid-technologies.com/LTWizProjectLib8" ProjectVersion="8.1.4.2482">
+	<lxdb8:Schema FullPathName="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd" SelectedSchemaType="XSD" XDRAllowAdditionalAttributes="false" XDRIgnoreSimpleElements="false" SelectedLanguage="CPP">
+		<lxdb8:CPP CollectionMapping="Original" OutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\SourceCodeCPP" DocumentationOutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\DocumentationCPP" MappingFilePath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd_NameMapping.cpp.xml" DefaultClassNamespace="cuahsiTimeSeries_v1_0Lib"/>
+		<lxdb8:CSharp CollectionMapping="Original" OutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\SourceCodeCS" DocumentationOutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\DocumentationCS" MappingFilePath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd_NameMapping.cs.xml" DefaultClassNamespace="cuahsiTimeSeries_v1_0Lib" BaseNamespace="">
+			<lxdb8:DotNetPlatformOptions>
+				<lxdb8:DotNetDevEnv>VS2010</lxdb8:DotNetDevEnv>
+				<lxdb8:DotNetPlatform>DotNet40</lxdb8:DotNetPlatform>
+			</lxdb8:DotNetPlatformOptions>
+		</lxdb8:CSharp>
+		<lxdb8:Java CollectionMapping="Original" OutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\SourceCodeJava" DocumentationOutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\DocumentationJava" MappingFilePath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd_NameMapping.java.xml" DefaultPackageName="cuahsiTimeSeries_v1_0Lib" BasePackage=""/>
+		<lxdb8:VBNet CollectionMapping="Original" OutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\SourceCodeVBNet" DocumentationOutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\DocumentationVBNet" MappingFilePath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd_NameMapping.vbnet.xml" DefaultClassNamespace="cuahsiTimeSeries_v1_0Lib" BaseNamespace="">
+			<lxdb8:DotNetPlatformOptions>
+				<lxdb8:DotNetDevEnv>VS2010</lxdb8:DotNetDevEnv>
+				<lxdb8:DotNetPlatform>DotNet40</lxdb8:DotNetPlatform>
+			</lxdb8:DotNetPlatformOptions>
+		</lxdb8:VBNet>
+		<lxdb8:VB6 CollectionMapping="Original" OutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\SourceCodeVB" DocumentationOutputPath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd.Output\DocumentationVB" MappingFilePath="C:\dev2005\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd_NameMapping.vb6.xml" ComponentName="cuahsiTimeSeries_v1_0Lib" Description="" MajorVersion="1" MinorVersion="0" Revision="0" ProductName=""/>
+	</lxdb8:Schema>
+	<lxdb8:Output CreateDocumentation="true" CreateSampleApplication="true" OutputDateInHeaderBlock="false" OutputProjectFiles="true" OutputFastInfosetTables="false" OutputPropertyEvents="false" OutputElmRefAsInterface="true"/>
+	<lxdb8:PostBuild BuildHelp="true" OpenHelp="true" OpenProject="true"/>
+</lxdb8:LXDBWizardProject>

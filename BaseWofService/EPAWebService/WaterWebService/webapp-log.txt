@@ -1,0 +1,5 @@
+2016-02-24 12:58:55,178 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_EPA
+2016-02-24 12:59:15,805 [63] INFO  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Starting EPA
+2016-02-24 12:59:15,831 [63] INFO  QueryLog [(null)] - EPA|GetSiteInfo_Start|l:11NPSWRD:SHEN_VT87_PG09||||||127.0.0.1
+2016-02-24 12:59:18,032 [63] INFO  QueryLog [(null)] - EPA|GetSiteInfo_End|l:11NPSWRD:SHEN_VT87_PG09||||2200|1|127.0.0.1
+2016-02-24 12:59:51,819 [76] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_EPA

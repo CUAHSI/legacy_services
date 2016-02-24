@@ -1,0 +1,28 @@
+﻿CREATE TABLE [dbo].[series_stage] (
+    [agency_cd]          VARCHAR (8)   NULL,
+    [site_no]            VARCHAR (16)  NULL,
+    [station_nm]         VARCHAR (100) NULL,
+    [site_tp_cd]         VARCHAR (16)  NULL,
+    [dec_lat_va]         FLOAT         NULL,
+    [dec_long_va]        FLOAT         NULL,
+    [coord_acy_cd]       VARCHAR (2)   NULL,
+    [dec_coord_datum_cd] VARCHAR (24)  NULL,
+    [alt_va]             FLOAT         NULL,
+    [alt_acy_va]         VARCHAR (4)   NULL,
+    [alt_datum_cd]       VARCHAR (16)  NULL,
+    [data_type_cd]       VARCHAR (4)   NULL,
+    [parm_cd]            VARCHAR (8)   NULL,
+    [stat_cd]            VARCHAR (8)   NULL,
+    [dd_nu]              VARCHAR (8)   NULL,
+    [loc_web_ds]         VARCHAR (50)  NULL,
+    [medium_grp_cd]      VARCHAR (8)   NULL,
+    [parm_grp_cd]        VARCHAR (8)   NULL,
+    [srs_id]             BIGINT        NULL,
+    [access_cd]          BIGINT        NULL,
+    [begin_date]         VARCHAR (12)  NULL,
+    [end_date]           VARCHAR (12)  NULL,
+    [count_nu]           INT           NULL,
+    [beginDate]          DATE          NULL,
+    [endDate]            DATE          NULL
+);
+

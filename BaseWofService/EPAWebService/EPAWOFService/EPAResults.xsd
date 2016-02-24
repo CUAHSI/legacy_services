@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="EPAResults" targetNamespace="urn://cuahsi.org/schemas/EPAResults.xsd" xmlns:mstns="urn://cuahsi.org/schemas/EPAResults.xsd" xmlns="urn://cuahsi.org/schemas/EPAResults.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="EPAResults" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:Prefix="EPAWOFService" msprop:Generator_UserDSName="EPAResults" msprop:Generator_DataSetName="EPAResults">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="StoretResultFlat" msprop:Generator_UserTableName="StoretResultFlat" msprop:Generator_RowDeletedName="StoretResultFlatRowDeleted" msprop:Generator_RowChangedName="StoretResultFlatRowChanged" msprop:Generator_RowClassName="StoretResultFlatRow" msprop:Generator_RowChangingName="StoretResultFlatRowChanging" msprop:Generator_RowEvArgName="StoretResultFlatRowChangeEvent" msprop:Generator_RowEvHandlerName="StoretResultFlatRowChangeEventHandler" msprop:Generator_TableClassName="StoretResultFlatDataTable" msprop:Generator_TableVarName="tableStoretResultFlat" msprop:Generator_RowDeletingName="StoretResultFlatRowDeleting" msprop:Generator_TablePropName="StoretResultFlat">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Agency" msprop:Generator_UserColumnName="Agency" msprop:Generator_ColumnVarNameInTable="columnAgency" msprop:Generator_ColumnPropNameInRow="Agency" msprop:Generator_ColumnPropNameInTable="AgencyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SiteCode" msprop:Generator_UserColumnName="SiteCode" msprop:Generator_ColumnVarNameInTable="columnSiteCode" msprop:Generator_ColumnPropNameInRow="SiteCode" msprop:Generator_ColumnPropNameInTable="SiteCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VariableName" msprop:Generator_UserColumnName="VariableName" msprop:Generator_ColumnPropNameInRow="VariableName" msprop:Generator_ColumnVarNameInTable="columnVariableName" msprop:Generator_ColumnPropNameInTable="VariableNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SampleMedium" msprop:Generator_UserColumnName="SampleMedium" msprop:Generator_ColumnPropNameInRow="SampleMedium" msprop:Generator_ColumnVarNameInTable="columnSampleMedium" msprop:Generator_ColumnPropNameInTable="SampleMediumColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LocalDateTime" msprop:Generator_UserColumnName="LocalDateTime" msprop:Generator_ColumnPropNameInRow="LocalDateTime" msprop:Generator_ColumnVarNameInTable="columnLocalDateTime" msprop:Generator_ColumnPropNameInTable="LocalDateTimeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataValue" msprop:Generator_UserColumnName="DataValue" msprop:Generator_ColumnPropNameInRow="DataValue" msprop:Generator_ColumnVarNameInTable="columnDataValue" msprop:Generator_ColumnPropNameInTable="DataValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="VariableUnitsAbbreviation" msprop:Generator_UserColumnName="VariableUnitsAbbreviation" msprop:Generator_ColumnPropNameInRow="VariableUnitsAbbreviation" msprop:Generator_ColumnVarNameInTable="columnVariableUnitsAbbreviation" msprop:Generator_ColumnPropNameInTable="VariableUnitsAbbreviationColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Comments" msprop:Generator_UserColumnName="Comments" msprop:Generator_ColumnPropNameInRow="Comments" msprop:Generator_ColumnVarNameInTable="columnComments" msprop:Generator_ColumnPropNameInTable="CommentsColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Qualifier" msprop:Generator_UserColumnName="Qualifier" msprop:Generator_ColumnPropNameInRow="Qualifier" msprop:Generator_ColumnVarNameInTable="columnQualifier" msprop:Generator_ColumnPropNameInTable="QualifierColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ResultValueTypeName" msprop:Generator_UserColumnName="ResultValueTypeName" msprop:Generator_ColumnPropNameInRow="ResultValueTypeName" msprop:Generator_ColumnVarNameInTable="columnResultValueTypeName" msprop:Generator_ColumnPropNameInTable="ResultValueTypeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DataType" msprop:Generator_UserColumnName="DataType" msprop:Generator_ColumnPropNameInRow="DataType" msprop:Generator_ColumnVarNameInTable="columnDataType" msprop:Generator_ColumnPropNameInTable="DataTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PrecisionValue" msprop:Generator_UserColumnName="PrecisionValue" msprop:Generator_ColumnPropNameInRow="PrecisionValue" msprop:Generator_ColumnVarNameInTable="columnPrecisionValue" msprop:Generator_ColumnPropNameInTable="PrecisionValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ConfidenceIntervalValue" msprop:Generator_UserColumnName="ConfidenceIntervalValue" msprop:Generator_ColumnPropNameInRow="ConfidenceIntervalValue" msprop:Generator_ColumnVarNameInTable="columnConfidenceIntervalValue" msprop:Generator_ColumnPropNameInTable="ConfidenceIntervalValueColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MethodCode" msprop:Generator_UserColumnName="MethodCode" msprop:Generator_ColumnVarNameInTable="columnMethodCode" msprop:Generator_ColumnPropNameInRow="MethodCode" msprop:Generator_ColumnPropNameInTable="MethodCodeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MethodVocabulary" msprop:Generator_UserColumnName="MethodVocabulary" msprop:Generator_ColumnVarNameInTable="columnMethodVocabulary" msprop:Generator_ColumnPropNameInRow="MethodVocabulary" msprop:Generator_ColumnPropNameInTable="MethodVocabularyColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MethodDescription" msprop:Generator_UserColumnName="MethodDescription" msprop:Generator_ColumnVarNameInTable="columnMethodDescription" msprop:Generator_ColumnPropNameInRow="MethodDescription" msprop:Generator_ColumnPropNameInTable="MethodDescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LabName" msprop:Generator_UserColumnName="LabName" msprop:Generator_ColumnVarNameInTable="columnLabName" msprop:Generator_ColumnPropNameInRow="LabName" msprop:Generator_ColumnPropNameInTable="LabNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DetectionQuantitationLimit" msprop:Generator_UserColumnName="DetectionQuantitationLimit" msprop:Generator_ColumnVarNameInTable="columnDetectionQuantitationLimit" msprop:Generator_ColumnPropNameInRow="DetectionQuantitationLimit" msprop:Generator_ColumnPropNameInTable="DetectionQuantitationLimitColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="MethodName" msprop:Generator_UserColumnName="MethodName" msprop:Generator_ColumnPropNameInRow="MethodName" msprop:Generator_ColumnVarNameInTable="columnMethodName" msprop:Generator_ColumnPropNameInTable="MethodNameColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

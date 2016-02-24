@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-16"?><timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+  <queryInfo>
+    <creationTime>2011-03-21T15:54:17.464-07:00</creationTime>
+    <wml10:criteria xmlns:wml10="http://www.cuahsi.org/waterML/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><wml10:locationParam>NWISIID</wml10:locationParam><wml10:variableParam>NWISIID</wml10:variableParam><wml10:timeParam><wml10:beginDateTime>NWISIID</wml10:beginDateTime><wml10:endDateTime>NWISIID</wml10:endDateTime></wml10:timeParam></wml10:criteria><note title="USGS_output_site">LBR_TEST:USU-LBR-Mendon</note><note title="USGS_output_variable">LBR_TEST:USU3</note><note title="USGS_output_startDate">2005-08-05</note><note title="USGS_output_endDate">2005-08-06</note>
+  <note title="CUAHSI">Tranformed from WaterML 1.1 </note></queryInfo>
+  <timeSeries>
+    <sourceInfo xsi:type="SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <siteName>Little Bear River at Mendon Road near Mendon, Utah</siteName>
+      <siteCode network="NWISIID" agencyCode="" />
+      <geoLocation>
+        <geogLocation srs="EPSG:4269" xsi:type="LatLonPointType">
+          <latitude>41.718473</latitude>
+          <longitude>-111.946402</longitude>
+        </geogLocation>
+        <localSiteXY projectionInformation=" NAD83 / UTM zone 12N"><X>421276.323</X><Y>4618952.04</Y></localSiteXY>
+      </geoLocation>
+      <elevation_m>1345</elevation_m>
+      <verticalDatum>NGVD29</verticalDatum>
+      <note title="County">Cache</note>
+      <note title="State">Utah</note>
+      <note title="Site Comments">Located below county road bridge at Mendon Road crossing</note>
+    </sourceInfo>
+    <variable>
+      <variableCode network="NWISIID" vocabulary="NWISIID" default="true">USU3</variableCode>
+      <variableName>Battery voltage</variableName>
+      <valueType>Unknown</valueType>
+      <dataType>Minimum</dataType>
+      <generalCategory>Instrumentation</generalCategory>
+      <sampleMedium>Other</sampleMedium>
+      <units unitsType="" unitsCode="168">volts</units>
+      <NoDataValue>-9999</NoDataValue>
+      <timeSupport xp_0:isRegular="false" xmlns:xp_0="http://www.cuahsi.org/waterML/1.0/" />
+      <note title="speciation">Not Applicable</note>
+    </variable>
+    <values count="49">
+      <value dateTime="2005-08-05T00:00:00" methodId="4" sourceId="1">12.91645</value>
+      <value dateTime="2005-08-05T00:30:00" methodId="4" sourceId="1">12.91477</value>
+      <value dateTime="2005-08-05T01:00:00" methodId="4" sourceId="1">12.90721</value>
+      <value dateTime="2005-08-05T01:30:00" methodId="4" sourceId="1">12.90301</value>
+      <value dateTime="2005-08-05T02:00:00" methodId="4" sourceId="1">12.89882</value>
+      <value dateTime="2005-08-05T02:30:00" methodId="4" sourceId="1">12.88874</value>
+      <value dateTime="2005-08-05T03:00:00" methodId="4" sourceId="1">12.88958</value>
+      <value dateTime="2005-08-05T03:30:00" methodId="4" sourceId="1">12.88706</value>
+      <value dateTime="2005-08-05T04:00:00" methodId="4" sourceId="1">12.88706</value>
+      <value dateTime="2005-08-05T04:30:00" methodId="4" sourceId="1">12.87783</value>
+      <value dateTime="2005-08-05T05:00:00" methodId="4" sourceId="1">12.87615</value>
+      <value dateTime="2005-08-05T05:30:00" methodId="4" sourceId="1">12.87531</value>
+      <value dateTime="2005-08-05T06:00:00" methodId="4" sourceId="1">12.86188</value>
+      <value dateTime="2005-08-05T06:30:00" methodId="4" sourceId="1">12.86608</value>
+      <value dateTime="2005-08-05T07:00:00" methodId="4" sourceId="1">12.86608</value>
+      <value dateTime="2005-08-05T07:30:00" methodId="4" sourceId="1">12.87195</value>
+      <value dateTime="2005-08-05T08:00:00" methodId="4" sourceId="1">12.86944</value>
+      <value dateTime="2005-08-05T08:30:00" methodId="4" sourceId="1">12.88455</value>
+      <value dateTime="2005-08-05T09:00:00" methodId="4" sourceId="1">13.12379</value>
+      <value dateTime="2005-08-05T09:30:00" methodId="4" sourceId="1">13.21193</value>
+      <value dateTime="2005-08-05T10:00:00" methodId="4" sourceId="1">13.41339</value>
+      <value dateTime="2005-08-05T10:30:00" methodId="4" sourceId="1">13.38653</value>
+      <value dateTime="2005-08-05T11:00:00" methodId="4" sourceId="1">13.36806</value>
+      <value dateTime="2005-08-05T11:30:00" methodId="4" sourceId="1">13.34372</value>
+      <value dateTime="2005-08-05T12:00:00" methodId="4" sourceId="1">13.30427</value>
+      <value dateTime="2005-08-05T12:30:00" methodId="4" sourceId="1">13.27321</value>
+      <value dateTime="2005-08-05T13:00:00" methodId="4" sourceId="1">13.23963</value>
+      <value dateTime="2005-08-05T13:30:00" methodId="4" sourceId="1">13.21025</value>
+      <value dateTime="2005-08-05T14:00:00" methodId="4" sourceId="1">13.21025</value>
+      <value dateTime="2005-08-05T14:30:00" methodId="4" sourceId="1">13.18758</value>
+      <value dateTime="2005-08-05T15:00:00" methodId="4" sourceId="1">13.18171</value>
+      <value dateTime="2005-08-05T15:30:00" methodId="4" sourceId="1">13.17247</value>
+      <value dateTime="2005-08-05T16:00:00" methodId="4" sourceId="1">13.16996</value>
+      <value dateTime="2005-08-05T16:30:00" methodId="4" sourceId="1">13.16156</value>
+      <value dateTime="2005-08-05T17:00:00" methodId="4" sourceId="1">13.16996</value>
+      <value dateTime="2005-08-05T17:30:00" methodId="4" sourceId="1">13.17499</value>
+      <value dateTime="2005-08-05T18:00:00" methodId="4" sourceId="1">13.18842</value>
+      <value dateTime="2005-08-05T18:30:00" methodId="4" sourceId="1">13.22032</value>
+      <value dateTime="2005-08-05T19:00:00" methodId="4" sourceId="1">13.0751</value>
+      <value dateTime="2005-08-05T19:30:00" methodId="4" sourceId="1">13.04908</value>
+      <value dateTime="2005-08-05T20:00:00" methodId="4" sourceId="1">13.02557</value>
+      <value dateTime="2005-08-05T20:30:00" methodId="4" sourceId="1">13.02222</value>
+      <value dateTime="2005-08-05T21:00:00" methodId="4" sourceId="1">13.00543</value>
+      <value dateTime="2005-08-05T21:30:00" methodId="4" sourceId="1">13.00291</value>
+      <value dateTime="2005-08-05T22:00:00" methodId="4" sourceId="1">12.98864</value>
+      <value dateTime="2005-08-05T22:30:00" methodId="4" sourceId="1">12.9836</value>
+      <value dateTime="2005-08-05T23:00:00" methodId="4" sourceId="1">12.97772</value>
+      <value dateTime="2005-08-05T23:30:00" methodId="4" sourceId="1">12.97437</value>
+      <value dateTime="2005-08-06T00:00:00" methodId="4" sourceId="1">12.95674</value>
+      
+      <method>
+        <methodCode>4</methodCode>
+        <MethodDescription>Battery voltage measured by Campbell Scientific CR206 datalogger.</MethodDescription>
+        <methodLink>http://www.campbellsci.com</methodLink>
+      </method>
+      <source sourceID="1">
+        <sourceCode>1</sourceCode>
+        <organization>Utah State University Utah Water Research Laboratory</organization>
+        <sourceDescription>Continuous water quality monitoring by Utah State University as part of the USDA CEAP Grant</sourceDescription>
+        
+          inlandWaters
+          Little Bear River Conservation Effects Assessment Project water quality data.
+          Under funding from the United States Department of Agricultures Conservations Effects Assessment program, USU is conducting continuous water quality monitoring of the Little Bear River to demonstrate and compare the use of alternative monitoring approaches in estimating pollutant concentrations and loads.
+          Unknown
+        
+        <ContactInformation>
+          <ContactName>Jeff Horsburgh</ContactName>
+          <TypeOfContact>main</TypeOfContact>
+          <Email>jeff.horsburgh@usu.edu</Email>
+          <Phone>1-435-797-2946</Phone>
+          <Address>8200 Old Main Hill
+,Logan, UT 84322-8200</Address>
+        </ContactInformation>
+        <SourceLink>http://www.bearriverinfo.org</SourceLink>
+        Continuous water quality monitoring by Jeff Horsburgh, David Stevens, Nancy Mesner and others from Utah State University as part of the USDA Conservation Effects Assessment Grant
+      </source>
+      
+    </values>
+  </timeSeries>
+</timeSeriesResponse>

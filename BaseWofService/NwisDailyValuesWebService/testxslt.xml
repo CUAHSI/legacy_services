@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<!-- Created with Liquid XML Studio Developer Edition (Education) 9.0.11.3078 (http://www.liquid-technologies.com) -->
+<timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+    <queryInfo>
+        <creationTime>2009-11-11T00:14:10.1408546Z</creationTime>
+        <criteria>
+            <locationParam>a</locationParam>
+            <variableParam>b</variableParam>
+            <timeParam>
+                <beginDateTime>st</beginDateTime>
+                <endDateTime>et</endDateTime>
+            </timeParam>
+        </criteria>
+        <note name="usgs_locationParam">LBR_TEST:USU-LBR-Wellsville</note>
+        <note name="usgs_variableParam">LBR_TEST:USU41</note>
+        <note name="usgs_beginDateTime">2007-10-04</note>
+        <note name="usgs_endDateTime">2007-12-31</note>
+        <note>OD Web Service</note>
+    </queryInfo>
+    <timeSeries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <sourceInfo xsi:type="SiteInfoType">
+            <siteName>Little Bear River near Wellsville, Utah</siteName>
+            <siteCode network="LBR" siteID="10">USU-LBR-Wellsville</siteCode>
+            <geoLocation>
+                <geogLocation xsi:type="LatLonPointType" srs="EPSG:4269">
+                    <latitude>41.643457</latitude>
+                    <longitude>-111.917649</longitude>
+                </geogLocation>
+                <localSiteXY projectionInformation=" NAD83 / UTM zone 12N">
+                    <X>423579.317</X>
+                    <Y>4610597.583</Y>
+                </localSiteXY>
+            </geoLocation>
+            <elevation_m>1365</elevation_m>
+            <verticalDatum>NGVD29</verticalDatum>
+            <note title="County">Cache</note>
+            <note title="State">Utah</note>
+            <note title="Site Comments">Located on the upstream side of State Highway 101 bridge.</note>
+        </sourceInfo>
+        <variable>
+            <variableCode vocabulary="LBR" default="true" variableID="41">USU41</variableCode>
+            <variableName>Solids, total Suspended</variableName>
+            <valueType>Sample</valueType>
+            <dataType>Sporadic</dataType>
+            <generalCategory>Water Quality</generalCategory>
+            <sampleMedium>Surface Water</sampleMedium>
+            <units unitsAbbreviation="mg/L" unitsCode="199">milligrams per liter</units>
+            <NoDataValue>-9999</NoDataValue>
+            <timeSupport isRegular="false" />
+        </variable>
+        <values unitsAbbreviation="mg/L" unitsCode="199" unitsType="Angle" count="10">
+            <value censorCode="nc" dateTime="2007-11-07T13:00:00" qualityControlLevel="Derived products" methodID="25" sourceID="3" sampleID="26">10.5</value>
+            <value censorCode="nc" dateTime="2007-11-07T13:00:00" qualityControlLevel="Quality controlled data" methodID="25" sourceID="3" sampleID="26">10.5</value>
+            <value censorCode="nc" dateTime="2007-11-13T12:30:00" qualityControlLevel="Quality controlled data" methodID="25" sourceID="3" sampleID="32">2.5</value>
+            <value censorCode="nc" dateTime="2007-11-13T12:30:00" qualityControlLevel="Derived products" methodID="25" sourceID="3" sampleID="32">2.5</value>
+            <value censorCode="nc" dateTime="2007-11-21T14:00:00" qualityControlLevel="Derived products" methodID="25" sourceID="3" sampleID="38">7.2</value>
+            <value censorCode="nc" dateTime="2007-11-21T14:00:00" qualityControlLevel="Quality controlled data" methodID="25" sourceID="3" sampleID="38">7.2</value>
+            <value censorCode="nc" dateTime="2007-12-05T11:00:00" qualityControlLevel="Quality controlled data" methodID="25" sourceID="3" sampleID="83">2.5</value>
+            <value censorCode="nc" dateTime="2007-12-05T11:00:00" qualityControlLevel="Derived products" methodID="25" sourceID="3" sampleID="83">2.5</value>
+            <value censorCode="nc" dateTime="2007-12-20T14:05:00" qualityControlLevel="Derived products" methodID="25" sourceID="3" sampleID="171">2.5</value>
+            <value censorCode="nc" dateTime="2007-12-20T14:05:00" qualityControlLevel="Quality controlled data" methodID="25" sourceID="3" sampleID="171">2.5</value>
+            <method methodID="25">
+                <MethodDescription>Water chemistry grab sample collected by technicians in the field.</MethodDescription>
+            </method>
+            <source sourceID="3">
+                <Organization>Utah State University Utah Water Research Laboratory</Organization>
+                <SourceDescription>Water chemistry monitoring data collected by Utah State University as part of a National Science Foundation funded test bed project.</SourceDescription>
+                <ContactInformation>
+                    <ContactName>Amber Spackman</ContactName>
+                    <TypeOfContact>main</TypeOfContact>
+                    <Phone>1-435-797-0045</Phone>
+                    <Email>amber.s@aggiemail.usu.edu</Email>
+                    <Address xsi:type="xsd:string">8200 Old Main Hill
+,Logan, Utah 84322-8200</Address>
+                </ContactInformation>
+                <SourceLink>http://water.usu.edu/littlebearriver</SourceLink>
+            </source>
+        </values>
+    </timeSeries>
+</timeSeriesResponse>

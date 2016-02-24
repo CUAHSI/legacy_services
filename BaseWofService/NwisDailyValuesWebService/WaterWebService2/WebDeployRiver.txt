@@ -1,0 +1,11 @@
+﻿
+right click build deplotment package
+copy from msdeploy to river:\\f:\nwismsdeploy
+
+command line on river
+cd f:
+cd nwismsdeploy
+# test
+WaterWebService2.deploy.cmd /T
+# execute
+WaterWebService2.deploy.cmd /Y

@@ -1,0 +1,25 @@
+﻿CREATE TABLE [dbo].[odm_dv_sites] (
+    [SiteID]                       VARCHAR (16)   NULL,
+    [usgs_agency]                  VARCHAR (8)    NULL,
+    [SiteCode]                     VARCHAR (32)   NULL,
+    [SiteName]                     VARCHAR (100)  NULL,
+    [Latitude]                     VARCHAR (20)   NULL,
+    [Longitude]                    VARCHAR (20)   NULL,
+    [LatLongDatumID]               INT            NULL,
+    [Elevation_m]                  VARCHAR (8)    NULL,
+    [VerticalDatum]                VARCHAR (16)   NULL,
+    [PosAccuracy_m]                INT            NULL,
+    [County]                       NVARCHAR (252) NULL,
+    [State]                        NVARCHAR (2)   NULL,
+    [Comments]                     INT            NULL,
+    [odws_timeZoneAbbreviation]    VARCHAR (8)    NULL,
+    [usgs_UsesDaylightSavingsTime] VARCHAR (2)    NULL,
+    [usgs_State_fipCode]           VARCHAR (2)    NULL,
+    [Usgs_County_fipsCode]         VARCHAR (3)    NULL,
+    [SiteVocabulary]               VARCHAR (6)    NOT NULL,
+    [usgs_station_type]            VARCHAR (255)  NULL,
+    [hs_SiteCode]                  VARCHAR (23)   NULL,
+    [usgs_huc]                     VARCHAR (20)   NULL,
+    [HUCNUMERIC]                   VARCHAR (30)   NULL
+);
+

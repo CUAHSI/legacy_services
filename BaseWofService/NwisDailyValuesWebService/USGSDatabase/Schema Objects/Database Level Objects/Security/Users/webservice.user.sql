@@ -1,0 +1,2 @@
+﻿CREATE USER [webservice] WITHOUT LOGIN;
+

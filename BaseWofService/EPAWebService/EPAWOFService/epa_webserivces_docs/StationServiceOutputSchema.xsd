@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="WQX">
+		<xs:annotation>
+			<xs:documentation>XML Schema for Station Web Service Output</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Organization" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>Organization information.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="OrganizationDescription">
+								<xs:annotation>
+									<xs:documentation>OrganizationIdentifier, OrganizationFormalName used to identify the Organization.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="OrganizationIdentifier" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>A designator used to uniquely identify a unique business establishment within a context.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="OrganizationFormalName" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>The legal designator (i.e formal name) of an organization.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="MonitoringLocation" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Output woll contain Organizations with atleast one monitoring location in th e specified geographic bounding box.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="MonitoringLocationIdentity">
+											<xs:annotation>
+												<xs:documentation>Basic identification information for the location/site  that is monitored or used for sampling.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="MonitoringLocationIdentifier" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>A designator used to describe  the unique name, number or code assigned to identify the monitoring location.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="MonitoringLocationName" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>The designator specified by the sampling organization for the site at which sampling or other activities are conducted.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="MonitoringLocationTypeName" type="xs:string">
+														<xs:annotation>
+															<xs:documentation>The descriptive name for a  type of monitoring location.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="MonitoringLocationDescriptionText" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Text Description of the Moinitoring Location</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="HUCEightDigitCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The 8 digit federal code used to identify the hydrologic unit of the monitoring location to the cataloging unit level of precision.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="HydrologicUnitName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Location's in the United States (only), the name of the Hydrologic Unit or drainage basin in which the Monitoring Location is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="NRCSWatershedIdentifier" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The Natural Resources Conservation Service (NRCS), formerly known as the Soil Conservation Service (SCS), has standardized a method for subdividing the drainages defined by the HUC scheme, and where it has been implemented extends the HUC by 3 to 6 digits.  The NRCS Watershed identifying scheme is not available in Canada or Mexico, and it is not implemented by all states.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="FRSKeyIdentifier" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>FRS is the Facility Registry System, a scheme adopted by EPA to uniquely identify facilities in which EPA has a regulatory or monitoring interest.  This identifier, if present, can be used as a link to the Facility Registry.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="PrimaryEstuaryName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Location located in a defined estuary, the name of the Primary Estuary in which the Monitoring Location is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="SecondaryEstuaryName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Locations located in complex estuaries, the name of the secondary estuary within the primary designation.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="OtherEstuaryName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Where the Monitoring Location's  location is best described by a colloquial term commonly used to identify the estuarine waters on which it is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="GreatLakeName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Locations within any of the five Great Lakes, the name of the Great Lake on which the Monitoring Location is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="OceanName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Location's located in the Ocean, offshore of North America, the name of the Ocean in which the Monitoring Location is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="TribalLandName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The Name of an American Indian or Alaskan native area where the location exists.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="MonitoringLocationGeospatial">
+											<xs:annotation>
+												<xs:documentation>Monitoring Location Geographic Location.</xs:documentation>
+											</xs:annotation>
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="LatitudeMeasure" type="xs:decimal">
+														<xs:annotation>
+															<xs:documentation>The measure of the angular distance north or south of the equator.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="LongitudeMeasure" type="xs:decimal">
+														<xs:annotation>
+															<xs:documentation>The measure of the angular distance on a meridian east or west of the prime meridian.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="SourceMapScaleNumeric" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The number that represents the proportional distance on the ground for one unit of measure on the map or photo.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="HorizontalCollectionMethodName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The name that identifies the method used to determine the latitude and longitude coordinates for a point on the earth.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="HorizontalCoordinateReferenceSystemDatumCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The code that represents the reference datum used in determining latitude and longitude coordinates.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="HorizontalCoordinateReferenceSystemDatumName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The name that describes the reference datum used in determining latitude and longitude coordinates.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="VerticalMeasure" type="MeasureCompactDataType" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The measure of elevation (i.e., the altitude), above or below a reference datum.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="VerticalCollectionMethodName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The name that identifies the method used to collect the vertical measure (i.e. the altitude) of a reference point.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="VerticalCoordinateReferenceSystemDatumCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The code that represents the reference datum used to determine the vertical measure (i.e., the altitude).</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="VerticalCoordinateReferenceSystemDatumName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The name of the reference datum used to determine the vertical measure (i.e., the altitude).</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CountryCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>A code designator used to identify a primary geopolitical unit of the world.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CountryName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>The country name (English spelling).  Only Canada, the United States, and Mexico are included in STORET.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="StateCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>A code designator used to identify a principal administrative subdivision of the United States, Canada, or Mexico.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="StateName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>A name used to identify a principal administrative subdivision of the United States, Canada, or Mexico.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CountyCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>A code designator used to identify a U.S. county or county equivalent.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="CountyName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>A name used to identify a U.S. county or county equivalent.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="PointSequenceNumber" type="xs:int" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Every boundary point and sampling point is assigned a sequence number.  For boundary points, the sequence number determines the logical order for a boundary traverse.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="RF1SegmentCode" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>RF1 is a reference to a numbering scheme for stream segments adopted by EPA during the 1970's to identify and logically connect the large streams of the United States.  RF1 stream segments are not applicable to streams in Canada or Mexico.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="RF1SegmentName" type="xs:string" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>For Monitoring Location's in the United States (only), the name of the stream containing the segment on which the Station is located.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="RF1Mileage" type="xs:decimal" minOccurs="0">
+														<xs:annotation>
+															<xs:documentation>Where an RF1 segment is given, the mileage between the downstream end of the segment and the Station, or the point on the segment which best represents the Station.</xs:documentation>
+														</xs:annotation>
+													</xs:element>
+													<xs:element name="OnReachIndicator" type="xs:string" minOccurs="0"/>
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="ProjectMonitoringLocationWeighting" minOccurs="0" maxOccurs="unbounded">
+								<xs:annotation>
+									<xs:documentation>Describes the probability weighting information for a given Project / Monitoring Location Assignment.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element name="ProjectIdentifier" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>A designator used to uniquely identify a data collection project within a context of an organization.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="MonitoringLocationIdentifier" type="xs:string">
+											<xs:annotation>
+												<xs:documentation>A designator used to describe the unique name, number, or code assigned to identify the monitoring location.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LocationWeightingFactorMeasure" type="MeasureCompactDataType">
+											<xs:annotation>
+												<xs:documentation>A measurement of the monitoring location selection weighting factor.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LocationStratumName" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Identifies the stratum for this site.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LocationCategoryName" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Free text describing a category of naturally similar site types, such as high-gradient.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+										<xs:element name="LocationStatusName" type="xs:string" minOccurs="0">
+											<xs:annotation>
+												<xs:documentation>Indicates whether this site is active and available for sampling.</xs:documentation>
+											</xs:annotation>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="MeasureCompactDataType">
+		<xs:sequence>
+			<xs:element name="MeasureValue" type="xs:string">
+				<xs:annotation>
+					<xs:documentation>The recorded dimension, capacity, quality, or amount of something ascertained by measuring or observing.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+			<xs:element name="MeasureUnitCode" type="xs:string" minOccurs="0">
+				<xs:annotation>
+					<xs:documentation>The code that represents the unit for measuring the item.</xs:documentation>
+				</xs:annotation>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

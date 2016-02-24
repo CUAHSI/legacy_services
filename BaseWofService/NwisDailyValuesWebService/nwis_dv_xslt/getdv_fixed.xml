@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?><timeSeriesResponse xmlns="http://www.cuahsi.org/waterML/1.0/">
+    <queryInfo>
+        <creationTime>2010-12-02T18:34:37.271-05:00</creationTime>
+        <criteria>
+            <locationParam>USGS:07334200/agency=USGS</locationParam>
+            <variableParam>USGS:00060/statistic=00003</variableParam>
+            <timeParam>
+                <beginDateTime>2000-11-16</beginDateTime>
+                <endDateTime>2000-12-15</endDateTime>
+            </timeParam>
+        </criteria>
+    <note title="CUAHSI">Fix for USGS Dec 2010 software. Tranformed  to add namespaces</note></queryInfo>
+    <timeSeries>
+        <sourceInfo xsi:type="SiteInfoType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <siteName>02N-06E-34 CCD 1 Byrds Mill Spring nr Fittstown,OK</siteName>
+            <siteCode network="NWISDV" agencyCode="">07334200</siteCode>
+            
+                
+                
+            
+            <geoLocation>
+                <geogLocation srs="EPSG:4269" xsi:type="LatLonPointType">
+                    <latitude>34.59453434</latitude>
+                    <longitude>-96.6655632</longitude>
+                </geogLocation>
+            </geoLocation>
+            <note>Agency:USGS</note>
+        </sourceInfo>
+        <variable>
+            <variableCode network="NWISDV" vocabulary="NWISDV" default="">00060</variableCode>
+            <variableName>Discharge</variableName>
+            <variableDescription>Discharge, cubic feet per second</variableDescription>
+            <valueType>Unknown</valueType>
+            <dataType>Average</dataType>
+            <units>cubic feet per second</units>
+            <options>
+                <option>Mean</option>
+            </options>
+            <NoDataValue>-999999</NoDataValue>
+            <timeSupport>
+                <unit><UnitName>day</UnitName><UnitType>Time</UnitType><UnitAbbreviation>d</UnitAbbreviation></unit>
+                <timeInterval>1</timeInterval>
+            </timeSupport>
+        </variable>
+        <values>
+            <value dateTime="2000-11-16T00:00:00" qualifiers="A">5.4</value>
+            <value dateTime="2000-11-17T00:00:00" qualifiers="A">5.4</value>
+            <value dateTime="2000-11-18T00:00:00" qualifiers="A">5.4</value>
+            <value dateTime="2000-11-19T00:00:00" qualifiers="A">5.4</value>
+            <value dateTime="2000-11-20T00:00:00" qualifiers="Ae">5.6</value>
+            <value dateTime="2000-11-21T00:00:00" qualifiers="Ae">5.6</value>
+            <value dateTime="2000-11-22T00:00:00" qualifiers="Ae">6.0</value>
+            <value dateTime="2000-11-23T00:00:00" qualifiers="Ae">6.0</value>
+            <value dateTime="2000-11-24T00:00:00" qualifiers="Ae">7.3</value>
+            <value dateTime="2000-11-25T00:00:00" qualifiers="Ae">6.5</value>
+            <value dateTime="2000-11-26T00:00:00" qualifiers="Ae">6.5</value>
+            <value dateTime="2000-11-27T00:00:00" qualifiers="Ae">7.0</value>
+            <value dateTime="2000-11-28T00:00:00" qualifiers="Ae">7.0</value>
+            <value dateTime="2000-11-29T00:00:00" qualifiers="Ae">7.0</value>
+            <value dateTime="2000-11-30T00:00:00" qualifiers="Ae">7.8</value>
+            <value dateTime="2000-12-01T00:00:00" qualifiers="Ae">7.1</value>
+            <value dateTime="2000-12-02T00:00:00" qualifiers="Ae">7.1</value>
+            <value dateTime="2000-12-03T00:00:00" qualifiers="Ae">8.7</value>
+            <value dateTime="2000-12-04T00:00:00" qualifiers="Ae">8.7</value>
+            <value dateTime="2000-12-05T00:00:00" qualifiers="A">8.6</value>
+            <value dateTime="2000-12-06T00:00:00" qualifiers="A">8.6</value>
+            <value dateTime="2000-12-07T00:00:00" qualifiers="A">8.7</value>
+            <value dateTime="2000-12-08T00:00:00" qualifiers="A">8.7</value>
+            <value dateTime="2000-12-09T00:00:00" qualifiers="A">8.7</value>
+            <value dateTime="2000-12-10T00:00:00" qualifiers="A">8.7</value>
+            <value dateTime="2000-12-11T00:00:00" qualifiers="A">8.7</value>
+            <value dateTime="2000-12-12T00:00:00" qualifiers="A">8.6</value>
+            <value dateTime="2000-12-13T00:00:00" qualifiers="A">8.6</value>
+            <value dateTime="2000-12-14T00:00:00" qualifiers="A">8.6</value>
+            <value dateTime="2000-12-15T00:00:00" qualifiers="A">8.6</value>
+            <qualifier network="NWISDV" vocabulary="dv_rmk_cd">Approved for publication -- Processing and review completed.</qualifier>
+            <qualifier network="NWISDV" vocabulary="dv_rmk_cd">Value has been estimated.</qualifier>
+            <method>
+                sensor:Creek flow via DCP
+            </method>
+        </values>
+        <values>
+            <value dateTime="2000-11-16T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-17T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-18T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-19T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-20T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-21T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-22T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-23T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-24T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-25T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-26T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-27T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-28T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-29T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-11-30T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-01T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-02T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-03T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-04T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-05T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-06T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-07T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-08T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-09T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-10T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-11T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-12T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-13T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-14T00:00:00" qualifiers="A">0.00</value>
+            <value dateTime="2000-12-15T00:00:00" qualifiers="A">0.00</value>
+            <qualifier network="NWISDV" vocabulary="dv_rmk_cd">Approved for publication -- Processing and review completed.</qualifier>
+            <method>
+                sensor:18" pipe via DCP
+            </method>
+        </values>
+        <values>
+            <value dateTime="2000-11-16T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-11-17T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-11-18T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-11-19T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-11-20T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-11-21T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-22T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-23T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-24T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-25T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-26T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-27T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-28T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-29T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-11-30T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-12-01T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-02T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-03T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-12-04T00:00:00" qualifiers="A">8.2</value>
+            <value dateTime="2000-12-05T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-06T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-07T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-08T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-09T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-10T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-11T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-12T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-13T00:00:00" qualifiers="A">8.4</value>
+            <value dateTime="2000-12-14T00:00:00" qualifiers="A">8.3</value>
+            <value dateTime="2000-12-15T00:00:00" qualifiers="A">8.3</value>
+            <qualifier network="NWISDV" vocabulary="dv_rmk_cd">Approved for publication -- Processing and review completed.</qualifier>
+            <method>
+                sensor:36" pipe via DCP
+            </method>
+        </values>
+        <values>
+            <value dateTime="2000-11-16T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-17T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-18T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-19T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-20T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-21T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-22T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-23T00:00:00" qualifiers="A">14</value>
+            <value dateTime="2000-11-24T00:00:00" qualifiers="A">16</value>
+            <value dateTime="2000-11-25T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-11-26T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-11-27T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-11-28T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-11-29T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-11-30T00:00:00" qualifiers="A">16</value>
+            <value dateTime="2000-12-01T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-12-02T00:00:00" qualifiers="A">15</value>
+            <value dateTime="2000-12-03T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-04T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-05T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-06T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-07T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-08T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-09T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-10T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-11T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-12T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-13T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-14T00:00:00" qualifiers="A">17</value>
+            <value dateTime="2000-12-15T00:00:00" qualifiers="A">17</value>
+            <qualifier network="NWISDV" vocabulary="dv_rmk_cd">Approved for publication -- Processing and review completed.</qualifier>
+            <method>
+                sensor:Combined Spring flow
+            </method>
+        </values>
+    </timeSeries>
+</timeSeriesResponse>

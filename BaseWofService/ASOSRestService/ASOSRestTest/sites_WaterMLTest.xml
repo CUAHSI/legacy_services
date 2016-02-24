@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<sitesResponse xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wtr="http://www.cuahsi.org/waterML/" xmlns="http://www.cuahsi.org/waterML/1.0/">
+  <queryInfo xmlns:ns2="http://www.cuahsi.org/waterML/1.0/">
+    <ns2:criteria/>
+  </queryInfo>
+  <site xmlns:ns2="http://www.cuahsi.org/waterML/1.0/">
+    <ns2:siteInfo>
+      <ns2:siteCode siteID="01001099999" network="NCDC" defaultId="true">JAN MAYEN</ns2:siteCode>
+      <ns2:geoLocation>
+        <ns2:geogLocation xsi:type="ns2:LatLonPointType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <ns2:latitude>70.933</ns2:latitude>
+          <ns2:longitude>-8.667</ns2:longitude>
+        </ns2:geogLocation>
+      </ns2:geoLocation>
+    </ns2:siteInfo>
+  </site>
+  <site xmlns:ns2="http://www.cuahsi.org/waterML/1.0/">
+    <ns2:siteInfo>
+      <ns2:siteCode siteID="01001399999" network="NCDC" defaultId="true">ROST</ns2:siteCode>
+      <ns2:geoLocation>
+        <ns2:geogLocation xsi:type="ns2:LatLonPointType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+          <ns2:latitude>0.0</ns2:latitude>
+          <ns2:longitude>0.0</ns2:longitude>
+        </ns2:geogLocation>
+      </ns2:geoLocation>
+    </ns2:siteInfo>
+  </site>
+</sitesResponse>

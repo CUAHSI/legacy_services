@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
+<XmlStudioProject xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="9.0.11.3078" UseRelativePaths="false">
+	<Project Name="WaterML_xslt">
+		<SubGroup Name="Documents"/>
+		<SubGroup Name="Schemas">
+			<File Uri="C:\dev_2010\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_0.xsd"/>
+			<File Uri="C:\dev_2010\BaseWofService\WofSchemas\cuahsiTimeSeries_v1_1.xsd"/>
+		</SubGroup>
+		<SubGroup Name="Transforms">
+			<File Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\WaterWebService2\usgs_dv_passthrough.xslt"/>
+			<File Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\WaterWebService2\usgs_dv_V10_dec_fix.xslt"/>
+			<File Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\WaterWebService2\usgs_v11toV10.xslt">
+				<Properties>
+					<Name>DataFile</Name>
+					<Value/>
+				</Properties>
+				<Properties>
+					<Name>OutputFile</Name>
+					<Value/>
+				</Properties>
+				<Properties>
+					<Name>DebugState</Name>
+					<Value>&lt;DebuggerConfig&gt;&lt;DebuggerState uid=&quot;DotNetXslt1&quot;&gt;&amp;lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-16&quot;?&amp;gt;
+&amp;lt;DotNetXslt10DebuggerState xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xmlns:xsd=&quot;http://www.w3.org/2001/XMLSchema&quot;&amp;gt;
+  &amp;lt;SourceCodeFilename&amp;gt;C:\dev_2010\BaseWofService\NwisDailyValuesWebService\WaterWebService2\usgs_v11toV10.xslt&amp;lt;/SourceCodeFilename&amp;gt;
+  &amp;lt;DebuggerStartupTimeout&amp;gt;15&amp;lt;/DebuggerStartupTimeout&amp;gt;
+  &amp;lt;DebuggerShutdownTimeout&amp;gt;15&amp;lt;/DebuggerShutdownTimeout&amp;gt;
+  &amp;lt;ContextItemFilename&amp;gt;C:\SoftwareReleases\genericodws\lbrsampleResponses20110321\v11\GetValues_Mendon_usu3.xml&amp;lt;/ContextItemFilename&amp;gt;
+  &amp;lt;OutputFilename&amp;gt;C:\dev_2010\BaseWofService\NwisDailyValuesWebService\testxslt_11to10.xml&amp;lt;/OutputFilename&amp;gt;
+&amp;lt;/DotNetXslt10DebuggerState&amp;gt;&lt;/DebuggerState&gt;&lt;/DebuggerConfig&gt;</Value>
+				</Properties>
+			</File>
+		</SubGroup>
+		<SubGroup Name="waterml_10">
+			<File Uri="C:\SoftwareReleases\genericodws\lbrsampleResponses20091110\v10\GetValues_wellsville_sample.xml"/>
+		</SubGroup>
+		<SubGroup Name="waterml_11">
+			<File Uri="C:\SoftwareReleases\genericodws\lbrsampleResponses20091110\v11\GetValues_MultiQC.xml"/>
+			<File Uri="C:\SoftwareReleases\genericodws\lbrsampleResponses20091110\v11\GetValues_wellsville_sample.xml"/>
+			<File Uri="C:\dev_2010\BaseWofService\NwisDailyValuesWebService\01646500.xml"/>
+		</SubGroup>
+	</Project>
+</XmlStudioProject>
