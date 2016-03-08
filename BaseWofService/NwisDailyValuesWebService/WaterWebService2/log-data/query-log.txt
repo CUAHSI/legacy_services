@@ -1,2 +1,4 @@
 2016-02-24 13:28:23,123 NWISGW|GetSites_Start|;||||||127.0.0.1
 2016-02-24 13:28:36,206 NWISGW|GetSites_End|;||||13082|-9999|127.0.0.1
+2016-03-08 11:52:08,504 NWISGW|GetSites_Start|string;string;||||||::1
+2016-03-08 11:52:08,665 NWISGW|GetSites_End|string;string;||||160|-9999|::1

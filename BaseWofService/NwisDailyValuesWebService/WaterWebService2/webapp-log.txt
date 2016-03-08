@@ -4430,3 +4430,17 @@ Login failed for user 'moonstone-new\valentin'.
 2016-02-24 13:28:36,206 [17] INFO  QueryLog [(null)] - NWISGW|GetSites_End|;||||13082|-9999|127.0.0.1
 2016-02-24 13:28:36,229 [17] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Cannot open database "usgs2012" requested by the login. The login failed.
 Login failed for user 'moonstone-new\valentin'.
+2016-03-08 11:26:34,731 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:26:35,544 [11] INFO  CUAHSI.WEBSERVICES [(null)] - Stop_NWIS
+2016-03-08 11:27:38,947 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:29:57,039 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:31:31,754 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:51:16,967 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:51:18,362 [11] DEBUG CUAHSI.WEBSERVICES [(null)] - SessionStarted_NWIS
+2016-03-08 11:51:55,574 [1] INFO  CUAHSI.WEBSERVICES [(null)] - Start_NWIS
+2016-03-08 11:52:08,504 [11] INFO  QueryLog [(null)] - NWISGW|GetSites_Start|string;string;||||||::1
+2016-03-08 11:52:08,664 [11] WARN  WaterOneFlow.Service.v1_0.Service_1_0 [(null)] - Cannot open database "usgs2012" requested by the login. The login failed.
+Login failed for user 'moonstone-new\valentin'.
+2016-03-08 11:52:08,665 [11] INFO  QueryLog [(null)] - NWISGW|GetSites_End|string;string;||||160|-9999|::1
+2016-03-08 11:52:08,678 [11] ERROR WaterOneFlowImpl.WaterOneFlowException [(null)] - Cannot open database "usgs2012" requested by the login. The login failed.
+Login failed for user 'moonstone-new\valentin'.

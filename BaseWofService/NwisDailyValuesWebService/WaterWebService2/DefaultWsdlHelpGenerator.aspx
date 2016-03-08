@@ -1681,7 +1681,7 @@
 		}
 
 		function SendSoapRequest_onclick(SoapRequest, MethodName, Url) {
-			var xmlhttp = new ActiveXObject("MSXML2.XMLHTTP.4.0");
+			var xmlhttp = new ActiveXObject("MSXML2.XMLHTTP.6.0");
 			xmlhttp.Open('POST', Url, false);
 			xmlhttp.setRequestHeader('Content-Type', 'text/xml; charset="UTF-8"');
 			xmlhttp.setRequestHeader('SOAPAction', '<%#getAction()%>');
